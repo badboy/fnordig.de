@@ -24,12 +24,16 @@ namespace :deploy do
     verbose(true) {
       sh <<-EOF
         (
-          date;
+          echo -n "Production deployment: "; date;
+          echo "Resetting git & fetching from origin..."
           git reset --hard HEAD &&
           git pull origin master &&
+          echo "generating page..."
           rake generate &&
+          echo "copy to webserver directory..."
           cp -ar #{PRODUCTION[:source]}/* #{PRODUCTION[:dest]}
-        ) &> #{PRODUCTION[:log]}
+          echo "deployment done"
+        ) | tee #{PRODUCTION[:log]}
       EOF
     }
   end
