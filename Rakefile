@@ -3,6 +3,7 @@
 
 PRODUCTION = {
   :url    => "http://fnordig.de",
+  :log    => "/home/badboy/git/fnordig.de/deploy.log"
   :dest   => "/var/www/sites/fnordig.de.test",
   :source => "/home/badboy/git/fnordig.de/_site"
 }
@@ -22,10 +23,13 @@ namespace :deploy do
   task :production do
     verbose(true) {
       sh <<-EOF
-        git reset --hard HEAD &&
-        git pull origin master &&
-        rake generate
-        cp -ar #{PRODUCTION[:source]}/* #{PRODUCTION[:dest]}
+        (
+          date;
+          git reset --hard HEAD &&
+          git pull origin master &&
+          rake generate &&
+          cp -ar #{PRODUCTION[:source]}/* #{PRODUCTION[:dest]}
+        ) &> #{PRODUCTION[:log]}
       EOF
     }
   end
