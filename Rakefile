@@ -4,7 +4,7 @@
 PRODUCTION = {
   :url    => "http://fnordig.de",
   :log    => "/home/badboy/git/fnordig.de/deploy.log",
-  :dest   => "/var/www/sites/fnordig.de.test",
+  :dest   => "/var/www/sites/fnordig.de",
   :source => "/home/badboy/git/fnordig.de/_site",
 }
 
