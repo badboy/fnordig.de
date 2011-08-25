@@ -3,4 +3,4 @@ layout: post
 title: about
 ---
 
-_coming soon_
+geek, student, 19, more?
