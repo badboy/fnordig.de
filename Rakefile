@@ -3,9 +3,9 @@
 
 PRODUCTION = {
   :url    => "http://fnordig.de",
-  :log    => "/home/badboy/git/fnordig.de/deploy.log"
+  :log    => "/home/badboy/git/fnordig.de/deploy.log",
   :dest   => "/var/www/sites/fnordig.de.test",
-  :source => "/home/badboy/git/fnordig.de/_site"
+  :source => "/home/badboy/git/fnordig.de/_site",
 }
 
 desc 'Generate page using jekyll'
