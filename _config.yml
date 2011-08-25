@@ -1,0 +1,5 @@
+pygments: true
+paginate: 5
+permalink: pretty
+markdown: rdiscount
+exclude: Rakefile

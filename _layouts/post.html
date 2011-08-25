@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="post">
+  <h2 class="heading">
+    <a href="{{page.url}}">{{page.title}}</a>
+  </h2>
+  {% if page.date %}
+  <p class="date">{{page.date | date_to_string}} (by Jan-Erik)</p>
+  {% endif %}
+
+  {{content}}
+</div>
