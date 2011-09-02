@@ -13,7 +13,7 @@ Ah, and of course some content. I will use this blog to document the things I do
 
 I'm not yet sure if and how I will implement an option to comment on this site. I'm currently thinking about wether it would be possible to fetch comments via twitter and if that would be enough.
 
-So as long as there is no direct comment integration here, feel free to contact me over at twitter: [@badboy_](https://twitter.com/badboy_).
+So as long as there is no direct comment integration here, feel free to contact me over at twitter: [@badboy\_](https://twitter.com/badboy_).
 
 [jekyll]: https://github.com/mojombo/jekyll
 [github]: https://github.com/
