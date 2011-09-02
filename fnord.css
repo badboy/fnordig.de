@@ -3,14 +3,12 @@ body {
   color: #1a1a1a;
   font-family: monospace;
 }
-
 a { color: #06c; text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1 a, .heading a { color: black; }
 h1 a:hover { text-decoration: none; }
 /*a:visited { color: green; }*/
 .post .heading:before { content: "// "; }
-
 .post h2 { margin: 0; }
 .post p.date { margin: 0; font-style: italic; }
 .post p.date:before { content: "/* "; }
@@ -18,10 +16,8 @@ h1 a:hover { text-decoration: none; }
 .post p {
   word-wrap: break-word;
 }
-
 .footer { padding-top: 0px; }
 .footer p { padding: 0; margin: 0;}
-
 blockquote {
   margin-left: 10px;
   padding-left: 10px;
@@ -31,9 +27,13 @@ pre {
   margin-left: 10px;
   background-color: #ddd;
   padding: 5px;
-  box-shadow: 0px 0px 2px #666;
 }
-
+p code {
+  background-color: ghostWhite;
+  color: #444;
+  padding: 0 .2em;
+  border: 1px solid #DEDEDE;
+}
 .post {
   margin-bottom: 15px;
   padding: 20px;
@@ -42,23 +42,17 @@ pre {
   background-color: white;
   box-shadow: 0px 0px 2px #666;
 }
-
 .nav {
   margin-bottom: 10px;
 }
 .nav h1, .nav ul, .nav li {
   display: inline;
 }
-.nav ul {
-}
-
 .content {
   width: 986px;
   margin: 0 auto;
 }
-
 .paginator {
   margin-bottom: 10px;
   text-align: center;
 }
-
