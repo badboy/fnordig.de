@@ -19,12 +19,13 @@ You can find the script here: [watch.js](http://tmp.fnordig.de/watch.js). It's m
 
 The small app.js is just this:
 
-<pre><code>socket = new io.Socket('localhost');
-socket.connect();
-socket.on('message', function(data){
-  data = JSON.parse(data);
-  if(data.reload)
-    window.location.reload();
-});</code></pre>
+    socket = new io.Socket('localhost');
+    socket.connect();
+    socket.on('message', function(data){
+      data = JSON.parse(data);
+      if(data.reload)
+        window.location.reload();
+    });
+{:lang="javascript"}
 
 So next thing: individual pages for posts, maybe templates.

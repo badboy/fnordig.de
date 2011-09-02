@@ -24,11 +24,13 @@ It's as easy as this:
     });
     server.listen(80, "2a01:xxxx:xxxx:xxxx::2");
     console.log("Server running on localhost at port 80");
+{:lang="javascript"}
 
 Just pass the IPv6 address as the host parameter to `server.listen`.
 This listens on just one IP; it's possible to listen on all, similar to the `0.0.0.0` for IPv4:
 
-    server.listen(80, "::0");</code></pre>
+    server.listen(80, "::0");
+{:lang="javascript"}
 
 Other things worth to mention:
 
