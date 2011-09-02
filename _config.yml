@@ -1,6 +1,8 @@
 paginate: 5
 permalink: pretty
-exclude: Rakefile
+exclude:
+- Rakefile
+- README.md
 markdown: kramdown
 kramdown:
   use_coderay: true
