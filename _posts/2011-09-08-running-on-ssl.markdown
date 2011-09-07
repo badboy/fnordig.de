@@ -11,6 +11,14 @@ Even though the [SSL][] and [CA][] system is totally broken right now, I finally
 
 My SSL certificate is signed by [cacert][] (they approved me at last year's FrOSCon).
 
+If you're using nginx, all you need to do is adding the following lines to your config:
+
+    listen  443 ssl;
+    ssl_certificate      /path/to/your/cert.pem;
+    ssl_certificate_key  /path/to/your/key.pem;
+{:lang="text"}
+
+
 If you followed some of the latest news around the scene, you probably heard of the [diginotar debacle][diginotar]. This should make clear how broken the system is and how unsecure these SSL certificates can be with all those CAs around.
 
 For more information on the CA system and how it could be replaced by a more robust and secure infrastructure watch [SSL And The Future Of Authenticity][blackhat] by [Moxie Marlinspike][moxie] from this year's Blackhat Conference.
