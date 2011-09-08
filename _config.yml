@@ -3,7 +3,7 @@ permalink: pretty
 exclude:
 - Rakefile
 - README.md
-- post
+- ext
 markdown: kramdown
 kramdown:
   use_coderay: true
