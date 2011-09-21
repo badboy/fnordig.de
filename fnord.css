@@ -49,8 +49,8 @@ p code {
   display: inline;
 }
 .content {
-  width: 986px;
   margin: 0 auto;
+  max-width: 986px;
 }
 .paginator {
   margin-bottom: 10px;
