@@ -28,4 +28,4 @@ date = Time.now.strftime("%d.%m.%Y %H:%M")
 puts "new post: #{title}"
 puts "file: #{filename}"
 File.open(file, "w"){|f| f.write(HEADER % [title, date]) }
-exec EDITOR, file
+exec EDITOR, '+', file
