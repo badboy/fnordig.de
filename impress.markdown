@@ -4,8 +4,8 @@ title: impress
 ---
 
 Jan-Erik Rediger<br>
-Schäferstr. 27<br>
-D-59174 Kamen<br>
+Königshügel 23<br>
+D-52074 Aachen<br>
 impress {ät} fnordig {dot} de
 
 ## Zusatzbestimmungen / Extra
