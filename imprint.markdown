@@ -1,12 +1,12 @@
 ---
 layout: post
-title: impress
+title: imprint
 ---
 
 Jan-Erik Rediger<br>
 Königshügel 23<br>
 D-52074 Aachen<br>
-impress {ät} fnordig {dot} de
+imprint {ät} fnordig {dot} de
 
 ## Zusatzbestimmungen / Extra
 
