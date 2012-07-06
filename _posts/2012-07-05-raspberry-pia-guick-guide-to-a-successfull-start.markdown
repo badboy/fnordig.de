@@ -1,6 +1,6 @@
----
+--
 layout: post
-title: Raspberry Pi - A guick guide to a successfull start
+title: Raspberry Pi - A guick guide to a successful start
 date: 05.07.2012 00:27
 ---
 
