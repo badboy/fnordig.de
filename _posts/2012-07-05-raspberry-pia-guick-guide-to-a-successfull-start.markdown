@@ -75,7 +75,7 @@ I connected the Pi via LAN to my laptop which got it's internet connection via W
 
 On my laptop I did these things to forward:
 
-    ip addr del 192.168.10.1/24 dev eth0
+    ip addr add 192.168.10.1/24 dev eth0
 
     sysctl net.ipv4.ip_forward=1
 
