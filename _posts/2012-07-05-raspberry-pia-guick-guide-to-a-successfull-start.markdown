@@ -85,7 +85,8 @@ On my laptop I did these things to forward:
 
 On the Pi:
 
-    ip addr del 192.168.10.24/24 dev eth0
+    ip link set eth0 up
+    ip addr add 192.168.10.24/24 dev eth0
     ip route add default via 192.168.10.1
     echo "nameserver 8.8.8.8" > /etc/resolv.conf'
 
