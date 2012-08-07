@@ -6,7 +6,12 @@ layout: default
     <a href="{{page.url}}">{{page.title}}</a>
   </h2>
   {% if page.date %}
-  <p class="date">{{page.date | date_to_string}} (by Jan-Erik)</p>
+  <p class="date">
+    <time pubdate class=published datetime="{{page.date}}">
+    {{page.date | date_to_string}}
+    </time>
+    (by <span rel=author>Jan-Erik</span>)
+  </p>
   {% endif %}
 
   {{content}}

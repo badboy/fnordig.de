@@ -3,7 +3,12 @@
     <a href="{{post.url}}">{{post.title}}</a>
   </h2>
   {% if post.date %}
-  <p class="date">{{post.date | date_to_string}} (by Jan-Erik)</p>
+  <p class="date">
+    <time pubdate class=published datetime="{{post.date}}">
+    {{post.date | date_to_string}}
+    </time>
+    (by <span rel=author>Jan-Erik</span>)
+  </p>
   {% endif %}
 
   {{post.content}}
