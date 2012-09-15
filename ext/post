@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 OUTPUT_DIR = File.expand_path("~/projects/fnordig.de/_posts")
-EDITOR = ENV['EDITOR'] || 'vi'
+EDITOR = ENV['EDITOR'] || 'vim'
 EXTENSION=".markdown"
 HEADER = <<EOF
 ---
