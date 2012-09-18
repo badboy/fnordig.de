@@ -42,7 +42,7 @@ This disables the Duplicate Address Detection.
 
 After a reboot everything works and the machine works over IPv6.
 
-When I talked to my boss about this he directly knew another related problem and the explanation:
+When I talked to Eimann about this he directly knew another related problem and the explanation:
 
 > If you're wondering why a Linux machine won't do v6 anymore when doing a
 > monitor session over a VLAN which also hosts the default network: The machine
