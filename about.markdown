@@ -3,7 +3,10 @@ layout: post
 title: about
 ---
 
-geek, student, 21, more?
+21 years old,
+studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
+[rrbone](http://www.rwth-aachen.de/), programming a lot of
+[ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff.
 
 ## // links
 
