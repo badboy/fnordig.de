@@ -9,5 +9,5 @@ geek, student, 20, more?
 
 * Twitter: [@badboy\_](https://twitter.com/badboy_)
 * Github: [@badboy](https://github.com/badboy)
-* Hacker News: [badboy](http://news.ycombinator.com/user?id=badboy)
+* Hacker News: [janerik](http://news.ycombinator.com/user?id=janerik)
 * Pinboard: [badboy](http://pinboard.in/u:badboy)
