@@ -5,7 +5,7 @@ title: about
 
 21 years old,
 studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
-[rrbone](http://www.rwth-aachen.de/), programming a lot of
+[rrbone](https://www.rrbone.net/), programming a lot of
 [ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff.
 
 ## // links
