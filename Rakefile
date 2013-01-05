@@ -18,6 +18,8 @@ task :serve do
   sh "jekyll --serve --auto"
 end
 
+task :default => :serve
+
 namespace :deploy do
   desc 'Deploy the page on the production machine (executed on production)'
   task :production do

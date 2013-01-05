@@ -9,19 +9,19 @@ I don't want to write _yet another 29c3-was-great-post_, so here are just a few 
 
 Head over to [one of the mirrors][mirror] and watch a few talks.
 
-![banner](http://tmp.fnordig.de/29c3/img/29c3-fullbanner.png)
+![banner](https://tmp.fnordig.de/29c3/img/29c3-fullbanner.png)
 
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-27_10-31-18_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-27_10-31-18_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-27_23-49-48_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-27_23-49-48_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-29_20-07-50_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-29_20-07-50_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-29_20-08-32_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-29_20-08-32_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-29_20-34-16_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-29_20-34-16_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-30_11-18-30_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-30_11-18-30_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-30_15-11-39_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-30_15-11-39_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-30_19-53-59_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-30_19-53-59_Foto.jpg)
-[![image 1](http://tmp.fnordig.de/29c3/img/th-2012-12-30_19-54-38_Foto.jpg)](http://tmp.fnordig.de/29c3/img/2012-12-30_19-54-38_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-27_10-31-18_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-27_10-31-18_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-27_23-49-48_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-27_23-49-48_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-29_20-07-50_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-29_20-07-50_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-29_20-08-32_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-29_20-08-32_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-29_20-34-16_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-29_20-34-16_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-30_11-18-30_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-30_11-18-30_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-30_15-11-39_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-30_15-11-39_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-30_19-53-59_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-30_19-53-59_Foto.jpg)
+[![image 1](https://tmp.fnordig.de/29c3/img/th-2012-12-30_19-54-38_Foto.jpg)](https://tmp.fnordig.de/29c3/img/2012-12-30_19-54-38_Foto.jpg)
 
 (click for bigger image)
 
-[wiki]: https://events.ccc.de/congress/2012/wiki/Main_Page
+[wiki]: httpss://events.ccc.de/congress/2012/wiki/Main_Page
 [mirror]: http://mirror.fem-net.de/CCC/29C3/
