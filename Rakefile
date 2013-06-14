@@ -30,10 +30,10 @@ namespace :deploy do
           echo "Resetting git & fetching from origin..."
           git reset --hard HEAD &&
           git pull origin master &&
-          echo "generating page..."
+          echo "generating page..." &&
           rake generate &&
-          echo "copy to webserver directory..."
-          cp -ar #{PRODUCTION[:source]}/* #{PRODUCTION[:dest]}
+          echo "copy to webserver directory..." &&
+          rsync -va #{PRODUCTION[:source]} #{PRODUCTION[:dest]} &&
           echo "deployment done"
         ) | tee #{PRODUCTION[:log]}
       EOF
