@@ -4,6 +4,9 @@ exclude:
 - Rakefile
 - README.md
 - ext
+- Gemfile
+- Gemfile.lock
+- deploy.log
 markdown: kramdown
 kramdown:
   use_coderay: true
