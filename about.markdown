@@ -3,7 +3,7 @@ layout: post
 title: about
 ---
 
-21 years old,
+22 years old,
 studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 [rrbone](https://www.rrbone.net/), programming a lot of
 [ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff.
