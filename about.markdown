@@ -19,3 +19,8 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 
 * [try.redis.io](http://try.redis.io) - Online Redis REPL.
 * [badbill](https://github.com/badboy/badbill) - A client for the [Billomat](http://www.billomat.com/en/api/) API
+
+## // services
+
+* [etherpad](https://pad.fnordig.de/) - real-time collaborative document editing
+* [rezepte](http://rezepte.fnordig.de/) - a small database of recipes (german)
