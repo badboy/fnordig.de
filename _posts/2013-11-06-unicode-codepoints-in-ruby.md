@@ -10,25 +10,33 @@ I ❤ Unicode. Atleast most of the time. That's why I have things like ✓, ✗ 
 
 But sometimes you need not only the symbol itself, but maybe the codepoint as well. That's easy in ruby:
 
-    irb> "❤".codepoints
-    => [10084]
+~~~ruby
+irb> "❤".codepoints
+=> [10084]
+~~~
 
 Got some codepoints and need to map it back to it's symbol? Easy:
 
-    irb> [10084, 10003].pack("U*")
-    => "❤✓"
+~~~ruby
+irb> [10084, 10003].pack("U*")
+=> "❤✓"
+~~~
 
 Oh, of course the usual `\uXYZ` syntax works aswell, but you need the hexstring for that:
 
-    irb> 10084.to_s 16
-    => "2764"
-    irb> "\u{2764}"
-    => "❤"
+~~~ruby
+irb> 10084.to_s 16
+=> "2764"
+irb> "\u{2764}"
+=> "❤"
+~~~
 
 Sometimes you may need to see the actual bytes. This is easy in ruby aswell:
 
-    irb> "❤".bytes
-    => [226, 157, 164]
+~~~ruby
+irb> "❤".bytes
+=> [226, 157, 164]
+~~~
 
 There is documentation on these things:
 

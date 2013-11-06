@@ -9,18 +9,19 @@ With [jekyll][] as my static site generator it is easy to enable it. Just get th
 
 This is my current _[_config.yml](https://github.com/badboy/fnordig.de/blob/master/_config.yml)_:
 
-    paginate: 5
-    permalink: pretty
-    exclude: Rakefile
-    markdown: kramdown
-    kramdown:
-      use_coderay: true
+~~~yaml
+paginate: 5
+permalink: pretty
+exclude: Rakefile
+markdown: kramdown
+kramdown:
+  use_coderay: true
 
-      coderay:
-        coderay_line_numbers:
-        coderay_tab_width: 2
-        coderay_css: class
-{:lang="yaml"}
+  coderay:
+    coderay_line_numbers:
+    coderay_tab_width: 2
+    coderay_css: class
+~~~
 
 If you use `coderay_css: class` make sure to include a CSS file on your page (see my [coderay.css](/coderay.css)).
 
@@ -34,13 +35,14 @@ Adding syntax-highlighted code in your post now works like this:
 
 And now some real highlighting to show it in action:
 
-    module CodeRay
-      def about
-        [self.name.downcase, 'rocks!'].join(" ")
-      end
-      module_function :about
-    end
-{:lang="ruby"}
+~~~ruby
+module CodeRay
+  def about
+    [self.name.downcase, 'rocks!'].join(" ")
+  end
+  module_function :about
+end
+~~~
 
 And that's it.
 

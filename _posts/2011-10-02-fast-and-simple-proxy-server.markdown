@@ -14,24 +14,24 @@ It's called [proxymachine](https://github.com/mojombo/proxymachine), made by [@m
 Get it with:
 
     gem install proxymachine
-{:lang="text"}
 
 and you're nearly done.
 
 Pipe the following into a text file:
 
-    proxy do |data|
-      next  if data.size < 9
-      v, c, port, o1, o2, o3, o4, user = data.unpack("CCnC4a*")
-      return { :close => "\x0\x5b\x0\x0\x0\x0\x0\x0" }  if v != 4 or c != 1
-      next  if ! idx = user.index("\x0")
-      {
-        :remote => "#{[o1,o2,o3,o4]*'.'}:#{port}",
-        :reply => "\x0\x5a\x0\x0\x0\x0\x0\x0",
-        :data => data[idx+9..-1]
-      }
-    end
-{:lang="ruby"}
+~~~ruby
+proxy do |data|
+  next  if data.size < 9
+  v, c, port, o1, o2, o3, o4, user = data.unpack("CCnC4a*")
+  return { :close => "\x0\x5b\x0\x0\x0\x0\x0\x0" }  if v != 4 or c != 1
+  next  if ! idx = user.index("\x0")
+  {
+    :remote => "#{[o1,o2,o3,o4]*'.'}:#{port}",
+    :reply => "\x0\x5a\x0\x0\x0\x0\x0\x0",
+    :data => data[idx+9..-1]
+  }
+end
+~~~
 
 and start it with
 

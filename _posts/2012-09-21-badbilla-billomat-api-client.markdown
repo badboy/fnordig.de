@@ -34,35 +34,36 @@ And now for some code examples:
 
 #### Basic interface:
 
-    bill = BadBill.new "billo", "18e40e14"
-    # => #<BadBill:0x00000001319d30 ...>
-    bill.get 'settings'
-    # => {"settings"=>
-    #   {"invoice_intro"=>"",
-    #    "invoice_note"=>"",
-    #    ...}}
-{:lang="ruby"}
+~~~ruby
+bill = BadBill.new "billo", "18e40e14"
+# => #<BadBill:0x00000001319d30 ...>
+bill.get 'settings'
+# => {"settings"=>
+#   {"invoice_intro"=>"",
+#    "invoice_note"=>"",
+#    ...}}
+~~~
 
 #### Using defined resources classes:
 
-    BadBill.new "billo", "18e40e14"
+~~~ruby
+BadBill.new "billo", "18e40e14"
 
-    BadBill::Invoice.all
-    # => [#<BadBill::Invoice:0x000000024caf98 @id="1" @data={...}>], ...]
+BadBill::Invoice.all
+# => [#<BadBill::Invoice:0x000000024caf98 @id="1" @data={...}>], ...]
 
-    invoice = BadBill::Invoice.find(1)
-    invoice.pdf
-    # => {"id"=>"1",
-    #     "created"=>"2012-09-17T13:58:42+02:00",
-    #     "invoice_id"=>"322791",
-    #     "filename"=>"Invoice 322791.pdf",
-    #     "mimetype"=>"application/pdf",
-    #     "filesize"=>"90811",
-    #     "base64file"=>"JVBERi0xLjM..."}
-    invoice.delete
-    # => true
-{:lang="ruby"}
-
+invoice = BadBill::Invoice.find(1)
+invoice.pdf
+# => {"id"=>"1",
+#     "created"=>"2012-09-17T13:58:42+02:00",
+#     "invoice_id"=>"322791",
+#     "filename"=>"Invoice 322791.pdf",
+#     "mimetype"=>"application/pdf",
+#     "filesize"=>"90811",
+#     "base64file"=>"JVBERi0xLjM..."}
+invoice.delete
+# => true
+~~~
 
 [repo]: https://github.com/badboy/badbill
 [apidocu]: http://www.billomat.com/en/api/
