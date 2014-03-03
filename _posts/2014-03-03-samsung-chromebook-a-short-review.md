@@ -42,7 +42,7 @@ Chrome apps programmed in Javascript, so it's possible to extend them to my
 needs.
 Keep in mind that all installed applications and most settings are synced with
 the Chrome instance on your desktop if that is linked to the same Google
-account. This was a bit annyoing at first, but I can live with that.
+account. This was a bit annoying at first, but I can live with that.
 
 Apart from that I'm not totally happy with a browser-only environment, but
 Chrome OS got you covered here as well. It comes with an usable shell in
