@@ -15,7 +15,7 @@ end
 
 desc 'Serve the page on http://localhost:4000'
 task :serve do
-  sh "jekyll serve --watch"
+  sh "jekyll serve --watch --drafts"
 end
 
 task :default => :serve
