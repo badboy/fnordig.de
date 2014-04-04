@@ -11,7 +11,7 @@ At that time I was a little busy with University stuff like writing exams, but I
 
 {::options parse_block_html="true" /}
 <span style="float:right;margin-left:10px;">
-[![Workshop schedule](http://tmp.fnordig.de/ots/2014-03/th-html_css_workshop_schedule.jpg)](http://tmp.fnordig.de/ots/2014-03/html_css_workshop_schedule.jpg)
+[![Workshop schedule](//tmp.fnordig.de/ots/2014-03/th-html_css_workshop_schedule.jpg)](//tmp.fnordig.de/ots/2014-03/html_css_workshop_schedule.jpg)
 </span>
 {::options parse_block_html="false" /}
 
