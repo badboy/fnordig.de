@@ -33,9 +33,12 @@ time=2014-04-15T18:20:54+02:00 ip=127.0.0.1 user=- req="GET / HTTP/1.1" status=3
 
 If you want to know which variables are available, read the [nginx docs][docs].
 
+_Update:_ [@rhoml][] pointed me to a [full overview of available variables][variables].
 
 
 [fun-with-logs]: http://blog.travis-ci.com/2014-04-11-fun-with-logs/
 [@roidrage]: https://twitter.com/roidrage
 [nginx]: http://nginx.org/
 [docs]: http://nginx.org/en/docs/http/ngx_http_log_module.html#log_format
+[@rhoml]: https://twitter.com/rhoml/status/456115016178364416
+[variables]: http://nginx.org/en/docs/http/ngx_http_core_module.html#variables
