@@ -55,3 +55,11 @@ Redis does not have a default path to put the config in. Instead you always have
 ## I can't compile Redis. It fails with something like "error: no such file or directory: '../deps/hiredis/libhiredis.a'"
 
 Try a `make distclean` first, then again a `make`. The compile step tries to be smart by only building dependencies once and use the old compile configuration. But it one of the dependencies fails it does not try to compile them again and thus fails. `make distclean` removes all previous saved state.
+
+## Redis' PUBSUB is awesome. Can I use it for X?
+
+Yes, Redis' pubsub mechanism is quite good. People get excited about it. But it might not be the best option for your use case. Pub/Sub is fire-and-forget. If you publish to a channel and no one is subscribed, that message is lost. It's not persisted, saved for later or held back. Just lost. This might or might not be what you want. For more read [section 1.1 of matt's Pub/Sub intro](https://matt.sh/advanced-redis-pubsub-scripts).
+
+## Ok, I understand Pub/Sub, I really want to use it. Does it work with hundred or thousands of subscriptions/clients?
+
+The mechanism to subscribe to a channel is quite cheap, consider it an constant-time operation. Publish is more expensive, it needs to send to all subscribed clients. For a much more details info read [the mailing list thread](https://groups.google.com/forum/#!topic/redis-db/R09u__3Jzfk).

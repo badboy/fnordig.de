@@ -19,7 +19,7 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 
 * [try.redis.io](http://try.redis.io) - Online Redis REPL.
 * [badbill](https://github.com/badboy/badbill) - A client for the [Billomat](http://www.billomat.com/en/api/) API
-* [Redis FAQ](http://fnordig.de/redis-faq/) - an unofficial Redis FAQ with user questions
+* [Redis FAQ](/redis-faq/) - an unofficial Redis FAQ with user questions
 
 ## // services
 
