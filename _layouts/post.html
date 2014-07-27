@@ -8,7 +8,7 @@ layout: default
   {% if page.date %}
   <p class="date">
     <time pubdate class=published datetime="{{page.date}}">
-    {{page.date | date_to_string}}
+    {{page.date | date: "%-d %B %Y %H:%M"}}
     </time>
     (by <span rel=author>Jan-Erik</span>)
   </p>

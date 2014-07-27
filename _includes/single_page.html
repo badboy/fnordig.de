@@ -5,7 +5,7 @@
   {% if post.date %}
   <p class="date">
     <time pubdate class=published datetime="{{post.date}}">
-    {{post.date | date_to_string}}
+    {{post.date | date: "%-d %B %Y %H:%M"}}
     </time>
     (by <span rel=author>Jan-Erik</span>)
   </p>
