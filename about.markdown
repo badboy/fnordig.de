@@ -21,6 +21,10 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 * [badbill](https://github.com/badboy/badbill) - A client for the [Billomat](http://www.billomat.com/en/api/) API
 * [Redis FAQ](/redis-faq/) - an unofficial Redis FAQ with user questions
 
+## // talks
+
+* [Rust for Rubyists](https://tmp.fnordig.de/talks/2014/froscon/rust-for-rubyists/) ([PDF](http://tmp.fnordig.de/talks/2014/froscon/rust-for-rubyists/froscon2014-redfrogconf-rust-for-rubyists.pdf)) - FrOSCon, RedFrogConf, 24.08.2014, this was a bit spontaneous and prepared in only one day. Mostly the content from [first experience with Rust](/2014/08/12/first-experience-with-rust/).
+
 ## // services
 
 * [etherpad](https://pad.fnordig.de/) - real-time collaborative document editing
