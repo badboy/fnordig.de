@@ -1,7 +1,9 @@
 body {
   background-color: #eee;
   color: #1a1a1a;
-  font-family: monospace;
+  font-style: normal;
+  font-size: 1.1em;
+  font-family: Helvetica, Arial, sans-serif;
 }
 a { color: #06c; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -9,6 +11,8 @@ h1 a, .heading a { color: black; }
 h1 a:hover { text-decoration: none; }
 /*a:visited { color: green; }*/
 .post .heading:before { content: "// "; }
+.post .heading { font: bold 20px monospace; }
+.post .date { font: italic 14px monospace; }
 .post h2 { margin: 0; }
 .post p.date { margin: 0; font-style: italic; }
 .post p.date:before { content: "/* "; }
@@ -47,6 +51,12 @@ p code, li code {
 }
 .nav h1, .nav ul, .nav li {
   display: inline;
+}
+.nav h1 {
+  font: bold 26px monospace;
+}
+.nav li, .paginator, .footer {
+  font: normal 13px monospace;
 }
 .content {
   margin: 0 auto;
