@@ -10,9 +10,9 @@ title: fnordig.de
 <div class="paginator">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a class="prev" href="/">« Previous page</a>
+    <a class="prev" href="{{site.baseurl}}">« Previous page</a>
     {% else %} 
-    <a class="prev" href="/page{{paginator.previous_page}}">« Previous page</a>
+    <a class="prev" href="{{site.baseurl}}page{{paginator.previous_page}}">« Previous page</a>
     {% endif %}
   {% endif %}
 
@@ -21,6 +21,6 @@ title: fnordig.de
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="next" href="/page{{paginator.next_page}}">Next page »</a>
+  <a class="next" href="{{site.baseurl}}page{{paginator.next_page}}">Next page »</a>
   {% endif %}
 </div>

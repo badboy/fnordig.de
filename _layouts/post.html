@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
   <h2 class="heading">
-    <a href="{{page.url}}">{{page.title}}</a>
+    <a href="{{site.baseurl}}{{page.url | replace_first: '/'}}">{{page.title}}</a>
   </h2>
   {% if page.date %}
   <p class="date">
