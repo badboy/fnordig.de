@@ -1,3 +1,4 @@
+baseurl: /
 paginate: 5
 permalink: pretty
 exclude:
