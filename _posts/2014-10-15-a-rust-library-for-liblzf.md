@@ -38,6 +38,6 @@ I'm happy to get some feedback. It's my first serious Rust code, so prone to bug
 Ping me on [Twitter][], drop me an [email](mailto:badboy@archlinux.us) or [open an issue](https://github.com/badboy/lzf-rs/issues).
 
 [lzf-rs]: https://github.com/badboy/lzf-rs
-[liblzf]: https://github.com/badboy/lzf-rs/blob/master
+[liblzf]: http://software.schmorp.de/pkg/liblzf.html
 [ffi]: http://doc.rust-lang.org/guide-ffi.html
 [twitter]: https://twitter.com/badboy_
