@@ -2,7 +2,7 @@ body {
   background-color: #eee;
   color: #1a1a1a;
   font-style: normal;
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-family: Helvetica, Arial, sans-serif;
 }
 a { color: #06c; text-decoration: none; }
@@ -34,7 +34,7 @@ pre {
 }
 p code, li code {
   background-color: ghostWhite;
-  color: #444;
+  color: black;
   padding: 0 .2em;
   border: 1px solid #DEDEDE;
 }
