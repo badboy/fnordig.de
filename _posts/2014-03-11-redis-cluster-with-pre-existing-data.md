@@ -19,7 +19,7 @@ Back then I did not know how to do it, so today, after a [short conversation wit
 
 First you need a cluster. To start, create the config for 3 instances on port 7001-7003. This is even simpler than the [Cluster tutorial][].
 
-~~~ruby
+~~~shell
 mkdir cluster-test && cd cluster-test
 
 for port in 7001 7002 7003; do
