@@ -20,7 +20,7 @@ end
 
 filename = Time.now.strftime("%Y-%m-%d-") + ARGV.map { |arg|
   arg.downcase.gsub(/[^a-z0-9]/, '-')
-}.join('-').gsub(/--+/, '').gsub(/-$/, '')
+}.join('-').gsub(/--+/, '-').gsub(/-$/, '')
 title = ARGV.join(' ')
 file = File.join(OUTPUT_DIR, "#{filename}#{EXTENSION}")
 date = Time.now.strftime("%d.%m.%Y %H:%M")
