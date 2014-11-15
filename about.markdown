@@ -11,8 +11,7 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 ## // links
 
 * Twitter: [@badboy\_](https://twitter.com/badboy_)
-* Github: [@badboy](https://github.com/badboy)
-* Hacker News: [janerik](http://news.ycombinator.com/user?id=janerik)
+* GitHub: [@badboy](https://github.com/badboy)
 * Pinboard: [badboy](http://pinboard.in/u:badboy)
 
 ## // projects
@@ -29,3 +28,8 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 
 * [etherpad](https://pad.fnordig.de/) - real-time collaborative document editing
 * [rezepte](http://rezepte.fnordig.de/) - a small database of recipes (german)
+
+## // other
+
+* [Events I've been at](http://badboy.hasbeen.at/)
+* [Places I've been in](http://badboy.hasbeen.in/)
