@@ -125,7 +125,8 @@ Even after re-installing the toolchain several times on different machines I sti
 
 
 After some more tweaking, re-installing, compiling and chatting with luqmana it turns out: He's not using the same toolchain build as I do.
-He simply used the pre-compiled [minpspw][] package.
+He simply used the pre-compiled [minpspw][] package
+(*Update 04.12.2014*: Luqman informed me he does in fact built it himself from the minpspw svn, which in turn uses the psptoolchain I tried with first, so absolutely no idea why directly using it failed).
 Once I grabbed that, the "Hello World" application compiled and ran! Success!
 
 {::options parse_block_html="true" /}
