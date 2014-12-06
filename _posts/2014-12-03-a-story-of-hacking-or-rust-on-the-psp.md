@@ -78,7 +78,7 @@ The original p-twit! announcement:
 > ([tweet](https://twitter.com/badboy_/status/826911057))
 
 That was also the last thing I wrote for the PSP.
-I think 2008/2009 was also the time the homebrew scene slowed done.
+I think 2008/2009 was also the time the homebrew scene slowed down.
 My community place, portable-news.de, was dead, more and more devs lost interest, there was nothing entirely new to be done.
 Smartphones became the new go-to hardware for small applications and fun games developed by people at home.
 
