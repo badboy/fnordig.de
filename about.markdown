@@ -22,7 +22,8 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 
 ## // talks
 
-* [Rust for Rubyists](https://tmp.fnordig.de/talks/2014/froscon/rust-for-rubyists/) ([PDF](http://tmp.fnordig.de/talks/2014/froscon/rust-for-rubyists/froscon2014-redfrogconf-rust-for-rubyists.pdf)) - FrOSCon, RedFrogConf, 24.08.2014, this was a bit spontaneous and prepared in only one day. Mostly the content from [first experience with Rust](/2014/08/12/first-experience-with-rust/). I also gave this talk two months later at the Barcamp Salzburg (again, totally spontaneous to fill a gap in the schedule).
+* [Rust for Rubyists](https://fnordig.de/talks/2014/froscon/rust-for-rubyists/) ([PDF](https://fnordig.de/talks/2014/froscon/rust-for-rubyists/froscon2014-redfrogconf-rust-for-rubyists.pdf)) - FrOSCon, RedFrogConf, 24.08.2014, this was a bit spontaneous and prepared in only one day. Mostly the content from [first experience with Rust](/2014/08/12/first-experience-with-rust/). I also gave this talk two months later at the Barcamp Salzburg (again, totally spontaneous to fill a gap in the schedule).
+* [Introduction to Redis](http://fnordig.de/talks/2014/ots/redis-introduction-otsdo-2014-12-16.pdf) (PDF) - OpenTechSchool Dortmund, 16.12.2014, these slides are actually extracted from the _real slides_, which were built in [try.redis.io](http://try.redis.io).
 
 ## // services
 
