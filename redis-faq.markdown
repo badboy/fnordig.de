@@ -16,7 +16,7 @@ Don't spam the channel, upload it to [pastebin](http://pastebin.com/), as a [gis
 
 ## I want to use [SELECT](http://redis.io/commands/select) to seperate my data. Is this a good idea?
 
-Antirez decided select was an anti-pattern a loooong time ago. He won't fully deprecate it, but it doesn't get support in new features such as cluster. (via brycebaril)
+Antirez decided select was an anti-pattern a loooong time ago. He won't fully deprecate it, but it doesn't get support in new features such as cluster. (via brycebaril, [post on mailing list](https://groups.google.com/forum/#!msg/redis-db/vS5wX8X4Cjg/8ounBXitG4sJ))
 
 Just use seperate instances or use namespacing (often used: `namespace:real-key-name`)
 
