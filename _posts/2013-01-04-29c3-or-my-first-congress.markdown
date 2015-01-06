@@ -24,4 +24,4 @@ Head over to [one of the mirrors][mirror] and watch a few talks.
 (click for bigger image)
 
 [wiki]: https://events.ccc.de/congress/2012/wiki/Main_Page
-[mirror]: http://mirror.fem-net.de/CCC/29C3/
+[mirror]: http://media.ccc.de/browse/congress/2012/index.html

@@ -8,7 +8,7 @@ So you have this friend sitting somewhere else in the world and want to give him
 
 When searching for a proxy I found [dante](http://www.inet.no/dante/), but found it just to hard to just configure in a few minutes.
 
-I'm a ruby programmer and I knew [Github](https://github) once released a small open-source proxy programm.
+I'm a ruby programmer and I knew [Github](https://github.com) once released a small open-source proxy programm.
 It's called [proxymachine](https://github.com/mojombo/proxymachine), made by [@mojombo](https://github.com/mojombo/), one of the founders of github.
 
 Get it with:

@@ -125,7 +125,7 @@ I don't see me writing lots of Rust code in the near future, but it certainly he
 [git-repo]: https://github.com/badboy/small-step-simple-rust
 
 [apidocs]: http://doc.rust-lang.org/std/index.html
-[refman]: http://doc.rust-lang.org/rust.html
+[refman]: http://doc.rust-lang.org/reference.html
 [gendoc]: http://doc.rust-lang.org/index.html
 [stevenklabnik]: https://twitter.com/steveklabnik
 [rust.vim]: https://github.com/wting/rust.vim

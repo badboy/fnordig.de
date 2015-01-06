@@ -26,7 +26,7 @@ Even though I did nothing special I post my config here, so maybe this will help
 
 I currently use nginx [v1.0.6](http://nginx.org/download/nginx-1.0.6.tar.gz)
 and
-etherpad-lite at [7e4bba0e](https://github.com/Pita/etherpad-lite/commit/7e4bba0e31d600a5d1d3833211252b1472f07f2c) with the default config (and node.js v0.4.8)
+etherpad-lite at [7e4bba0e](https://github.com/ether/etherpad-lite/commit/7e4bba0e31d600a5d1d3833211252b1472f07f2c) with the default config (and node.js v0.4.8)
 etherpad runs as an own user named `etherpad` and is monitored by monit.
 
 The monitoring is as simple as that, `/etc/monit/apps/etherpad.monit`:
