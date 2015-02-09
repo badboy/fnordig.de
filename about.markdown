@@ -6,7 +6,7 @@ title: about
 23 years old,
 studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 [grandcentrix](https://www.grandcentrix.net/), programming a lot of
-[ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff.
+[ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff, and lately some [Rust](http://www.rust-lang.org/).
 
 ## // links
 
@@ -19,6 +19,8 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 * [try.redis.io](http://try.redis.io) - Online Redis REPL.
 * [badbill](https://github.com/badboy/badbill) - A client for the [Billomat](http://www.billomat.com/en/api/) API
 * [Redis FAQ](/redis-faq/) - an unofficial Redis FAQ with user questions
+* [rdb-rs](http://rdb.fnordig.de/) - fast and efficient RDB parsing utility, including full documentation on the RDB file format
+* [hiredis](https://github.com/redis/hiredis) - the minimalistic C client for Redis, as well as wrapper libraries: [hiredis-rb](https://github.com/redis/hiredis-rb/) ([gem](https://rubygems.org/gems/hiredis)), [hiredis-node](https://github.com/redis/hiredis-node) ([npm](https://www.npmjs.com/package/hiredis)), [hiredis-py](https://github.com/redis/hiredis-py) ([pypi](https://pypi.python.org/pypi/hiredis/))
 
 ## // talks
 
