@@ -42,7 +42,7 @@ The key is now registered for use with this origin and appId.
 2. This data is sent to the browser, including the `appId`
 3. The browser forwards this data to the key, including the origin
 4. The key is activated by human interaction, it then creates a signature of a hash of the `appId`, a counter value and a hash of the provided challenge and origin. This signature and the counter value is sent back to the browser, which submits it to the server
-5. The browser verifies the signature using the previously saved public key and verifies that the counter value is larger than any previously seen counter for this key handle.
+5. The server verifies the signature using the previously saved public key and verifies that the counter value is larger than any previously seen counter for this key handle.
 
 If all runs through the user is successfully authenticated based on his key.
 
