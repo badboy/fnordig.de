@@ -8,6 +8,8 @@ studying at [RWTH Aachen](http://www.rwth-aachen.de/), working for
 [grandcentrix](https://www.grandcentrix.net/), programming a lot of
 [ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff, and lately some [Rust](http://www.rust-lang.org/).
 
+Organizer of the [otsconf Dortmund](https://otsconf.com/), coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/), contributor to [Redis](http://redis.io) and maintainer of several client libraries.
+
 ## // links
 
 * Twitter: [@badboy\_](https://twitter.com/badboy_)
