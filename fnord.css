@@ -7,9 +7,9 @@ body {
 }
 a { color: #06c; text-decoration: none; }
 a:hover { text-decoration: underline; }
+.post p a:visited { color: #004488; }
 h1 a, .heading a { color: black; }
 h1 a:hover { text-decoration: none; }
-/*a:visited { color: green; }*/
 .post .heading:before { content: "// "; }
 .post .heading { font: bold 20px monospace; }
 .post .date { font: italic 14px monospace; }
