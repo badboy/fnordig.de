@@ -23,10 +23,12 @@ h1 a:hover { text-decoration: none; }
 .footer { padding-top: 0px; }
 .footer p { padding: 0; margin: 0;}
 blockquote {
-  margin-left: 10px;
-  padding-left: 10px;
-  border-left: 1px solid gray;
+  margin: 0;
+  padding: 7px 15px;
+  border-left: 7px solid rgba(128, 128, 128, 0.075);
+  background-color: #f3f3f3;
 }
+blockquote p { margin: 0; }
 pre {
   margin-left: 10px;
   background-color: #ddd;
@@ -65,4 +67,7 @@ p code, li code {
 .paginator {
   margin-bottom: 10px;
   text-align: center;
+}
+hr {
+  border: 1px solid #f3f3f3;
 }
