@@ -18,7 +18,7 @@ Well, what better to do with a lazy holiday then doing some hacking with the Kin
 
 {::options parse_block_html="true" /}
 <div style="text-align:center">
-[![For now it shows the weather forecast](http://tmp.fnordig.de/kindle/th-Photo-2015-05-14-19-27.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-19-27.jpg)
+[![For now it shows the weather forecast](//tmp.fnordig.de/kindle/th-Photo-2015-05-14-19-27.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-19-27.jpg)
 </div>
 {::options parse_block_html="false" /}
 
@@ -131,7 +131,7 @@ This is the final result: My Kindle hanging on the wall right under the calendar
 
 {::options parse_block_html="true" /}
 <div style="text-align:center">
-[![It's hanging at the wall](http://tmp.fnordig.de/kindle/th-Photo-2015-05-14-16-44.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-16-44.jpg)
+[![It's hanging at the wall](//tmp.fnordig.de/kindle/th-Photo-2015-05-14-16-44.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-16-44.jpg)
 </div>
 {::options parse_block_html="false" /}
 
