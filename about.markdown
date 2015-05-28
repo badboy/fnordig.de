@@ -30,6 +30,7 @@ Organizer of the [otsconf Dortmund](https://otsconf.com/), coach at [OpenTechSch
 * **Introduction to Redis** - OpenTechSchool Dortmund, 16.12.2014 - these slides are actually extracted from the _real slides_, which were built in [try.redis.io](http://try.redis.io). ([Slides](http://fnordig.de/talks/2014/ots/redis-introduction-otsdo-2014-12-16.pdf))
 * **Rust Introduction** - CCCAC, 05.03.2015 ([Video](https://videoag.fsmpi.rwth-aachen.de/?view=player&lectureid=4532), [Slides](https://fnordig.de/talks/2015/cccac/rust-intro/#0))
 * **U2F Authentication** - Cologne.rb, 20.05.2015 ([Slides](https://fnordig.de/talks/2015/colognerb/u2f/slides.pdf), [Slides on slidr.io](http://slidr.io/badboy/u2f-authentication))
+* **Redis Cluster** - PHPUGDUS, 28.05.2015 ([Slides](http://fnordig.de/talks/2015/phpugdus/redis-cluster/slides.pdf), [Slides on slidr.io](http://slidr.io/badboy/redis-cluster))
 
 ## // services
 
