@@ -9,5 +9,5 @@ title: posts
 ### {{ currentyear  }}
     {% capture year %}{{currentyear}}{% endcapture %}
   {% endif %}
-* {{post.date | date_to_string}}: [{{post.title}}]({{post.url | remove_first: '/' | prepend: site.baseurl}})
+* {{post.date | date: "%d %b"}}: [{{post.title}}]({{post.url | remove_first: '/' | prepend: site.baseurl}})
 {% endfor %}
