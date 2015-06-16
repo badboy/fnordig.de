@@ -63,3 +63,10 @@ Yes, Redis' pubsub mechanism is quite good. People get excited about it. But it 
 ## Ok, I understand Pub/Sub, I really want to use it. Does it work with hundred or thousands of subscriptions/clients?
 
 The mechanism to subscribe to a channel is quite cheap, consider it an constant-time operation. Publish is more expensive, it needs to send to all subscribed clients. For a much more details info read [the mailing list thread](https://groups.google.com/forum/#!topic/redis-db/R09u__3Jzfk).
+
+## My Cluster is unavailable when a Master goes down. How to fix?<a id="cluster-unavailable"></a>
+
+If there is no suitable Replica to failover to, the whole Redis Cluster will go into a fail state and won't serve any more queries.
+It will become available when all slots are covered again (either by resharding or bringing the old Master back).
+You can change this behaviour and always serve queries by setting `cluster-require-full-coverage` to `no`.
+See [the default config for more](https://github.com/antirez/redis/blob/821a986643717018cad8af9f35cba49818e60294/redis.conf#L747-L758).
