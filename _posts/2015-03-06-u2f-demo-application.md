@@ -82,9 +82,7 @@ We could also add sign requests for known key handles to later check if the key 
 Then we simply render our form, the [important JavaScript part](https://github.com/badboy/cuba-u2f-demo/blob/master/views/key_add.mote#L18-L36) in the frontend is this:
 
 ~~~javascript
-{% raw %}
-var registerRequests = {{ registration_requests.to_json }};
-{% endraw %}
+{% raw %}var registerRequests = {{ registration_requests.to_json }};{% endraw %}
 var signRequests = [];
 
 u2f.register(registerRequests, signRequests, function(registerResponse) {
@@ -172,9 +170,7 @@ sign_requests = u2f.authentication_requests(key_handles)
 and [provide it to the user](https://github.com/badboy/cuba-u2f-demo/blob/master/views/login_key.mote#L15-L32):
 
 ~~~javascript
-{% raw %}
-var signRequests = {{ sign_requests.to_json }};
-{% endraw %}
+{% raw %}var signRequests = {{ sign_requests.to_json }};{% endraw %}
 
 u2f.sign(signRequests, function(signResponse) {
     var form, reg;
