@@ -34,7 +34,7 @@ pre {
   margin-left: 10px;
   background-color: #ddd;
 }
-p code, li code {
+p code, li code table code, {
   background-color: rgba(0,0,0,0.04);
   margin: 0;
   color: black;
@@ -42,7 +42,9 @@ p code, li code {
   border-radius: 3px;
   font-size: 95%;
 }
-p code::before, li.code::before, p code::after, li.code::after {
+p code::before, p code::after,
+li code::before, li code::after,
+table code::before, table code::after {
     letter-spacing: -0.2em;
     content: "\00a0";
 }
@@ -79,21 +81,18 @@ hr {
 }
 table {
   border-collapse: collapse;
-  border-left: 7px solid #eaeaea;
-  background-color: #f3f3f3;
+  border: 1px solid #ddd;
 }
 table th, table td {
   padding: 7px 15px;
-}
-table thead {
-  text-align: left;
+  border: 1px solid #ddd;
 }
 
 table td:first-child {
   width: 20%;
 }
-table thead tr, table tbody tr:nth-child(even) {
-  background-color: #eee;
+table tbody tr:nth-child(even) {
+  background-color: rgb(248, 248, 248);
 }
 code, pre {
   background-color: #f8f8f8;
