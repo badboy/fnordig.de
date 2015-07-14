@@ -71,3 +71,21 @@ p code, li code {
 hr {
   border: 1px solid #f3f3f3;
 }
+table {
+  border-collapse: collapse;
+  border-left: 7px solid #eaeaea;
+  background-color: #f3f3f3;
+}
+table th, table td {
+  padding: 7px 15px;
+}
+table thead {
+  text-align: left;
+}
+
+table td:first-child {
+  width: 20%;
+}
+table thead tr, table tbody tr:nth-child(even) {
+  background-color: #eee;
+}

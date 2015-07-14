@@ -1,4 +1,4 @@
-div.highlight { overflow-x: auto; border: 1px solid silver; background-color: #ddd; }
+div.highlight { overflow-x: auto; border: 1px solid silver; background-color: #ddd; margin-bottom: 10px; }
 div.highlight pre { margin: 0; }
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
