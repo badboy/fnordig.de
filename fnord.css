@@ -18,6 +18,7 @@ h1 a:hover { text-decoration: none; }
 .post p.date:before { content: "/* "; }
 .post p.date:after { content: " */"; }
 .post p {
+  line-height: 1.5em;
   word-wrap: break-word;
 }
 .footer { padding-top: 0px; }
@@ -32,13 +33,18 @@ blockquote p { margin: 0; }
 pre {
   margin-left: 10px;
   background-color: #ddd;
-  padding: 5px;
 }
 p code, li code {
-  background-color: ghostWhite;
+  background-color: rgba(0,0,0,0.04);
+  margin: 0;
   color: black;
-  padding: 0 .2em;
-  border: 1px solid #DEDEDE;
+  padding: .2em 0;
+  border-radius: 3px;
+  font-size: 95%;
+}
+p code::before, li.code::before, p code::after, li.code::after {
+    letter-spacing: -0.2em;
+    content: "\00a0";
 }
 .post {
   margin-bottom: 15px;
@@ -90,5 +96,6 @@ table thead tr, table tbody tr:nth-child(even) {
   background-color: #eee;
 }
 code, pre {
-  font-family: Inconsolata, monospace, sans-serif !important;
+  background-color: #f8f8f8;
+  font-family: Inconsolata, monospace, sans-serif;
 }

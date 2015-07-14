@@ -1,5 +1,12 @@
 div.highlight { overflow-x: auto; border: 1px solid silver; background-color: #ddd; margin-bottom: 10px; }
 div.highlight pre { margin: 0; }
+div.highlight code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
