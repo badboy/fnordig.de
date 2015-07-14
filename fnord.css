@@ -34,7 +34,7 @@ pre {
   margin-left: 10px;
   background-color: #ddd;
 }
-p code, li code table code, {
+p code, li code, table code {
   background-color: rgba(0,0,0,0.04);
   margin: 0;
   color: black;
