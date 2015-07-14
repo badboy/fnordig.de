@@ -89,3 +89,6 @@ table td:first-child {
 table thead tr, table tbody tr:nth-child(even) {
   background-color: #eee;
 }
+code, pre {
+  font-family: Inconsolata, monospace, sans-serif !important;
+}
