@@ -243,7 +243,7 @@ named!(timezone_hour <&[u8], i32>, chain!(
 ~~~
 
 We can re-use our already existing parsers and once again chain them to get what we want.
-The seconds are optional (and might be separated using a colon).
+The minutes are optional (and might be separated using a colon).
 
 Instead of keeping this as is, we're mapping it to the offset in seconds.
 We will see why later.
