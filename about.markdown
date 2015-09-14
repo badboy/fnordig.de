@@ -4,7 +4,8 @@ title: about
 ---
 
 23 years old,
-studying at [RWTH Aachen](http://www.rwth-aachen.de/),
+currently studying at [UiS](http://www.uis.no/) in Stavanger, Norway,
+normally studying at [RWTH Aachen](http://www.rwth-aachen.de/),
 programming a lot of [ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff,
 and lately some [Rust](http://www.rust-lang.org/).
 
