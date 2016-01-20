@@ -3,11 +3,10 @@ layout: post
 title: about
 ---
 
-23 years old,
-currently studying at [UiS](http://www.uis.no/) in Stavanger, Norway,
-normally studying at [RWTH Aachen](http://www.rwth-aachen.de/),
-programming a lot of [ruby](http://www.ruby-lang.org/en/) and [node.js](http://nodejs.org/) stuff,
-and lately some [Rust](http://www.rust-lang.org/).
+24 years old,
+studying at [UiS](http://www.uis.no/) in Stavanger, Norway and [RWTH Aachen](http://www.rwth-aachen.de/),
+programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/),
+sometimes I play around with [Node.js](http://nodejs.org/).
 
 Organizer of the [otsconf Dortmund](https://otsconf.com/), coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/), contributor to [Redis](http://redis.io) and maintainer of several client libraries.
 
