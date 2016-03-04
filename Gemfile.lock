@@ -71,5 +71,8 @@ PLATFORMS
 DEPENDENCIES
   coderay (~> 1.0.0)
   jekyll (~> 2.5.3)
-  kramdown
+  kramdown (= 1.5.0)
   rake
+
+BUNDLED WITH
+   1.11.2
