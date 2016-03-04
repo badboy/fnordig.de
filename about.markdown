@@ -46,7 +46,7 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 ### // 2016
 
 * **Automatic Crate publishing – semantic.rs** - Rust Cologne/Bonn, 03.02.2016 ([Slides](http://badboy.github.io/semantic-rs-slides/#1))
-* _upcoming_: **Webdevelopment with Rust** - Rust Amsterdam, 02.03.2016 ([Meetup](http://www.meetup.com/Rust-Amsterdam/events/227827508/))
+* **Webdevelopment with Rust** - Rust Amsterdam, 02.03.2016 ([Slides](http://badboy.github.io/webdev-rust-slides/), [Meetup](http://www.meetup.com/Rust-Amsterdam/events/227827508/))
 
 ## // services
 
