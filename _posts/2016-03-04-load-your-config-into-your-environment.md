@@ -44,6 +44,10 @@ irb(main):001:0> ENV['REDIS_URL']
 
 [Available on GitHub][repo] and [as a Crate][crate].
 
+**Update:**
+
+Only now I learn about another application doing just the same: [benv](https://github.com/timonv/benv) by [@timonvonk](https://twitter.com/timonvonk).
+
 [12factor]: http://12factor.net/
 [config]: http://12factor.net/config
 [dotenv]: https://github.com/slapresta/rust-dotenv
