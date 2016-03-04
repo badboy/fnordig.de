@@ -5,7 +5,7 @@ date: 04.03.2016 12:30
 ---
 
 It became quite popular to store certain configuration variables in your environment, to be later loaded by your aplication.
-This way of [having all configuration](config) available is part of the [twelve-factor app definition][12factor].
+This way of [having all configuration][config] available is part of the [twelve-factor app definition][12factor].
 
 The idea is to place your variables in a `.env` file and load this as environment variables to be accessed by your application.
 Most of the time you can just plug in one of the dozens of libraries that load this config from a file and your application can fetch the values as normal from the environment.
