@@ -14,6 +14,7 @@ It is also possible to mark releases as a draft (then it is only visible to repo
 
 Once you have a Git tag in your repository the API can be used to create an associated release using the following Rust code:
 
+*(The following code was tested against Hubcaps v0.1.1)*
 
 ~~~rust
 extern crate hyper;
