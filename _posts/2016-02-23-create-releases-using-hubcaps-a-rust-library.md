@@ -65,6 +65,8 @@ Of course it has the repository and tag hard-coded, but this is easy to adapt.
 
 _The code was tested with Rust 1.6 and hubcaps 0.1.1_
 
+_[Updated version](https://gist.github.com/badboy/0cbc3411b6c23c1cb33c) to work with hubcaps 0.2.0 online._
+
 [twir]: https://this-week-in-rust.org/blog/2016/02/22/this-week-in-rust-119/
 [hubcaps]: https://github.com/softprops/hubcaps
 [gittag]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
