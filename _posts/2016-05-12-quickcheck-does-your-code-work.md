@@ -25,13 +25,14 @@ First, you need to add the dependency and load it in your code.
 Add it to your `Cargo.toml`:
 
 ~~~toml
-[dependencies]
+[dev-dependencies]
 quickcheck = "0.2"
 ~~~
 
 Add this to your `src/lib.rs`:
 
 ~~~rust
+#[cfg(test)]
 extern crate quickcheck;
 ~~~
 
@@ -46,6 +47,8 @@ The property function looks like this:
 
 
 ~~~rust
+use quickcheck::{quickcheck, TestResult};
+
 fn compress_decompress_round(data: Vec<u8>) -> TestResult {
     let compr = match compress(&data) {
         Ok(compr) => compr,
@@ -108,5 +111,7 @@ Additionally to the above I added QuickCheck tests comparing the Rust functions 
 The full changeset is in [PR #1][pr] (currently failing tests, because of a broken Clippy on newest nightly).
 
 Now quick, check your own code!
+
+**Update 2016-05-13:** QuickCheck can be added as a dev dependency, instead of making it optional and activating it with a feature. Additionally it's necessary to `use` names from the crate (or specify the full path). Thanks to RustMeUp and burntsushi in the [reddit thread](https://www.reddit.com/r/rust/comments/4j2va3/quick_check_does_your_code_work/).
 
 [pr]: https://github.com/badboy/lzf-rs/pull/1
