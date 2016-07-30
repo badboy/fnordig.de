@@ -11,7 +11,7 @@ I went out to Kornelimünster, a small district of Aachen, about 10 km outside o
 
 {::options parse_block_html="true" /}
 <p style="text-align:center">
-![](http://tmp.fnordig.de/longboarding/0609/th-2016-06-09_12.44.21.jpg)
+![](//tmp.fnordig.de/longboarding/0609/th-2016-06-09_12.44.21.jpg)
 </p>
 {::options parse_block_html="false" /}
 
@@ -20,7 +20,7 @@ The route goes mostly downhill from Kornelimünster, so I did not need much push
 
 {::options parse_block_html="true" /}
 <p style="text-align:center">
-![](http://tmp.fnordig.de/longboarding/0609/th-2016-06-09_12.53.25-1.jpg)
+![](//tmp.fnordig.de/longboarding/0609/th-2016-06-09_12.53.25-1.jpg)
 </p>
 {::options parse_block_html="false" /}
 
@@ -29,7 +29,7 @@ The results: 10,9 km in 53 minutes. Top speed: 31,5 km/h. 12,4 km/h on average.
 
 {::options parse_block_html="true" /}
 <p style="text-align:center">
-![](http://tmp.fnordig.de/longboarding/0609/th-2016-06-09_13.18.03.jpg)
+![](//tmp.fnordig.de/longboarding/0609/th-2016-06-09_13.18.03.jpg)
 </p>
 {::options parse_block_html="false" /}
 
@@ -37,7 +37,7 @@ I was much quicker than I thought, so I got some ice cream in the city of Aachen
 
 {::options parse_block_html="true" /}
 <p style="text-align:center">
-![](http://tmp.fnordig.de/longboarding/0609/th-2016-06-09_14.34.02.jpg)
+![](//tmp.fnordig.de/longboarding/0609/th-2016-06-09_14.34.02.jpg)
 </p>
 {::options parse_block_html="false" /}
 
