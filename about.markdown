@@ -5,10 +5,15 @@ title: about
 
 24 years old,
 studying at [UiS](http://www.uis.no/) in Stavanger, Norway and [RWTH Aachen](http://www.rwth-aachen.de/),
-programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/),
-sometimes I play around with [Node.js](http://nodejs.org/).
+programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).
 
-Organizer of the [otsconf Dortmund](https://otsconf.com/), coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/), contributor to [Redis](http://redis.io) and maintainer of several client libraries.
+Organizer of [RustFest](http://www.rustfest.eu/),
+Co-Organizer of the [Rust User group Cologne/Bonn](http://rustaceans.cologne/),
+Co-Organizer of [otsconf Dortmund](https://otsconf.com/),
+coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/),
+contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://github.com/redis/hiredis) and several client libraries.
+
+
 
 ## // links
 
