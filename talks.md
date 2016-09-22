@@ -15,7 +15,7 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
 **Past**
 
-* **Compiling Rust to your Browser**, Rust Cologne/Bonn, 05.09.2016 ([Slides](https://badboy.github.io/rust-to-the-browser/), [Resources](http://www.hellorust.com/emscripten/), [Meetup](https://www.meetup.com/Rust-Cologne-Bonn/events/233139845/))
+* **Compiling Rust to your Browser**, Rust Cologne/Bonn, 05.09.2016 ([Slides](https://badboy.github.io/rust-to-the-browser/), [Resources](http://www.hellorust.com/emscripten/), [Meetup](https://www.meetup.com/Rust-Cologne-Bonn/events/233139845/), [Video](https://media.ccc.de/v/rustmcb.2016.09.compiling-rust-to-asmjs))
 * **Rust from the back to the front**, Rust Stockholm, 29.08.2016 ([Slides](https://badboy.github.io/rust-sthlm/#1), [Meetup](https://www.meetup.com/ruststhlm/events/232054490/))
 * **Webdevelopment with Rust** - Rust Amsterdam, 02.03.2016 ([Slides](http://badboy.github.io/webdev-rust-slides/), [Meetup](http://www.meetup.com/Rust-Amsterdam/events/227827508/))
 * **Automatic Crate publishing – semantic.rs** - Rust Cologne/Bonn, 03.02.2016 ([Slides](http://badboy.github.io/semantic-rs-slides/#1))
