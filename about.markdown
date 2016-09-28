@@ -3,7 +3,7 @@ layout: post
 title: about
 ---
 
-24 years old,
+25 years old,
 studying at [UiS](http://www.uis.no/) in Stavanger, Norway and [RWTH Aachen](http://www.rwth-aachen.de/),
 programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).
 
