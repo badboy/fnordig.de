@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "novemb.rs Code Sprint weekend 2016 - Retrospective"
+title: "novemb.rs Code Sprint Weekend 2016 - Retrospective"
 date: 29.11.2016 11:55
 ---
 
