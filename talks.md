@@ -7,18 +7,17 @@ I gave some talks in the past and I'd love to give some more in the future.
 I will talk about Redis, Web Development and Rust stuff or about any of the project I'm involved in.
 Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
-## // 2016
+## // 2017
 
 **Upcoming**
 
-Nothing planned yet. Want to hear me talk? [Get in touch](mailto:janerik@fnordig.de).
+* **Rust and Ruby - make it fast**, Cologne.rb/Rust Cologne joint meetup, 18.01.2017 ([Meetup](http://www.colognerb.de/events/januar-meetup-2017))
+* **Learn you some Rust** (workshop), Booster Conf, 15.-17.03.2017, ([Conference](https://www.boosterconf.no/talks/836))
 
-
-**Past**
 
 ## // 2016
 
-* **Hire me for the JS, keep me for the Rust** (workshop), Rust Belt Rust (Pittsburgh, PA, USA), 27./28.10.2016, ([Conference](http://www.rust-belt-rust.com/sessions/), [Material](http://www.hellorust.com/emscripten/))
+* **Hire me for the JS, keep me for the Rust** (workshop), Rust Belt Rust (Pittsburgh, PA, USA), 27./28.10.2016 ([Conference](http://www.rust-belt-rust.com/sessions/), [Material](http://www.hellorust.com/emscripten/))
 * **Compiling Rust to your Browser**, Rust Cologne/Bonn, 05.09.2016 ([Slides](https://badboy.github.io/rust-to-the-browser/), [Resources](http://www.hellorust.com/emscripten/), [Meetup](https://www.meetup.com/Rust-Cologne-Bonn/events/233139845/), [Video](https://media.ccc.de/v/rustmcb.2016.09.compiling-rust-to-asmjs))
 * **Rust from the back to the front**, Rust Stockholm, 29.08.2016 ([Slides](https://badboy.github.io/rust-sthlm/#1), [Meetup](https://www.meetup.com/ruststhlm/events/232054490/))
 * **Webdevelopment with Rust** - Rust Amsterdam, 02.03.2016 ([Slides](http://badboy.github.io/webdev-rust-slides/), [Meetup](http://www.meetup.com/Rust-Amsterdam/events/227827508/))
