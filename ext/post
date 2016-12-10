@@ -7,7 +7,7 @@ EXTENSION=".md"
 HEADER = <<EOF
 ---
 layout: post
-title: %s
+title: "%s"
 date: %s
 ---
 
