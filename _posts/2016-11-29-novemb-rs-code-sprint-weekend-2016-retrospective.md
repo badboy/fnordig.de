@@ -12,7 +12,7 @@ Bringing people together is one goal of the Rust community and coding, learning 
 
 {::options parse_block_html="true" /}
 <div class="image" style="text-align:center">
-![novemb.rs @ C4](http://tmp.fnordig.de/novemb.rs/th-novembrs-sign.jpg)
+![novemb.rs @ C4](//tmp.fnordig.de/novemb.rs/th-novembrs-sign.jpg)
 <p>We opened doors at Chaos Computer Club Cologne</p>
 </div>
 {::options parse_block_html="false" /}
