@@ -98,4 +98,5 @@ code, pre {
   background-color: #f8f8f8;
   font-family: Inconsolata, monospace, sans-serif;
 }
+.post .image { margin-bottom: 10px; }
 .post .image p { margin: 0; }
