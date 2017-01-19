@@ -11,10 +11,12 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
 **Upcoming**
 
-* **Rust and Ruby - make it fast**, Cologne.rb/Rust Cologne joint meetup, 18.01.2017 ([Meetup](http://www.colognerb.de/events/januar-meetup-2017))
 * **Learn you some Rust** (workshop), Booster Conf, 15.-17.03.2017, ([Conference](https://www.boosterconf.no/talks/836))
 * **WebAssembly for the rest of us**, Codemotion Amsterdam, 16.-17.05.2017, ([Conference](http://amsterdam2017.codemotionworld.com/talk-detail/?detail=5162))
 
+**Past**
+
+* **Rust and Ruby - make it fast**, Cologne.rb/Rust Cologne joint meetup, 18.01.2017 ([Slides](https://badboy.github.io/rust-and-ruby/), [Meetup](http://www.colognerb.de/events/januar-meetup-2017))
 
 ## // 2016
 
