@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Review: Redis Applied Design Patterns"
-date: 11.11.2014 00:41
+date: 11 Nov 2014 00:41:00 +0100
+path: /:year/:month/:day/review-redis-applied-design-patterns
 ---
 
 In the mid of October I was approached by Packt Publishing asking if

@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: Fixing a Vagrant "hostonlyif" error
-date: 20.01.2014 13:24
+date: 20 Jan 2014 13:24:00 +0100
+path: /:year/:month/:day/fixing-a-vagrant-hostonlyif-error
 ---
 
 ------

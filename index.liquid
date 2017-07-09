@@ -1,0 +1,18 @@
+extends: default.liquid
+title: fnordig.de
+route: blog
+---
+
+{% assign idx = 0 %}
+{% for post in posts %}
+{% if idx < 5 %}
+<article class="blog-list">
+  <h3><a href="{{ post.path }}">{{ post.title }}</a></h3>
+  <time pubdate="pubdate">{{ post.date | date: "%b %d, %Y" }}</time><br />
+  <p>{{ post.content | strip_html | truncatewords: 25, '...' }}</p>
+</article>
+{% endif %}
+{% assign idx = idx | plus: 1 %}
+{% endfor %}
+
+Looking for more posts? Check out <a href="/posts/">all posts</a>!

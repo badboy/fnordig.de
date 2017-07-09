@@ -1,7 +1,6 @@
----
-layout: post
 title: Releasing Rust projects, the automatic way
-date: 29.03.2016 20:47
+date: 29 Mar 2016 20:47:00 +0200
+path: /:year/:month/:day/releasing-rust-projects-the-automatic-way
 ---
 
 One of the strength of the Rust ecosystem is its package manager [Cargo][] and the package system [crates.io][].

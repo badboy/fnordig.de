@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: Redis Cluster with pre-existing data
-date: 11.03.2014 17:05
+date: 11 Mar 2014 17:05:00 +0100
+path: /:year/:month/:day/redis-cluster-with-pre-existing-data
 ---
 
 With Beta 2 of Redis Cluster <del>arriving soon</del> [released just now][cluster-beta2], I finally found some time to play around with it.

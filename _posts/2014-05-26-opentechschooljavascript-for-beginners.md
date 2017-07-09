@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: OpenTechSchool - Javascript for Beginners
-date: 26.05.2014 15:15
+date: 26 May 2014 15:15:00 +0200
+path: /:year/:month/:day/opentechschooljavascript-for-beginners
 ---
 
 2 month ago I coached at OpenTechSchool's [HTML & CSS for Absolute Beginners][htmlfab] workshop.

@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Xen - a backend/frontend driver example"
-date: 02.12.2016 10:10
+date: 02 Dec 2016 10:10:00 +0100
+path: /:year/:month/:day/xen-a-backend-frontend-driver-example
 ---
 
 Recently I began working on my master thesis. For this I have to get familiar with the [Xen hypervisor][xen] and its implementation of drivers.

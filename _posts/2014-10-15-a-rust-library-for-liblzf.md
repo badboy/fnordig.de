@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: A Rust library for LibLZF
-date: 15.10.2014 11:10
+date: 15 Oct 2014 11:10:00 +0200
+path: /:year/:month/:day/a-rust-library-for-liblzf
 ---
 
 In the last four months I did not produce much open-source code. I was busy writing my Bachelor Thesis.

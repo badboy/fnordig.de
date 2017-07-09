@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: OpenTechSchool - Learn new things
-date: 01.04.2014 23:05
+date: 01 Apr 2014 23:05:00 +0200
+path: /:year/:month/:day/opentechschool-learn-new-things
 ---
 
 Last weekend (29./30.03.) I coached beginners some HTML & CSS. This is about my experience.
@@ -9,11 +9,9 @@ Last weekend (29./30.03.) I coached beginners some HTML & CSS. This is about my 
 A while back a [friend of mine][snnd] asked me if I wanted to help at [OpenTechSchool Dortmund][ots-do], coaching programming or to hold a talk.
 At that time I was a little busy with University stuff like writing exams, but I said I would be very happy to help.
 
-{::options parse_block_html="true" /}
 <span style="float:right;margin-left:10px;">
 [![Workshop schedule](//tmp.fnordig.de/ots/2014-03/th-html_css_workshop_schedule.jpg)](//tmp.fnordig.de/ots/2014-03/html_css_workshop_schedule.jpg)
 </span>
-{::options parse_block_html="false" /}
 
 Then about a week ago he reached out to me. One of their coaches had canceled and they needed a new one. I immediately said yes.
 Last friday then we had a short and fun coach meeting where I met the organizers. They worked hard to translate the complete material into German to make it easily understandable. [The full material can be found online][workshop]. It's not quite perfect but it is a good starting point.

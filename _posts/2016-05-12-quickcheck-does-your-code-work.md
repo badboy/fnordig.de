@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Quick check: does your code work?"
-date: 12.05.2016 23:00
+date: 12 May 2016 23:00:00 +0200
+path: /:year/:month/:day/quickcheck-does-your-code-work
 ---
 
 … because mine didn't. At least not correctly in all cases.

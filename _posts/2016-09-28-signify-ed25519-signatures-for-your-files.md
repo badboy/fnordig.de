@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Signify - Ed25519 signatures for your files (in Rust)"
-date: 28.09.2016 13:16
+date: 28 Sep 2016 13:16:00 +0200
+path: /:year/:month/:day/signify-ed25519-signatures-for-your-files
 ---
 
 From time to time I try to write a piece of code or port some existing library or application just for fun.
@@ -84,7 +84,7 @@ If it prints `Signature Verified` it went well. Otherwise it will show an error.
 
 This is the signature using above private key on the [README.md](https://github.com/badboy/signify-rs/blob/177717053fb155d554cb1f697310bda1143edba4/README.md):
 
-> untrusted comment: signature from signify secret key
+> untrusted comment: signature from signify secret key  
 > RWR/JMX+u3pyzIDv+Gt4JwMbWsb+dt0R/9tYDEjVw7zmBQoQR06Pcd2yr03XqvTSqaJBTbUhm74iUxB98BQVAZemq692g5Xv0gs=
 
 If you put that signature in a file, put the public key from above into another, you can verify it!

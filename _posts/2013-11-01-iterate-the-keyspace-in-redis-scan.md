@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Iterate the keyspace in redis: SCAN"
-date: 01.11.2013 18:40
+date: 01 Nov 2013 18:40:00 +0100
+path: /:year/:month/:day/iterate-the-keyspace-in-redis-scan
 ---
 
 A few days ago antirez finally [merged][pr] the SCAN algorithm written by

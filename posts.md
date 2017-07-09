@@ -1,13 +1,17 @@
----
-layout: post
-title: posts
+extends: simple.liquid
+title: Posts
+route: posts
+path: /posts
 ---
 
-{% for post in site.posts %}
-  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-  {% if currentyear != year %}
-### {{ currentyear  }}
-    {% capture year %}{{currentyear}}{% endcapture %}
-  {% endif %}
-* {{post.date | date: "%d %b"}}: [{{post.title}}]({{post.url | remove_first: '/' | prepend: site.baseurl}})
-{% endfor %}
+{% assign years = "2017, 2016, 2015, 2014, 2013, 2012, 2011" | split: ", " %}
+{% for year in years %}
+  ### {{year}}
+
+  {% for post in posts %}
+    {% assign postyear = post.date | date: "%Y" %}
+    {% if postyear == year %}
+* {{post.date | date: "%d %b"}}: [{{post.title}}](/{{post.path}})
+    {% endif %}
+  {% endfor %}
+{%endfor%}

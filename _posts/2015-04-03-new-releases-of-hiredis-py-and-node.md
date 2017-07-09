@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "New releases of hiredis-py and hiredis-node"
-date: 03.04.2015 23:05
+date: 03 Apr 2015 23:05:00 +0200
+path: /:year/:month/:day/new-releases-of-hiredis-py-and-node
 ---
 
 I just published [hiredis-py][] v0.2.0 to [PyPi][] and [hiredis-node][] v0.3.0 to [npm][].

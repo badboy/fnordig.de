@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: hiredis is up to date
-date: 09.02.2015 20:20
+date: 09 Feb 2015 20:20:00 +0100
+path: /:year/:month/:day/hiredis-is-up-to-date
 ---
 
 Back in December 2014 antirez reached out to the community, to [find a new maintainer of hiredis](https://github.com/redis/hiredis/issues/283).

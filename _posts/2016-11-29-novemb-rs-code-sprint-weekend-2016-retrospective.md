@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "novemb.rs Code Sprint Weekend 2016 - Retrospective"
-date: 29.11.2016 11:55
+date: 29 Nov 2016 11:55:00 +0100
+path: /:year/:month/:day/novemb-rs-code-sprint-weekend-2016-retrospective
 ---
 
 *This post is a tiny bit late, but better late than never.*
@@ -10,12 +10,10 @@ So on 19th and 20th of November, just over a week ago, we had the very first [no
 In 10 locations in Europe and the US as well as online, people gathered to hack on projects, start new ones or just to learn Rust.
 Bringing people together is one goal of the Rust community and coding, learning and having fun together is a lot of fun as well.
 
-{::options parse_block_html="true" /}
-<div class="image" style="text-align:center">
+<center>
 ![novemb.rs @ C4](//tmp.fnordig.de/novemb.rs/th-novembrs-sign.jpg)
 <p>We opened doors at Chaos Computer Club Cologne</p>
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 I was part of the [novemb.rs Event in Cologne](http://rust.cologne/2016/11/19/novemb-rs.html).
 On both days about a dozen people showed up, from noon to late in the evening.
@@ -49,12 +47,10 @@ And another big thanks to Mozilla for sponsoring the pizza and the C4 for offeri
     We should try harder to get people from everywhere involved.
 * Online Communication between locations wasn't used that much. The whole idea was to have a distributed code sprint, so working together on projects across locations would have been nice. Maybe we should offer to have ad-hoc video calls as well?
 
-{::options parse_block_html="true" /}
-<div class="image" style="text-align:center">
+<center>
 [![Rust @ Whiteboard](//tmp.fnordig.de/novemb.rs/th-2016-11-20_14.36.28.jpg)](//tmp.fnordig.de/novemb.rs/2016-11-20_14.36.28.jpg)
 <p>Coding on the whiteboard (only half of the attendees in the picture)</p>
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 ### Try again?
 
@@ -67,9 +63,7 @@ Feel free to join us on the Weihnachtsmarkt or in January at another more regula
 If you are not from the Rhein area, take a look if there's a [Rust User Group](https://www.rust-lang.org/en-US/user-groups.html) near you.
 
 
-{::options parse_block_html="true" /}
-<div class="image" style="text-align:center">
+<center>
 [![Rust](//tmp.fnordig.de/novemb.rs/th-2016-11-20_12.11.20.jpg)](//tmp.fnordig.de/novemb.rs/2016-11-20_12.11.20.jpg)
 <p>Signs showed the way</p>
-</div>
-{::options parse_block_html="false" /}
+</center>

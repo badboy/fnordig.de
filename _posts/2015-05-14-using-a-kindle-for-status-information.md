@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: Using a Kindle for status information
-date: 14.05.2015 20:50
+date: 14 May 2015 20:50:00 +0200
+path: /:year/:month/:day/using-a-kindle-for-status-information
 ---
 
 Back in 2011 I got a Kindle 4 (the non-touch version) and for some time it was
@@ -16,11 +16,9 @@ For some time now I have this link saved: [Kindle Weather Display][weather-displ
 
 Well, what better to do with a lazy holiday then doing some hacking with the Kindle? And so I did and this is the current result: It displays the weather forecast.
 
-{::options parse_block_html="true" /}
 <div style="text-align:center">
-[![For now it shows the weather forecast](//tmp.fnordig.de/kindle/th-Photo-2015-05-14-19-27.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-19-27.jpg)
+<a href="http://tmp.fnordig.de/kindle/Photo-2015-05-14-19-27.jpg"><img src="//tmp.fnordig.de/kindle/th-Photo-2015-05-14-19-27.jpg" alt="For now it shows the weather forecast"></a>
 </div>
-{::options parse_block_html="false" /}
 
 
 As the original article is quite short on the precise steps to get this finished, I wanted to write them up here.
@@ -129,11 +127,11 @@ As this post is already getting quite long, I leave the server-side up to you.
 All files (for both the Kindle and the server part) are in the GitHub repository: [kindle-weather-display][repo].
 This is the final result: My Kindle hanging on the wall right under the calendar. :)
 
-{::options parse_block_html="true" /}
 <div style="text-align:center">
-[![It's hanging at the wall](//tmp.fnordig.de/kindle/th-Photo-2015-05-14-16-44.jpg)](http://tmp.fnordig.de/kindle/Photo-2015-05-14-16-44.jpg)
+<a href="//tmp.fnordig.de/kindle/th-Photo-2015-05-14-16-44.jpg">
+    <img src="//tmp.fnordig.de/kindle/Photo-2015-05-14-16-44.jpg" alt="It's hanging at the wall">
+</a>
 </div>
-{::options parse_block_html="false" /}
 
 [weather-display]: http://mpetroff.net/2012/09/kindle-weather-display/
 [kite]: http://www.mobileread.com/forums/showthread.php?t=168270

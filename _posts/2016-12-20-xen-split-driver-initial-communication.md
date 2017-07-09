@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Xen - split driver, initial communication"
-date: 20.12.2016 16:00
+date: 20 Dec 2016 16:00:00 +0100
+path: /:year/:month/:day/xen-split-driver-initial-communication
 ---
 
 In the [previous post](/2016/12/02/xen-a-backend-frontend-driver-example/) I explained how to initially setup a split driver

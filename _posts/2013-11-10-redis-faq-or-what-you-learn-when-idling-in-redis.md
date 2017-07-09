@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Redis FAQ or: what you learn when idling in #redis"
-date: 10.11.2013 21:10
+date: 10 Nov 2013 21:10:00 +0100
+path: /:year/:month/:day/redis-faq-or-what-you-learn-when-idling-in-redis
 ---
 
 Sometime ago I created the [redis-faq][], a small list of common or not so

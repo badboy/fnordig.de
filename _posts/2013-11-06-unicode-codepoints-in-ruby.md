@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: Unicode codepoints in ruby
-date: 06.11.2013 12:04
+date: 06 Nov 2013 12:04:00 +0100
+path: /:year/:month/:day/unicode-codepoints-in-ruby
 ---
 Another post of the category "better write it down before you forget it".
 

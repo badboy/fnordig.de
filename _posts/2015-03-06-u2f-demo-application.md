@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: U2F demo application
-date: 06.03.2015 16:07
+date: 06 Mar 2015 16:07:00 +0100
+path: /:year/:month/:day/u2f-demo-application
 ---
 
 Two weeks ago I got my first Universal Second Factor Device.

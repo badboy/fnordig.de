@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "The story of my childhood or: Rust on the PSP"
-date: 03.12.2014 20:03
+date: 03 Dec 2014 20:03:00 +0100
+path: /:year/:month/:day/a-story-of-hacking-or-rust-on-the-psp
 ---
 
 ------
@@ -102,11 +102,9 @@ As soon as I was back home, I grabbed my PSP, booted up a new virtual machine an
 
 First step: Re-compile and run p-twit. Yip, it works (ok, it starts. Of course the Twitter API is so closed these days, it wouldn't be able to do anything).
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![p-twit runs again](//tmp.fnordig.de/rust-on-psp/th-2014-11-24_11.54.27.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-24_11.54.27.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 Second step: Follow the instructions from the [Gist][helloworld-instructions].
 
@@ -129,20 +127,16 @@ He simply used the pre-compiled [minpspw][] package
 (*Update 04.12.2014*: Luqman informed me he does in fact built it himself from the minpspw svn, which in turn uses the psptoolchain I tried with first, so absolutely no idea why directly using it failed).
 Once I grabbed that, the "Hello World" application compiled and ran! Success!
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![From Rust with love](//tmp.fnordig.de/rust-on-psp/th-2014-11-27_01.13.59.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-27_01.13.59.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 The journey doesn't end here.
 Only partly satisfied with what I had, I took some free time on a train ride to write a wrapper for the input handling.
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![Press X, press O](//tmp.fnordig.de/rust-on-psp/th-2014-11-28_12.25.50.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-28_12.25.50.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 Now it's possible to react to user input with this simple piece of code:
 

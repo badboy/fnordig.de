@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "The difference of Rust's thread::spawn and thread::scoped"
-date: 05.03.2015 14:41
+date: 05 Mar 2015 14:41:00 +0100
+path: /:year/:month/:day/the-difference-of-rust-s-spawn-and-scoped
 ---
 
 So yesterday I gave a Rust introduction talk at the local hackerspace, [CCCAC](http://ccc.ac).

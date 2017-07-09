@@ -1,14 +1,12 @@
----
-layout: post
+extends: post.liquid
 title: How to not write a Bachelor Thesis
-date: 15.11.2014 03:18
+date: 15 Nov 2014 03:18:00 +0100
+path: /:year/:month/:day/how-to-not-write-a-bachelor-thesis
 ---
 
-{::options parse_block_html="true" /}
 <span style="float:right;margin-left:10px;width:350px;">
 [![Iteration 1](//tmp.fnordig.de/ba/th-2014-10-11_15.58.09.jpg)](//tmp.fnordig.de/ba/2014-10-11_15.58.09.jpg)
 </span>
-{::options parse_block_html="false" /}
 
 
 … and how I got it finished anyway.
@@ -25,11 +23,9 @@ Writing technical texts is different from a novel or a short blog post. Work on 
 
 The next thing: buy a paper notebook dedicated for your notes on the thesis topic. I kept mine with me and actually used it. Keeping meeting minutes, tasks to do for the week, simulation results or general ideas (though most of the stuff was added in the last 4 weeks).
 
-{::options parse_block_html="true" /}
 <span style="float:left;margin-right:10px;width:350px;">
 [![Everything done](//tmp.fnordig.de/ba/th-2014-10-12_20.05.28.jpg)](//tmp.fnordig.de/ba/2014-10-12_20.05.28.jpg)
 </span>
-{::options parse_block_html="false" /}
 
 Once you know your topic, start the research. That includes finding documentation, papers and whatever seems necessary for your topic.
 Make sure to note down your sources immediately. Read papers and summarize them for yourself and discuss them with your supervisor or other students.
@@ -51,11 +47,9 @@ My advice: keep track of your time. Note down how long you worked each day and w
 I guess no matter what you do, the last weeks will still be busy. What got me most focussed on the task at hand is the Pomodoro technique. 25 minutes of concentrated work, no distractions, no drinking, no eating, no running around. 5 minutes break. Check Twitter, Facebook, Mails, whatever. Then repeat.
 I use this technique for 3 years of studying now, and it also works for coding and writing.
 
-{::options parse_block_html="true" /}
 <span style="float:right;margin-left:10px;width:220px;">
 [![The printed thesis](//tmp.fnordig.de/ba/th-2014-10-13_09.59.16.jpg)](//tmp.fnordig.de/ba/2014-10-13_09.59.16.jpg)
 </span>
-{::options parse_block_html="false" /}
 
 I had to write my thesis in English, but I'm far from a perfect English speaker or writer.
 I now know that I should practice much more often (and I try to do that by getting more blog posts out).

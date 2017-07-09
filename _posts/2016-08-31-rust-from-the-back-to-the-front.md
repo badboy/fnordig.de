@@ -1,23 +1,19 @@
----
-layout: post
+extends: post.liquid
 title: "Rust from the Back to the Front (Rust Sthlm)"
-date: 31.08.2016 16:30
+date: 31 Aug 2016 16:30:00 +0200
+path: /:year/:month/:day/rust-from-the-back-to-the-front
 ---
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![Rust on the Web](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.23.59.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_18.23.59.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 Last monday I attended the [Rust Sthlm][meetup] Meetup and gave a talk about using Rust for web development.
 About 60 people attended, had pizza and listened to the two talks of the evening.
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![Meetup](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.59.00.jpg)](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.59.00.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 I started off with my talk *Rust from the Back to the Front*, giving an overview of the ecosystem around all things related to web programming in Rust.
 This was an updated talk of the one I gave in Budapest last year ([video online](https://www.youtube.com/watch?v=L9sTIi7wFPo)).
@@ -28,11 +24,9 @@ I definitely need to look deeper into this topic, as I think it can bring huge i
 This has to wait a bit though, as I will first dive deeper into Emscripten (and present that [next week in Cologne](http://rustaceans.cologne/2016/09/05/compile-to-js.html) and in [Pittsburgh in October](http://www.rust-belt-rust.com/)).
 My slides are [online][slides] and I will try to collect more [resources in a Gist][resources].
 
-{::options parse_block_html="true" /}
-<div style="text-align:center">
+<center>
 [![Rust and openSUSE](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_20.03.47.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_20.03.47.jpg)
-</div>
-{::options parse_block_html="false" /}
+</center>
 
 The second talk that evening was by [Kristoffer Grönlund][krig], giving us a quick introduction to some of Rust's features,
 followed by an overview of his work trying to get Rust into the openSUSE package repositories.

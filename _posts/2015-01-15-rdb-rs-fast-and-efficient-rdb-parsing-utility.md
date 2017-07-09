@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: rdb-rs - fast and efficient RDB parsing utility
-date: 15.01.2015 23:50
+date: 15 Jan 2015 23:50:00 +0100
+path: /:year/:month/:day/rdb-rs-fast-and-efficient-rdb-parsing-utility
 ---
 
 Ever since I started looking into [Rust][] I knew I needed a bigger project for which I could use it.

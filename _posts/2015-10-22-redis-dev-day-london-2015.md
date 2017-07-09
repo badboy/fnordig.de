@@ -1,7 +1,7 @@
----
-layout: post
+extends: post.liquid
 title: "Redis Dev Day London 2015"
-date: 22.10.2015 15:05
+date: 22 Oct 2015 15:05:00 +0200
+path: /:year/:month/:day/redis-dev-day-london-2015
 ---
 
 Last Monday the Redis Dev Day took place in London, followed by a small Unconference on Tuesday.
@@ -30,12 +30,10 @@ None of this is final yet, there are a lot of things to get right before this ca
 For example it's not done with providing the commands for selection based on indexes, but needing to add, update and remove the index is necessary as well.
 More in-depth discussions happened the next day, prior to the Unconf.
 
-{::options parse_block_html="false" /}
 <center>
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Pre-Unconf Dev Meetup in progress! <a href="https://twitter.com/hashtag/RedisLondon?src=hash">#RedisLondon</a> <a href="https://t.co/7HhFocK9J0">pic.twitter.com/7HhFocK9J0</a></p>&mdash; c-&amp;gt;flags (@badboy_) <a href="https://twitter.com/badboy_/status/656499542750269441">October 20, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-{::options parse_block_html="true" /}
 
 Even though this kinda goes against the current idea of Redis
 -- provide the basic tools with a simple API and not much more --

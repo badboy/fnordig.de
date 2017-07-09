@@ -1,7 +1,0 @@
----
-layout: post
-title: fnord?
-date: 15.01.2011 01:34
----
-
-fnordig? WTF ist fnord? [Fnord](http://de.wikipedia.org/wiki/Fnord)
