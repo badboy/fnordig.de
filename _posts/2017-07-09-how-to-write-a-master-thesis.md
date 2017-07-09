@@ -10,7 +10,7 @@ I now finished my Master Thesis as well (with my final talk in less than 2 weeks
 Its title:
 
 <center>
-"Network Function Offloading in Virtualized Environments"
+Network Function Offloading in Virtualized Environments
 </center>
 
 I am so happy (and proud) that I finally finished it and with it my master study.
