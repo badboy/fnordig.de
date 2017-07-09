@@ -6,12 +6,15 @@ path: /posts
 
 {% assign years = "2017, 2016, 2015, 2014, 2013, 2012, 2011" | split: ", " %}
 {% for year in years %}
-  ### {{year}}
 
+<h3>{{year}}</h3>
+
+<ul>
   {% for post in posts %}
     {% assign postyear = post.date | date: "%Y" %}
     {% if postyear == year %}
-* {{post.date | date: "%d %b"}}: [{{post.title}}](/{{post.path}})
+      <li>{{post.date | date: "%d %b"}}: <a href="/{{post.path}}">{{post.title}}</a></li>
     {% endif %}
   {% endfor %}
+</ul>
 {%endfor%}
