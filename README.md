@@ -1,5 +1,5 @@
 # fnordig.de
 
-This is the repository containing the data for my [jekyll][]-powered blog over at [fnordig.de](http://fnordig.de).
+This is the repository containing the data for my [Cobalt][]-powered blog over at [fnordig.de](http://fnordig.de).
 
-[jekyll]: https://github.com/mojombo/jekyll
+[cobalt]: https://github.com/cobalt-org/cobalt.rs
