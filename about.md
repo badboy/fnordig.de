@@ -1,12 +1,14 @@
 extends: simple.liquid
-title: About
+title: About me
 route: about
 path: /about
 ---
 
-25 years old,
-studying at [UiS](http://www.uis.no/) in Stavanger, Norway and [RWTH Aachen](http://www.rwth-aachen.de/),
-programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).
+25 years old.  
+Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
+Working at [rrbone](https://www.rrbone.net/de/).  
+Programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).  
+Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
 Organizer of [RustFest](http://www.rustfest.eu/),
 Co-Organizer of the [Rust User Group Cologne/Bonn](http://rustaceans.cologne/),
