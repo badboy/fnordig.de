@@ -11,7 +11,7 @@ Programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.
 Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
 Organizer of [RustFest](http://www.rustfest.eu/),
-Co-Organizer of the [Rust User Group Cologne/Bonn](http://rustaceans.cologne/),
+Co-Organizer of the [Rust User Group Cologne](http://rust.cologne/),
 Co-Organizer of [otsconf Dortmund](https://otsconf.com/),
 coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/),
 contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://github.com/redis/hiredis) and several client libraries.
