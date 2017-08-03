@@ -12,7 +12,7 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
 I am up for more speaking gigs this year. Contact me [via mail](mailto:janerik@fnordig.de).
 
-* **WebAssembly for the rest of us**, Codemotion Amsterdam, 16.-17.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Conference](http://amsterdam2017.codemotionworld.com/talk-detail/?detail=5162))
+* **WebAssembly for the rest of us**, Codemotion Amsterdam, 16.-17.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Conference](http://amsterdam2017.codemotionworld.com/talk-detail/?detail=5162), [Video](https://www.youtube.com/watch?v=kbP27lvem7A))
 * **WebAssembly for the rest of us**, Mozilla Dev Roadshow (Düsseldorf), 14.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Meetup](https://beyondtellerrand.com/events/duesseldorf-2017/side-events#mozilla-roadshow))
 * **Learn you some Rust** (workshop), Booster Conf, 15.-17.03.2017, ([Material](http://hellorust.com/booster), [Conference](https://www.boosterconf.no/talks/836))
 * **Rust and Ruby - make it fast**, Cologne.rb/Rust Cologne joint meetup, 18.01.2017 ([Slides](https://badboy.github.io/rust-and-ruby/), [Meetup](http://www.colognerb.de/events/januar-meetup-2017))
