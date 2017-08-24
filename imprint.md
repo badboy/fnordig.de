@@ -4,8 +4,8 @@ path: /imprint
 ---
 
 Jan-Erik Rediger<br>
-Königshügel 23<br>
-D-52074 Aachen<br>
+Schäferstraße 27<br>
+D-59714 Kamen<br>
 imprint {ät} fnordig {dot} de
 
 ## Zusatzbestimmungen / Extra
