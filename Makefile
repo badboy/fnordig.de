@@ -1,4 +1,4 @@
-SOURCE = /home/badboy/git/fnordig.de/_site/
+SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
 
 build:
