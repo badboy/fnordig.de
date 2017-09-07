@@ -10,10 +10,15 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2017
 
-I am up for more speaking gigs this year. Contact me [via mail](mailto:janerik@fnordig.de).
+**Upcoming**
 
-* **WebAssembly for the rest of us**, Codemotion Amsterdam, 16.-17.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Conference](http://amsterdam2017.codemotionworld.com/talk-detail/?detail=5162), [Video](https://www.youtube.com/watch?v=kbP27lvem7A))
-* **WebAssembly for the rest of us**, Mozilla Dev Roadshow (Düsseldorf), 14.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Meetup](https://beyondtellerrand.com/events/duesseldorf-2017/side-events#mozilla-roadshow))
+* **WebAssembly for the Rest of Us**, Mozilla Dev Roadshow (Munich), 15.11.2017, ([Meetup](https://mzl.la/devroadshow))
+* **WebAssembly for the Rest of Us**, JS Kongress Munich, 13.-14.11.2017, ([Conference](https://2017.js-kongress.de/sessions/webassembly-rest-us/))
+
+**Past**
+
+* **WebAssembly for the Rest of Us**, Codemotion Amsterdam, 16.-17.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Conference](http://amsterdam2017.codemotionworld.com/talk-detail/?detail=5162), [Video](https://www.youtube.com/watch?v=kbP27lvem7A))
+* **WebAssembly for the Rest of Us**, Mozilla Dev Roadshow (Düsseldorf), 14.05.2017, ([Slides](http://www.hellorust.com/codemotion-ams/slides/), [Meetup](https://beyondtellerrand.com/events/duesseldorf-2017/side-events#mozilla-roadshow))
 * **Learn you some Rust** (workshop), Booster Conf, 15.-17.03.2017, ([Material](http://hellorust.com/booster), [Conference](https://www.boosterconf.no/talks/836))
 * **Rust and Ruby - make it fast**, Cologne.rb/Rust Cologne joint meetup, 18.01.2017 ([Slides](https://badboy.github.io/rust-and-ruby/), [Meetup](http://www.colognerb.de/events/januar-meetup-2017))
 
