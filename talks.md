@@ -14,6 +14,7 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 
 * **WebAssembly for the Rest of Us**, Mozilla Dev Roadshow (Munich), 15.11.2017, ([Meetup](https://mzl.la/devroadshow))
 * **WebAssembly for the Rest of Us**, JS Kongress Munich, 13.-14.11.2017, ([Conference](https://2017.js-kongress.de/sessions/webassembly-rest-us/))
+* **Mundo Oxidado - A Rusty World**, Nardoz Buenos Aires, 04.10.2017, ([Meetup](http://www.nardoz.com/))
 
 **Past**
 
