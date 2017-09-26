@@ -4,7 +4,7 @@ route: about
 path: /about
 ---
 
-25 years old.  
+26 years old.  
 Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
 Working at [rrbone](https://www.rrbone.net/de/).  
 Programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).  
