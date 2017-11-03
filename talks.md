@@ -13,7 +13,7 @@ Want me to speak? Contact me [via mail](mailto:janerik@fnordig.de).
 **Upcoming**
 
 * **WebAssembly for the Rust of Us**, Rust Hungary (Budapest), 23.11.2017, ([Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/244411460/))
-* **WebAssembly for the Rest of Us**, Mozilla Dev Roadshow (Munich), 15.11.2017, ([Meetup](https://mzl.la/devroadshow))
+* **WebAssembly for the Rest of Us**, Mozilla Dev Roadshow (Munich), 15.11.2017, ([Meetup](https://www.meetup.com/MuniCSS-finest/events/243276897/))
 * **WebAssembly for the Rest of Us**, JS Kongress Munich, 13.-14.11.2017, ([Conference](https://2017.js-kongress.de/sessions/webassembly-rest-us/))
 
 **Past**
