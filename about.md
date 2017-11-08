@@ -43,3 +43,8 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 * [Events I've been at](http://badboy.hasbeen.at/)
 * [Places I've been in](http://badboy.hasbeen.in/)
+
+## Writing
+
+* [Network Function Offloading in Virtualized Environments](https://tmp.fnordig.de/uni/master-thesis/nf-offloading-in-virtualized-environments_jan-erik_rediger.pdf) (Master Thesis)
+
