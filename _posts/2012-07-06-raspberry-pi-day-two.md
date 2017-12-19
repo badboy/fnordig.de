@@ -2,6 +2,7 @@ extends: post.liquid
 title: Raspberry Pi - Day 2
 date: 06 Jul 2012 13:20:00 +0200
 path: /:year/:month/:day/raspberry-pi-day-two
+route: blog
 ---
 
 [Yesterday night](http://fnordig.de/2012/07/05/raspberry-pia-guick-guide-to-a-successfull-start/)

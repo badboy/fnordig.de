@@ -2,6 +2,7 @@ extends: post.liquid
 title: IPv6 with NodeJS
 date: 26 Jan 2011 00:00:00 +0100
 path: /:year/:month/:day/ipv6-with-nodejs
+route: blog
 ---
 
 As there are just a few new ipv4 address left in the pool and even those will be [exhausted in under a week](http://inetcore.com/project/ipv4ec/index_en.html) (6 days left, checked right now) the switch to [IPv6](http://en.wikipedia.org/wiki/Ipv6) will be necessary soon.

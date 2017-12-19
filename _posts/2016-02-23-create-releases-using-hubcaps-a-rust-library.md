@@ -2,6 +2,7 @@ extends: post.liquid
 title: Create GitHub releases with Rust using Hubcaps
 date: 23 Feb 2016 20:32:00 +0100
 path: /:year/:month/:day/create-releases-using-hubcaps-a-rust-library
+route: blog
 ---
 
 For one of my projects I need to access the GitHub API to create releases.

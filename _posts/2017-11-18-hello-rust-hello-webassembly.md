@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Hello, Rust! Hello, WebAssembly!"
 date: 18 Nov 2017 16:26:57 +0100
 path: /:year/:month/:day/hello-rust-hello-webassembly
+route: blog
 ---
 
 [hellorust.com](https://www.hellorust.com/) is live!

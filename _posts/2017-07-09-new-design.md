@@ -2,6 +2,7 @@ extends: post.liquid
 title: New Design
 date: 09 Jul 2017 15:08:00 +0100
 path: /:year/:month/:day/new-design
+route: blog
 ---
 
 I decided it is time for a new design for this site.

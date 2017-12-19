@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Vacation ahead"
 date: 07 Sep 2017 18:16:25 +0200
 path: /:year/:month/:day/vacation-ahead
+route: blog
 ---
 
 After finishing [my master thesis](https://fnordig.de/2017/07/09/how-to-write-a-master-thesis/index.html) back in July and a busy Summer working,

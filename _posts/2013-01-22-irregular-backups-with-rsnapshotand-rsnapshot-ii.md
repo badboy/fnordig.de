@@ -2,6 +2,7 @@ extends: post.liquid
 title: irregular backups with rsnapshot (and rsnapshot_ii)
 date: 22 Jan 2013 19:08:00 +0100
 path: /:year/:month/:day/irregular-backups-with-rsnapshotand-rsnapshot-ii
+route: blog
 ---
 
 As stated in the last post I bought a big 2TB HDD for backups. My only

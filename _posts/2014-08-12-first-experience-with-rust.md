@@ -2,6 +2,7 @@ extends: post.liquid
 title: first experience with Rust
 date: 12 Aug 2014 13:25:00 +0200
 path: /:year/:month/:day/first-experience-with-rust
+route: blog
 ---
 
 ------

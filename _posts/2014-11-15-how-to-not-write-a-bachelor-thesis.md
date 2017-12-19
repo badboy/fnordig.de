@@ -2,6 +2,7 @@ extends: post.liquid
 title: How to not write a Bachelor Thesis
 date: 15 Nov 2014 03:18:00 +0100
 path: /:year/:month/:day/how-to-not-write-a-bachelor-thesis
+route: blog
 ---
 
 <span style="float:right;margin-left:10px;width:350px;">

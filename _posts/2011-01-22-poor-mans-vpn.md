@@ -2,6 +2,7 @@ extends: post.liquid
 title: sshuttle - poor man's vpn
 date: 22 Jan 2011 00:00:00 +0100
 path: /:year/:month/:day/poor-mans-vpn
+route: blog
 ---
 
 

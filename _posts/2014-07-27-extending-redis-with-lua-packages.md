@@ -2,6 +2,7 @@ extends: post.liquid
 title: Extending Redis with Lua packages
 date: 27 Jul 2014 13:57:00 +0200
 path: /:year/:month/:day/extending-redis-with-lua-packages
+route: blog
 ---
 
 **Warning**: If you patch your Redis as stated below, you won't get much support from the Community.  

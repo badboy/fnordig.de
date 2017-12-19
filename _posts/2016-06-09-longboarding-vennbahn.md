@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Longboarding: Vennbahn"
 date: 09 Jun 2016 16:20:00 +0200
 path: /:year/:month/:day/longboarding-vennbahn
+route: blog
 ---
 
 Today, right after finishing my only lecture of the day, I rented a longboard at a local skate shop

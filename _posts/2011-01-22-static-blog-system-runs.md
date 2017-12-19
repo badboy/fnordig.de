@@ -2,6 +2,7 @@ extends: post.liquid
 title: static blog system runs!
 date: 22 Jan 2011 00:00:00 +0100
 path: /:year/:month/:day/static-blog-system-runs
+route: blog
 ---
 
 my small and simple blog system works!

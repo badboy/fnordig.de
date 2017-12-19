@@ -2,6 +2,7 @@ extends: post.liquid
 title: Getting try.redis-db.com back online!
 date: 13 Dec 2012 22:43:00 +0100
 path: /:year/:month/:day/getting-try-redis-db-com-back-online
+route: blog
 ---
 
     Hi there,

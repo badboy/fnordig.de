@@ -2,6 +2,7 @@ extends: post.liquid
 title: running on ssl
 date: 08 Sep 2011 00:31:00 +0200
 path: /:year/:month/:day/running-on-ssl
+route: blog
 ---
 
 Even though the [SSL][] and [CA][] system is totally broken right now, I finally got my blog as well as my [etherpad][] served over SSL:

@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Signify - Ed25519 signatures for your files (in Rust)"
 date: 28 Sep 2016 13:16:00 +0200
 path: /:year/:month/:day/signify-ed25519-signatures-for-your-files
+route: blog
 ---
 
 From time to time I try to write a piece of code or port some existing library or application just for fun.

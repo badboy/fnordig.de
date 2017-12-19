@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Redis Dev Day London 2015"
 date: 22 Oct 2015 15:05:00 +0200
 path: /:year/:month/:day/redis-dev-day-london-2015
+route: blog
 ---
 
 Last Monday the Redis Dev Day took place in London, followed by a small Unconference on Tuesday.

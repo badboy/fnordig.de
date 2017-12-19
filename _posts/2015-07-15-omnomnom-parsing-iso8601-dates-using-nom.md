@@ -2,6 +2,7 @@ extends: post.liquid
 title: "omnomnom - Parsing ISO8601 dates using nom"
 date: 16 Jul 2015 11:00:00 +0200
 path: /:year/:month/:day/omnomnom-parsing-iso8601-dates-using-nom
+route: blog
 ---
 
 There are thousands of ways to note down a date and time.

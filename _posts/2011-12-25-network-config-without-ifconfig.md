@@ -2,6 +2,7 @@ extends: post.liquid
 title: network config without ifconfig
 date: 25 Dec 2011 14:52:00 +0100
 path: /:year/:month/:day/network-config-without-ifconfig
+route: blog
 ---
 
 [ifconfig](http://linux.die.net/man/8/ifconfig) is more or less deprecated and replaced by [ip](http://linux.die.net/man/8/ip), which has a different syntax.

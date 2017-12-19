@@ -2,6 +2,7 @@ extends: post.liquid
 title: fnord news show 2012
 date: 30 Dec 2012 14:20:00 +0100
 path: /:year/:month/:day/fnord-news-show
+route: blog
 ---
 
 I'm at the [29c3][] right now and guess what happened here? Right, the [fnord news show][] happened.

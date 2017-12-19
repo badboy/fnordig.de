@@ -2,6 +2,7 @@ extends: post.liquid
 title: "The story of my childhood or: Rust on the PSP"
 date: 03 Dec 2014 20:03:00 +0100
 path: /:year/:month/:day/a-story-of-hacking-or-rust-on-the-psp
+route: blog
 ---
 
 ------

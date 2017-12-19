@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Rust from the Back to the Front (Rust Sthlm)"
 date: 31 Aug 2016 16:30:00 +0200
 path: /:year/:month/:day/rust-from-the-back-to-the-front
+route: blog
 ---
 
 <center>

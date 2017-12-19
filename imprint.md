@@ -1,5 +1,6 @@
 extends: simple.liquid
 title: Imprint
+route: about
 path: /imprint
 ---
 
