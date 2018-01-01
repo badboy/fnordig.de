@@ -1,10 +1,10 @@
-extends: post.liquid
-title: rdb-rs - fast and efficient RDB parsing utility
-date: 15 Jan 2015 23:50:00 +0100
-path: /:year/:month/:day/rdb-rs-fast-and-efficient-rdb-parsing-utility
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/rdb-rs-fast-and-efficient-rdb-parsing-utility"
+title: "rdb-rs - fast and efficient RDB parsing utility"
+published_date: "2015-01-15 23:50:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Ever since I started looking into [Rust][] I knew I needed a bigger project for which I could use it.
 I released a [few][lzf] [small][crc] [libraries][redlock], all based on Redis code/tools, so I figured:
 Why not a bigger project focused on Redis as well?

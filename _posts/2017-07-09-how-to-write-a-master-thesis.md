@@ -1,10 +1,10 @@
-extends: post.liquid
-title: "How to write a Master Thesis"
-date: 09 Jul 2017 16:45:00 +0200
-path: /:year/:month/:day/how-to-write-a-master-thesis
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/how-to-write-a-master-thesis"
+title: How to write a Master Thesis
+published_date: "2017-07-09 16:45:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 2 years and 7 months ago I wrote [How to not write a Bachelor Thesis][bathesis].
 Back then I just finished my Bachelor Thesis.
 I now finished my Master Thesis as well (with my final talk in less than 2 weeks).

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/changing-the-root-password-in-recent-smartos"
 title: Changing the root password in recent SmartOS
-date: 12 May 2014 22:02:00 +0200
-path: /:year/:month/:day/changing-the-root-password-in-recent-smartos
-route: blog
+published_date: "2014-05-12 22:02:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Back in 2012 Jonathan Perkin wrote a little bit about [SmartOS and the global zone][perkin],
 why and what in SmartOS is mounted read-only.
 

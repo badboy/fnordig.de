@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/xen-split-driver-initial-communication"
 title: "Xen - split driver, initial communication"
-date: 20 Dec 2016 16:00:00 +0100
-path: /:year/:month/:day/xen-split-driver-initial-communication
-route: blog
+published_date: "2016-12-20 16:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 In the [previous post](/2016/12/02/xen-a-backend-frontend-driver-example/) I explained how to initially setup a split driver
 for Xen with the backend in *dom0* and the frontend in a *domU*.
 

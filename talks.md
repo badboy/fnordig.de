@@ -1,9 +1,9 @@
-extends: simple.liquid
+permalink: /talks
 title: Talks
-route: talks
-path: /talks
+layout: simple.liquid
+data:
+  route: talks
 ---
-
 I gave some talks & workshops in the past and I'd love to give some more in the future.
 I will talk Rust, WebAssembly, Open Source Development & Open Source communities, and about any of the project I'm involved in.
 

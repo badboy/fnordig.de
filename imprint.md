@@ -1,9 +1,9 @@
-extends: simple.liquid
+permalink: /imprint
 title: Imprint
-route: about
-path: /imprint
+layout: simple.liquid
+data:
+  route: about
 ---
-
 Jan-Erik Rediger<br>
 Schäferstraße 27<br>
 D-59714 Kamen<br>

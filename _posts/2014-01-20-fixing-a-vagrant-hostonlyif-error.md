@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Fixing a Vagrant "hostonlyif" error
-date: 20 Jan 2014 13:24:00 +0100
-path: /:year/:month/:day/fixing-a-vagrant-hostonlyif-error
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/fixing-a-vagrant-hostonlyif-error"
+title: "Fixing a Vagrant \"hostonlyif\" error"
+published_date: "2014-01-20 13:24:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 ------
 
 **tl;dr:** Load the correct module: `sudo modprobe vboxnetadp`

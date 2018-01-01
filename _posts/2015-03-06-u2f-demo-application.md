@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/u2f-demo-application"
 title: U2F demo application
-date: 06 Mar 2015 16:07:00 +0100
-path: /:year/:month/:day/u2f-demo-application
-route: blog
+published_date: "2015-03-06 16:07:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Two weeks ago I got my first Universal Second Factor Device.
 It's an inexpensive small USB key: the [FIDO U2F Security Key][fido-key].
 This key can be used as a 2nd Factor Authentication device.

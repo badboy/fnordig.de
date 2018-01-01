@@ -1,8 +1,8 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/fnordig-is-up-and-running"
 title: fnordig is up and running
-date: 15 Jan 2011 00:04:00 +0100
-path: /:year/:month/:day/fnordig-is-up-and-running
-route: blog
+published_date: "2011-01-15 00:04:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 fnordig is up and running!

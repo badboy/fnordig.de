@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/new-releases-of-hiredis-py-and-node"
 title: "New releases of hiredis-py and hiredis-node"
-date: 03 Apr 2015 23:05:00 +0200
-path: /:year/:month/:day/new-releases-of-hiredis-py-and-node
-route: blog
+published_date: "2015-04-03 23:05:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I just published [hiredis-py][] v0.2.0 to [PyPi][] and [hiredis-node][] v0.3.0 to [npm][].
 
 Both of these do not include many new features compared to the last release, but it still took me hours and hours to get this out, and that's for one simple reason:

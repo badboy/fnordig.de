@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/iterate-the-keyspace-in-redis-scan"
 title: "Iterate the keyspace in redis: SCAN"
-date: 01 Nov 2013 18:40:00 +0100
-path: /:year/:month/:day/iterate-the-keyspace-in-redis-scan
-route: blog
+published_date: "2013-11-01 18:40:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 A few days ago antirez finally [merged][pr] the SCAN algorithm written by
 [Pieter Noordhuis](https://twitter.com/pnoordhuis). With it it's now possible
 to iterate the whole keyspace (or specific values in a set/sorted set/hash)

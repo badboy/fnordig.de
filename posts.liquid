@@ -1,7 +1,8 @@
-extends: simple.liquid
+permalink: /posts
 title: Posts
-route: posts
-path: /posts
+layout: simple.liquid
+data:
+  route: posts
 ---
 
 {% assign years = "2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011" | split: ", " %}
@@ -10,10 +11,10 @@ path: /posts
 <h3>{{year}}</h3>
 
 <ul>
-  {% for post in posts %}
-    {% assign postyear = post.date | date: "%Y" %}
+  {% for post in collections.posts.pages %}
+    {% assign postyear = post.published_date | date: "%Y" %}
     {% if postyear == year %}
-      <li>{{post.date | date: "%d %b"}}: <a href="/{{post.path}}">{{post.title}}</a></li>
+      <li>{{ post.published_date | date: "%d %b"}}: <a href="/{{post.permalink }}">{{post.title}}</a></li>
     {% endif %}
   {% endfor %}
 </ul>

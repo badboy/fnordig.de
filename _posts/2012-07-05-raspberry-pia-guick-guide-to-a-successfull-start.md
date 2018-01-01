@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Raspberry Pi - A guick guide to a successful start
-date: 05 Jul 2012 00:27:00 +0200
-path: /:year/:month/:day/raspberry-pia-guick-guide-to-a-successfull-start
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/raspberry-pia-guick-guide-to-a-successfull-start"
+title: "Raspberry Pi - A guick guide to a successful start"
+published_date: "2012-07-05 00:27:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Today my [Raspberry Pi][pi] arrived and I quickly got it up and running.
 
 Want to see some pictures?

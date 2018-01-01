@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Redis Cluster with pre-existing data
-date: 11 Mar 2014 17:05:00 +0100
-path: /:year/:month/:day/redis-cluster-with-pre-existing-data
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-cluster-with-pre-existing-data"
+title: "Redis Cluster with pre-existing data"
+published_date: "2014-03-11 17:05:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 With Beta 2 of Redis Cluster <del>arriving soon</del> [released just now][cluster-beta2], I finally found some time to play around with it.
 
 A few days back in the `#redis` IRC channel someone asked how to migrate data from one existing normal Redis instance into a Cluster of several machines.

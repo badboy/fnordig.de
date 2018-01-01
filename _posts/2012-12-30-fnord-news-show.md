@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/fnord-news-show"
 title: fnord news show 2012
-date: 30 Dec 2012 14:20:00 +0100
-path: /:year/:month/:day/fnord-news-show
-route: blog
+published_date: "2012-12-30 14:20:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I'm at the [29c3][] right now and guess what happened here? Right, the [fnord news show][] happened.
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/X9PlIg5ZWZE" frameborder="0" allowfullscreen></iframe>

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/review-redis-applied-design-patterns"
 title: "Review: Redis Applied Design Patterns"
-date: 11 Nov 2014 00:41:00 +0100
-path: /:year/:month/:day/review-redis-applied-design-patterns
-route: blog
+published_date: "2014-11-11 00:41:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 In the mid of October I was approached by Packt Publishing asking if
 I would be willing to review a newly released eBook called *Redis Applied Design Patterns* by Arun Chinnachamy.
 I agreed to review the 100 page eBook given that I'm free to criticize the book as I see fit.

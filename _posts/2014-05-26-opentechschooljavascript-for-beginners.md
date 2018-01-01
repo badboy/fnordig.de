@@ -1,10 +1,10 @@
-extends: post.liquid
-title: OpenTechSchool - Javascript for Beginners
-date: 26 May 2014 15:15:00 +0200
-path: /:year/:month/:day/opentechschooljavascript-for-beginners
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/opentechschooljavascript-for-beginners"
+title: "OpenTechSchool - Javascript for Beginners"
+published_date: "2014-05-26 15:15:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 2 month ago I coached at OpenTechSchool's [HTML & CSS for Absolute Beginners][htmlfab] workshop.
 This weekend I once again helped at one of their workshops, this time [Javascript for Absolute Beginners][jsfab].
 

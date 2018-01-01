@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/hello-rust-hello-webassembly"
 title: "Hello, Rust! Hello, WebAssembly!"
-date: 18 Nov 2017 16:26:57 +0100
-path: /:year/:month/:day/hello-rust-hello-webassembly
-route: blog
+published_date: "2017-11-18 16:26:57 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 [hellorust.com](https://www.hellorust.com/) is live!
 
 This site will collect resources, guides, articles and links around Rust &amp; WebAssembly.

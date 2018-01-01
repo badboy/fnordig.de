@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/xen-a-backend-frontend-driver-example"
 title: "Xen - a backend/frontend driver example"
-date: 02 Dec 2016 10:10:00 +0100
-path: /:year/:month/:day/xen-a-backend-frontend-driver-example
-route: blog
+published_date: "2016-12-02 10:10:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Recently I began working on my master thesis. For this I have to get familiar with the [Xen hypervisor][xen] and its implementation of drivers.
 As the documentation on its implementation is quite sparse I want to write down some of my findings, so others don't have to re-read and re-learn everything.
 In this post I'll focus on how to get a minimal *driver* in a paravirtualized VM running. Following posts will then focus on how to do communication through event channels and shared memory

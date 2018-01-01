@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/irregular-backups-with-rsnapshotand-rsnapshot-ii"
 title: irregular backups with rsnapshot (and rsnapshot_ii)
-date: 22 Jan 2013 19:08:00 +0100
-path: /:year/:month/:day/irregular-backups-with-rsnapshotand-rsnapshot-ii
-route: blog
+published_date: "2013-01-22 19:08:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 As stated in the last post I bought a big 2TB HDD for backups. My only
 computer right now is a Laptop so regular backups are not possible (due to not
 having the hdd with me all the time)

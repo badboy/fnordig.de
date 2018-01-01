@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Samsung Chromebook - a short review
-date: 03 Mar 2014 15:18:00 +0100
-path: /:year/:month/:day/samsung-chromebook-a-short-review
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/samsung-chromebook-a-short-review"
+title: "Samsung Chromebook - a short review"
+published_date: "2014-03-03 15:18:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 One week ago I purchased a Chromebook. To be exact I purchased the Samsung
 Chromebook 303c12 (the one without UMTS). It arrived on Tuesday.
 
