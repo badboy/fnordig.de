@@ -1,10 +1,10 @@
-extends: post.liquid
-title: key=value logs with nginx
-date: 15 Apr 2014 18:24:00 +0200
-path: /:year/:month/:day/key-value-logs-with-nginx
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/key-value-logs-with-nginx"
+title: "key=value logs with nginx"
+published_date: "2014-04-15 18:24:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 In [Six Ways to Make Your Production Logs More Useful][fun-with-logs] [@roidrage][] talked about how to make your logs much more useful.
 One of the proposed solutions was to use a format that is more structured and thus easier to read: `key=value` logging.
 This way it's easy to parse for a human eye, but a machine will have no problems either.

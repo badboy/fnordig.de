@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/extending-redis-with-lua-packages"
 title: Extending Redis with Lua packages
-date: 27 Jul 2014 13:57:00 +0200
-path: /:year/:month/:day/extending-redis-with-lua-packages
-route: blog
+published_date: "2014-07-27 13:57:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 **Warning**: If you patch your Redis as stated below, you won't get much support from the Community.  
 **Do not run this in production!** You have been warned.
 

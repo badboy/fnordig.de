@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/load-your-config-into-your-environment"
 title: Load your config into your environment
-date: 04 Mar 2016 12:30:00 +0100
-path: /:year/:month/:day/load-your-config-into-your-environment
-route: blog
+published_date: "2016-03-04 12:30:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 It became quite popular to store certain configuration variables in your environment, to be later loaded by your aplication.
 This way of [having all configuration][config] available is part of the [twelve-factor app definition][12factor].
 

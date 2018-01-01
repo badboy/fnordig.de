@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/static-blog-system-improved"
 title: static blog system improved
-date: 23 Jan 2011 00:00:00 +0100
-path: /:year/:month/:day/static-blog-system-improved
-route: blog
+published_date: "2011-01-23 00:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 My static blog system script now launches a small web server and auto-updates on a file change. This way you've got a live preview directly in your browser.
 
 As the inital script was written in Javascript, I wrote the rest in Javascript, too.

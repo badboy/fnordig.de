@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/longboarding-vennbahn"
 title: "Longboarding: Vennbahn"
-date: 09 Jun 2016 16:20:00 +0200
-path: /:year/:month/:day/longboarding-vennbahn
-route: blog
+published_date: "2016-06-09 16:20:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Today, right after finishing my only lecture of the day, I rented a longboard at a local skate shop
 and then took the bus out of the city.
 I went out to Kornelimünster, a small district of Aachen, about 10 km outside of the city.

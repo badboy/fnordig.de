@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/first-experience-with-rust"
 title: first experience with Rust
-date: 12 Aug 2014 13:25:00 +0200
-path: /:year/:month/:day/first-experience-with-rust
-route: blog
+published_date: "2014-08-12 13:25:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 ------
 
 **tl;dr:** Rust code for the SIMPLE language available [in a git-repo][git-repo].

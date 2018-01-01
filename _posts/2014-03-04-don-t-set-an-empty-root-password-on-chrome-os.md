@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Don't set an empty root password on Chrome OS
-date: 04 Mar 2014 16:41:00 +0100
-path: /:year/:month/:day/don-t-set-an-empty-root-password-on-chrome-os
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/don-t-set-an-empty-root-password-on-chrome-os"
+title: "Don't set an empty root password on Chrome OS"
+published_date: "2014-03-04 16:41:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 So I got this [Chromebook][chromebook-post] in Developer Mode and wanted to set
 a root password to atleast protect it a little.
 

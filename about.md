@@ -1,9 +1,9 @@
-extends: simple.liquid
+permalink: /about
 title: About me
-route: about
-path: /about
+layout: simple.liquid
+data:
+  route: about
 ---
-
 26 years old.  
 Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
 Working at [rrbone](https://www.rrbone.net/de/).  

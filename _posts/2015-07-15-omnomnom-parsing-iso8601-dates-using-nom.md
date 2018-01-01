@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/omnomnom-parsing-iso8601-dates-using-nom"
 title: "omnomnom - Parsing ISO8601 dates using nom"
-date: 16 Jul 2015 11:00:00 +0200
-path: /:year/:month/:day/omnomnom-parsing-iso8601-dates-using-nom
-route: blog
+published_date: "2015-07-16 11:00:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 There are thousands of ways to note down a date and time.
 The international date format is standardized as [ISO8601][iso], though it still allows a widespread of different formats.
 

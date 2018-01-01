@@ -1,8 +1,9 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/using-ipvwith-inetd"
 title: using ipv6 with inetd
-date: 18 Oct 2011 10:58:00 +0200
-path: /:year/:month/:day/using-ipvwith-inetd
-route: blog
+published_date: "2011-10-18 10:58:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
 I am the administrator of the [ctdo][] own jabber server over at `jabber.ctdo.de`.
 It is currently running on the old but working [jabberd][] and also hosts a [bitlbee] server on several ports including ssl-protected ones.

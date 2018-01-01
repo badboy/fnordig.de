@@ -1,10 +1,10 @@
-extends: post.liquid
-title: "Send ICMP Echo Replies using eBPF"
-date: 04 Mar 2017 17:25:00 +0100
-path: /:year/:month/:day/send-icmp-echo-replies-using-ebpf
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/send-icmp-echo-replies-using-ebpf"
+title: Send ICMP Echo Replies using eBPF
+published_date: "2017-03-04 17:25:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 For my master thesis I am working with eBPF, the [Extended Berkeley Packet Filter](https://www.kernel.org/doc/Documentation/networking/filter.txt).
 By now it is used by several subsystems in the Linux kernel,
 ranging from tracing and seccomp rules to network filtering.

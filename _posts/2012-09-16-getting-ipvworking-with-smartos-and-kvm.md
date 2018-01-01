@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/getting-ipvworking-with-smartos-and-kvm"
 title: Getting IPv6 working with SmartOS and KVM
-date: 16 Sep 2012 01:13:00 +0200
-path: /:year/:month/:day/getting-ipvworking-with-smartos-and-kvm
-route: blog
+published_date: "2012-09-16 01:13:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Just about 2 weeks ago I started to play around with [SmartOS][].
 
 SmartOS is a fairly recent hypervisor for virtualization, open-sourced by
