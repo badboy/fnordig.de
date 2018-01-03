@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/a-rust-library-for-liblzf"
 title: A Rust library for LibLZF
-date: 15 Oct 2014 11:10:00 +0200
-path: /:year/:month/:day/a-rust-library-for-liblzf
-route: blog
+published_date: "2014-10-15 11:10:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 In the last four months I did not produce much open-source code. I was busy writing my Bachelor Thesis.
 But I was active in the community, I attended several conferences, I read a lot of stuff and I wrote down a lot more things to do.
 

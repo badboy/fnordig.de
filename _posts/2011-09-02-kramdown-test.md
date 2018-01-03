@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/kramdown-test"
 title: now with code higlighting
-date: 02 Sep 2011 00:00:00 +0100
-path: /:year/:month/:day/kramdown-test
-route: blog
+published_date: "2011-09-02 00:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I am a programmer and I like to write code and I like to talk about code. That's why this blog really needs some syntax highlighting for my favorite languages.
 
 With [jekyll][] as my static site generator it is easy to enable it. Just get the [kramdown][] library for [markdown](http://daringfireball.net/projects/markdown/) parsing and [coderay][] for the highlighting. Then enable both in your configuration.

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/problems-after-disconnecting-luks-device"
 title: Problems after disconnecting LUKS device
-date: 14 Jan 2013 23:28:00 +0100
-path: /:year/:month/:day/problems-after-disconnecting-luks-device
-route: blog
+published_date: "2013-01-14 23:28:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Yesterday I got my 2TB backup disk. I formatted it and then used [LUKS][] to encrypt it and [LVM][] for the Volume Management.
 After I copied some files to the new disk, I unmounted the disk, unplugged it and ...
 

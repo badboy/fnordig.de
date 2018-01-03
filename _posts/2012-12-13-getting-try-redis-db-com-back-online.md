@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Getting try.redis-db.com back online!
-date: 13 Dec 2012 22:43:00 +0100
-path: /:year/:month/:day/getting-try-redis-db-com-back-online
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/getting-try-redis-db-com-back-online"
+title: "Getting try.redis-db.com back online!"
+published_date: "2012-12-13 22:43:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
     Hi there,
     You've been super busy with Try Redis today, and that's awesome.
 

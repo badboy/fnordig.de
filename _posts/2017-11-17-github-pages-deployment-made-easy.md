@@ -1,10 +1,10 @@
-extends: post.liquid
-title: "GitHub Pages deployment made easy"
-date: 17 Nov 2017 19:47:15 +0100
-path: /:year/:month/:day/github-pages-deployment-made-easy
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/github-pages-deployment-made-easy"
+title: GitHub Pages deployment made easy
+published_date: "2017-11-17 19:47:15 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Recently I tried to deploy a new [Cobalt][]-powered site from [Travis CI][travis], using the [then documented method][olddeploy].
 It failed at random and all tries to debug it failed.
 

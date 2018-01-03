@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/how-to-not-write-a-bachelor-thesis"
 title: How to not write a Bachelor Thesis
-date: 15 Nov 2014 03:18:00 +0100
-path: /:year/:month/:day/how-to-not-write-a-bachelor-thesis
-route: blog
+published_date: "2014-11-15 03:18:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 <span style="float:right;margin-left:10px;width:350px;">
 [![Iteration 1](//tmp.fnordig.de/ba/th-2014-10-11_15.58.09.jpg)](//tmp.fnordig.de/ba/2014-10-11_15.58.09.jpg)
 </span>

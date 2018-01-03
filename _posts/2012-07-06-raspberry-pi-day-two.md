@@ -1,10 +1,10 @@
-extends: post.liquid
-title: Raspberry Pi - Day 2
-date: 06 Jul 2012 13:20:00 +0200
-path: /:year/:month/:day/raspberry-pi-day-two
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/raspberry-pi-day-two"
+title: "Raspberry Pi - Day 2"
+published_date: "2012-07-06 13:20:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 [Yesterday night](http://fnordig.de/2012/07/05/raspberry-pia-guick-guide-to-a-successfull-start/)
  I blogged about my first experience with the Raspberry Pi (forgive me the horrible typo in the title).
 

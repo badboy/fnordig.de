@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/network-config-without-ifconfig"
 title: network config without ifconfig
-date: 25 Dec 2011 14:52:00 +0100
-path: /:year/:month/:day/network-config-without-ifconfig
-route: blog
+published_date: "2011-12-25 14:52:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 [ifconfig](http://linux.die.net/man/8/ifconfig) is more or less deprecated and replaced by [ip](http://linux.die.net/man/8/ip), which has a different syntax.
 
 I cannot remember its full syntax everytime I use it and lookup the syntax over at [tridex' post](http://tridex.net/2011-06-19/linux-netzwerke-ohne-ifconfig/).

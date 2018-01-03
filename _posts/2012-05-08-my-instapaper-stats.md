@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/my-instapaper-stats"
 title: my instapaper stats
-date: 08 May 2012 11:33:00 +0200
-path: /:year/:month/:day/my-instapaper-stats
-route: blog
+published_date: "2012-05-08 11:33:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I am an actively user of the great [Instapaper](http://www.instapaper.com/)
 service. Instapaper is a great tool to save web articles for reading later.
 Even since I got my [Kindle 4](http://www.amazon.de/dp/B0051QVF7A/ref=tb_surl_kindle)

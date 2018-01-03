@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      {{ include "_layouts/_head.liquid" }}
+      {% include "_head.liquid" %}
   </head>
   <body>
-    {{ include "_layouts/_menu.liquid" }}
+    {% include "_menu.liquid" %}
 
 
     <main>
     <article>
-      <h1>{{ title }}</h1>
+      <h1>{{ page.title }}</h1>
 
-      {{ content }}
+      {{ page.content }}
     </article>
     </main>
 
-    {{ include "_layouts/_footer.liquid" }}
+    {% include "_footer.liquid" %}
   </body>
 </html>

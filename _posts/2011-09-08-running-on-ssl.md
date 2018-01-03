@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/running-on-ssl"
 title: running on ssl
-date: 08 Sep 2011 00:31:00 +0200
-path: /:year/:month/:day/running-on-ssl
-route: blog
+published_date: "2011-09-08 00:31:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Even though the [SSL][] and [CA][] system is totally broken right now, I finally got my blog as well as my [etherpad][] served over SSL:
 
 * [https://fnordig.de][https]

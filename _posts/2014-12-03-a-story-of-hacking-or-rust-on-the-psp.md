@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/a-story-of-hacking-or-rust-on-the-psp"
 title: "The story of my childhood or: Rust on the PSP"
-date: 03 Dec 2014 20:03:00 +0100
-path: /:year/:month/:day/a-story-of-hacking-or-rust-on-the-psp
-route: blog
+published_date: "2014-12-03 20:03:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 ------
 
 Don't care for all the stuff of my childhood? [↓ Head down](#more-rust) to see the Rust part

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/fast-and-simple-proxy-server"
 title: fast and simple proxy server
-date: 02 Oct 2011 01:27:00 +0200
-path: /:year/:month/:day/fast-and-simple-proxy-server
-route: blog
+published_date: "2011-10-02 01:27:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 So you have this friend sitting somewhere else in the world and want to give him a simple proxy to access a geoip-protected site or something similar.  But what tool to use?
 
 When searching for a proxy I found [dante](http://www.inet.no/dante/), but found it just to hard to just configure in a few minutes.

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/multiple-slides-on-one-side-in-one-pdf"
 title: Multiple slides on one side in one pdf
-date: 19 Feb 2014 18:33:00 +0100
-path: /:year/:month/:day/multiple-slides-on-one-side-in-one-pdf
-route: blog
+published_date: "2014-02-19 18:33:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Ever had multiple slide sets, e.g. from a lecture, and you needed an overview to print out?
 With [LaTeX](http://en.wikipedia.org/wiki/LaTeX) that's easy:
 

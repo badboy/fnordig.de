@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/master-thesis-network-function-offloading-in-virtualized-environments"
 title: "Master Thesis: Network Function Offloading in Virtualized Environments"
-date: 08 Nov 2017 15:05:00 +0100
-path: /:year/:month/:day/master-thesis-network-function-offloading-in-virtualized-environments
-route: blog
+published_date: "2017-11-08 15:05:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 From end of last year to July this year I wrote my master thesis titled "Network Function Offloading in Virtualized Environments".
 I [blogged about the process before](/2017/07/09/how-to-write-a-master-thesis/index.html).
 A couple of weeks ago I received my final grade and thus reached the academic degree of Master of Science, Computer Sciene.

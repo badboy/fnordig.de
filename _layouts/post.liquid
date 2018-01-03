@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      {{ include "_layouts/_head.liquid" }}
+      {% include "_head.liquid" %}
   </head>
   <body>
-    {{ include "_layouts/_menu.liquid" }}
+    {% include "_menu.liquid" %}
 
 
     <main>
     <article>
-      <h1>{{ title }}</h1>
+      <h1>{{ page.title }}</h1>
       {% assign reading_wpm = 200 %}
-      {% assign word_count = content | split: " " | size %}
+      {% assign word_count = page.content | split: " " | size %}
       {% assign reading_time = word_count | divided_by: 200 %}
       {% case reading_time %}
       {% when 0 %}
@@ -22,12 +22,12 @@
         {% assign phrase = " minutes." | prepend: reading_time %}
       {% endcase %}
 
-      <time pubdate="pubdate">{{ date | date: "%b %d, %Y" }} - Reading time: {{ phrase }}</time><br />
+      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} - Reading time: {{ phrase }}</time><br />
 
-      {{ content }}
+      {{ page.content }}
     </article>
     </main>
 
-    {{ include "_layouts/_footer.liquid" }}
+    {% include "_footer.liquid" %}
   </body>
 </html>
