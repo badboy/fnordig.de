@@ -2,6 +2,7 @@ extends: post.liquid
 title: Getting IPv6 working with SmartOS and KVM
 date: 16 Sep 2012 01:13:00 +0200
 path: /:year/:month/:day/getting-ipvworking-with-smartos-and-kvm
+route: blog
 ---
 
 Just about 2 weeks ago I started to play around with [SmartOS][].

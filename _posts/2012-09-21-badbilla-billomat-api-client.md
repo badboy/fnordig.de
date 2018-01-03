@@ -2,6 +2,7 @@ extends: post.liquid
 title: BadBill - a Billomat API client
 date: 21 Sep 2012 12:58:00 +0200
 path: /:year/:month/:day/badbilla-billomat-api-client
+route: blog
 ---
 I'm happy to announce the release of my Billomat API client:
 

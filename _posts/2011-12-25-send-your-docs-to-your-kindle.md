@@ -2,6 +2,7 @@ extends: post.liquid
 title: send your docs to your kindle
 date: 25 Dec 2011 15:01:00 +0100
 path: /:year/:month/:day/send-your-docs-to-your-kindle
+route: blog
 ---
 I got a new [Kindle 4](http://www.amazon.de/Kindle-eReader-Wi-Fi-Display-deutsches/dp/B0051QVF7A/ref=amb_link_162551127_2?pf_rd_m=A3JWKAKR8XB7XF&pf_rd_s=center-1&pf_rd_r=17K3DH24R9MPM5BFJJQ2&pf_rd_t=101&pf_rd_p=270263907&pf_rd_i=301128) for Christmas.
 

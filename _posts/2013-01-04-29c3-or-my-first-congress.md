@@ -2,6 +2,7 @@ extends: post.liquid
 title: 2.9-C/3 - N.O-T/MY-D/E.PA/R.T-ME-N/T.
 date: 04 Jan 2013 23:09:00 +0100
 path: /:year/:month/:day/29c3-or-my-first-congress
+route: blog
 ---
 
 I was at the [29c3][wiki] <del>this</del> last year and it was great.

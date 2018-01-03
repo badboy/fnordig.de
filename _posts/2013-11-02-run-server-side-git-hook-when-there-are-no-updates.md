@@ -2,6 +2,7 @@ extends: post.liquid
 title: Run server-side git hook when there are no updates
 date: 02 Nov 2013 10:14:00 +0100
 path: /:year/:month/:day/run-server-side-git-hook-when-there-are-no-updates
+route: blog
 ---
 
 I make heavy use of of [hooks in git][git-hooks], especially post-receive, to

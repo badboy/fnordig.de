@@ -2,6 +2,7 @@ extends: post.liquid
 title: "How to write a Master Thesis"
 date: 09 Jul 2017 16:45:00 +0200
 path: /:year/:month/:day/how-to-write-a-master-thesis
+route: blog
 ---
 
 2 years and 7 months ago I wrote [How to not write a Bachelor Thesis][bathesis].

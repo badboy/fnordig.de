@@ -2,6 +2,7 @@ extends: post.liquid
 title: key=value logs with nginx
 date: 15 Apr 2014 18:24:00 +0200
 path: /:year/:month/:day/key-value-logs-with-nginx
+route: blog
 ---
 
 In [Six Ways to Make Your Production Logs More Useful][fun-with-logs] [@roidrage][] talked about how to make your logs much more useful.

@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Redis Sentinel & Redis Cluster - what?"
 date: 01 Jun 2015 23:20:00 +0200
 path: /:year/:month/:day/redis-sentinel-and-redis-cluster
+route: blog
 ---
 
 In the last week there were several questions regarding Redis Sentinel and Redis Cluster, if one or the other will go away or if they need to be used in combination.

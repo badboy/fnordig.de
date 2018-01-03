@@ -2,6 +2,7 @@ extends: post.liquid
 title: fast and simple proxy server
 date: 02 Oct 2011 01:27:00 +0200
 path: /:year/:month/:day/fast-and-simple-proxy-server
+route: blog
 ---
 
 So you have this friend sitting somewhere else in the world and want to give him a simple proxy to access a geoip-protected site or something similar.  But what tool to use?

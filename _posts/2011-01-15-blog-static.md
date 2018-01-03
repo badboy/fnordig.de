@@ -1,6 +1,7 @@
 title: blog? static!
 date: 15 Jan 2011 15:54:00 +0100
 path: /:year/:month/:day/blog-static
+route: blog
 ---
 
 static blog with just one file ;)

@@ -2,6 +2,7 @@ extends: post.liquid
 title: Multiple slides on one side in one pdf
 date: 19 Feb 2014 18:33:00 +0100
 path: /:year/:month/:day/multiple-slides-on-one-side-in-one-pdf
+route: blog
 ---
 
 Ever had multiple slide sets, e.g. from a lecture, and you needed an overview to print out?

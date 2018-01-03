@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Quick check: does your code work?"
 date: 12 May 2016 23:00:00 +0200
 path: /:year/:month/:day/quickcheck-does-your-code-work
+route: blog
 ---
 
 … because mine didn't. At least not correctly in all cases.

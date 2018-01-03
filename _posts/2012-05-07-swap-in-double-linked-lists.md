@@ -2,6 +2,7 @@ extends: post.liquid
 title: swap in double-linked lists
 date: 07 May 2012 22:22:00 +0200
 path: /:year/:month/:day/swap-in-double-linked-lists
+route: blog
 ---
 
 Yesterday I had to implement [Selection Sort](http://en.wikipedia.org/wiki/Selection_sort)

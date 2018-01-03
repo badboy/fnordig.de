@@ -1,6 +1,7 @@
 extends: simple.liquid
 title: "Redis FAQ or: what you learn when idling in #redis"
 path: /redis-faq
+route: about
 ---
 
 First: this here is the unofficial FAQ, only containing things that come up by users in the IRC channel `#redis` on Freenode. There's also a more [official FAQ](http://redis.io/topics/faq). This document is also available in a [gist](https://gist.github.com/badboy/5958039).

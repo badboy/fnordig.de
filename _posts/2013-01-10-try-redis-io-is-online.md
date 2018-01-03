@@ -2,6 +2,7 @@ extends: post.liquid
 title: try.redis.io is online
 date: 10 Jan 2013 21:02:00 +0100
 path: /:year/:month/:day/try-redis-io-is-online
+route: blog
 ---
 Finally:
 

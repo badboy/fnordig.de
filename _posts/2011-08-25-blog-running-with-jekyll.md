@@ -2,6 +2,7 @@ extends: post.liquid
 title: Blog running on jekyll again
 date: 25 Aug 2011 00:00:00 +0100
 path: /:year/:month/:day/blog-running-with-jekyll
+route: blog
 ---
 
 I decided to setup a blog again. And again I'll use [jekyll][], a `blog-aware, static site generator in Ruby`.

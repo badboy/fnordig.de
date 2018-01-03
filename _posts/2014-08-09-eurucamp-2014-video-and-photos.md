@@ -2,6 +2,7 @@ extends: post.liquid
 title: eurucamp 2014 - Video & Photos
 date: 09 Aug 2014 13:06:00 +0200
 path: /:year/:month/:day/eurucamp-2014-video-and-photos
+route: blog
 ---
 
 Great short video documentation of eurucamp 2014 (by [@polarblau](https://twitter.com/polarblau)):

@@ -2,6 +2,7 @@ extends: post.liquid
 title: now with code higlighting
 date: 02 Sep 2011 00:00:00 +0100
 path: /:year/:month/:day/kramdown-test
+route: blog
 ---
 
 I am a programmer and I like to write code and I like to talk about code. That's why this blog really needs some syntax highlighting for my favorite languages.

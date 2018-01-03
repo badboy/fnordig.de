@@ -2,6 +2,7 @@ extends: post.liquid
 title: static blog system improved
 date: 23 Jan 2011 00:00:00 +0100
 path: /:year/:month/:day/static-blog-system-improved
+route: blog
 ---
 
 My static blog system script now launches a small web server and auto-updates on a file change. This way you've got a live preview directly in your browser.

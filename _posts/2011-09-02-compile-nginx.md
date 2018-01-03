@@ -2,6 +2,7 @@ extends: post.liquid
 title: Compile nginx
 date: 02 Sep 2011 00:00:00 +0100
 path: /:year/:month/:day/compile-nginx
+route: blog
 ---
 
 I'm using [nginx][] as my main webserver and proxy for all my other projects (let it be node.js or ruby things).

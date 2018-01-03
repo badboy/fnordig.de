@@ -2,6 +2,7 @@ extends: post.liquid
 title: "GitHub Pages deployment made easy"
 date: 17 Nov 2017 19:47:15 +0100
 path: /:year/:month/:day/github-pages-deployment-made-easy
+route: blog
 ---
 
 Recently I tried to deploy a new [Cobalt][]-powered site from [Travis CI][travis], using the [then documented method][olddeploy].

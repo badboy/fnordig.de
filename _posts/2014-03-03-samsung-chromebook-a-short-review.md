@@ -2,6 +2,7 @@ extends: post.liquid
 title: Samsung Chromebook - a short review
 date: 03 Mar 2014 15:18:00 +0100
 path: /:year/:month/:day/samsung-chromebook-a-short-review
+route: blog
 ---
 
 One week ago I purchased a Chromebook. To be exact I purchased the Samsung

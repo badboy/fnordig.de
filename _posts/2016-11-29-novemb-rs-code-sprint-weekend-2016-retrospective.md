@@ -2,6 +2,7 @@ extends: post.liquid
 title: "novemb.rs Code Sprint Weekend 2016 - Retrospective"
 date: 29 Nov 2016 11:55:00 +0100
 path: /:year/:month/:day/novemb-rs-code-sprint-weekend-2016-retrospective
+route: blog
 ---
 
 *This post is a tiny bit late, but better late than never.*

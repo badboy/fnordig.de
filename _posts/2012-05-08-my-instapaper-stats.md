@@ -2,6 +2,7 @@ extends: post.liquid
 title: my instapaper stats
 date: 08 May 2012 11:33:00 +0200
 path: /:year/:month/:day/my-instapaper-stats
+route: blog
 ---
 
 I am an actively user of the great [Instapaper](http://www.instapaper.com/)

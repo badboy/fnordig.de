@@ -2,6 +2,7 @@ extends: post.liquid
 title: Changing the root password in recent SmartOS
 date: 12 May 2014 22:02:00 +0200
 path: /:year/:month/:day/changing-the-root-password-in-recent-smartos
+route: blog
 ---
 
 Back in 2012 Jonathan Perkin wrote a little bit about [SmartOS and the global zone][perkin],

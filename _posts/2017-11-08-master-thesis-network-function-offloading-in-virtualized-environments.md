@@ -2,6 +2,7 @@ extends: post.liquid
 title: "Master Thesis: Network Function Offloading in Virtualized Environments"
 date: 08 Nov 2017 15:05:00 +0100
 path: /:year/:month/:day/master-thesis-network-function-offloading-in-virtualized-environments
+route: blog
 ---
 
 From end of last year to July this year I wrote my master thesis titled "Network Function Offloading in Virtualized Environments".

@@ -2,6 +2,7 @@ extends: post.liquid
 title: Using a Kindle for status information
 date: 14 May 2015 20:50:00 +0200
 path: /:year/:month/:day/using-a-kindle-for-status-information
+route: blog
 ---
 
 Back in 2011 I got a Kindle 4 (the non-touch version) and for some time it was

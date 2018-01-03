@@ -2,6 +2,7 @@ extends: post.liquid
 title: Load your config into your environment
 date: 04 Mar 2016 12:30:00 +0100
 path: /:year/:month/:day/load-your-config-into-your-environment
+route: blog
 ---
 
 It became quite popular to store certain configuration variables in your environment, to be later loaded by your aplication.
