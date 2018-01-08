@@ -9,6 +9,7 @@ extends: post.liquid
 title: "%s"
 date: %s
 path: /:year/:month/:day/%s
+route: blog
 ---
 
 EOF
