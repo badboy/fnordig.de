@@ -1,10 +1,10 @@
-extends: post.liquid
-title: "Redis Dev Day London 2015"
-date: 22 Oct 2015 15:05:00 +0200
-path: /:year/:month/:day/redis-dev-day-london-2015
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-dev-day-london-2015"
+title: Redis Dev Day London 2015
+published_date: "2015-10-22 15:05:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Last Monday the Redis Dev Day took place in London, followed by a small Unconference on Tuesday.
 The Redis Dev Day is a gathering of all people involved in the Redis development,
 that means Redis creator [Salvatore][antirez] as well developers and engineers from several companies

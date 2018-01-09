@@ -1,8 +1,9 @@
-extends: post.liquid
+permalink: /:year/:month/:day/things-i-read-week-2
 title: "Things I read, Week 2"
-date: 08 Jan 2018 10:54:22 +0100
-path: /:year/:month/:day/things-i-read-week-2
-route: blog
+published_date: "2018-01-8 10:54:22 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
 
 I want to try something new on this blog this year.

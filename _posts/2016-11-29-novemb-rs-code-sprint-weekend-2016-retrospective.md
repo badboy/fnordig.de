@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/novemb-rs-code-sprint-weekend-2016-retrospective"
 title: "novemb.rs Code Sprint Weekend 2016 - Retrospective"
-date: 29 Nov 2016 11:55:00 +0100
-path: /:year/:month/:day/novemb-rs-code-sprint-weekend-2016-retrospective
-route: blog
+published_date: "2016-11-29 11:55:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 *This post is a tiny bit late, but better late than never.*
 
 So on 19th and 20th of November, just over a week ago, we had the very first [novemb.rs Code Sprint](http://novemb.rs/).

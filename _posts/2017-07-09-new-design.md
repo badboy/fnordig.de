@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/new-design"
 title: New Design
-date: 09 Jul 2017 15:08:00 +0100
-path: /:year/:month/:day/new-design
-route: blog
+published_date: "2017-07-09 15:08:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I decided it is time for a new design for this site.
 I went with a minimal design I adopted from [booyaa][] (which he adopted from [johann][]).
 Instead of fixing my broken Jekyll setup, I switched to [cobalt][], a static site generator written in Rust.

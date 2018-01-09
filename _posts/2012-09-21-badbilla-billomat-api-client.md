@@ -1,8 +1,9 @@
-extends: post.liquid
-title: BadBill - a Billomat API client
-date: 21 Sep 2012 12:58:00 +0200
-path: /:year/:month/:day/badbilla-billomat-api-client
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/badbilla-billomat-api-client"
+title: "BadBill - a Billomat API client"
+published_date: "2012-09-21 12:58:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
 I'm happy to announce the release of my Billomat API client:
 

@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/compile-nginx"
 title: Compile nginx
-date: 02 Sep 2011 00:00:00 +0100
-path: /:year/:month/:day/compile-nginx
-route: blog
+published_date: "2011-09-02 00:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 I'm using [nginx][] as my main webserver and proxy for all my other projects (let it be node.js or ruby things).
 
 Now that [ipv6][] is more and more used, I decided to let this blog get served over ipv6 as well.

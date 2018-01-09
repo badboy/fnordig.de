@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/ipv6-with-nodejs"
 title: IPv6 with NodeJS
-date: 26 Jan 2011 00:00:00 +0100
-path: /:year/:month/:day/ipv6-with-nodejs
-route: blog
+published_date: "2011-01-26 00:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 As there are just a few new ipv4 address left in the pool and even those will be [exhausted in under a week](http://inetcore.com/project/ipv4ec/index_en.html) (6 days left, checked right now) the switch to [IPv6](http://en.wikipedia.org/wiki/Ipv6) will be necessary soon.
 
 My current ISP does not offer any real IPv6 connection and not even my router can handle IPv6 (yet) there's currently no (good & easy) way for me to use IPv6 from here.

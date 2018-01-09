@@ -1,10 +1,10 @@
-extends: post.liquid
-title: "Rust from the Back to the Front (Rust Sthlm)"
-date: 31 Aug 2016 16:30:00 +0200
-path: /:year/:month/:day/rust-from-the-back-to-the-front
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/rust-from-the-back-to-the-front"
+title: Rust from the Back to the Front (Rust Sthlm)
+published_date: "2016-08-31 16:30:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 <center>
 [![Rust on the Web](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.23.59.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_18.23.59.jpg)
 </center>

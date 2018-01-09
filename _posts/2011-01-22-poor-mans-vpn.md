@@ -1,11 +1,10 @@
-extends: post.liquid
-title: sshuttle - poor man's vpn
-date: 22 Jan 2011 00:00:00 +0100
-path: /:year/:month/:day/poor-mans-vpn
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/poor-mans-vpn"
+title: "sshuttle - poor man's vpn"
+published_date: "2011-01-22 00:00:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
-
 > [sshuttle](https://github.com/apenwarr/sshuttle) is a transparent proxy server that works as a poor man's VPN. Forwards over ssh. Doesn't require admin access. Works with Linux and MacOS, now including 10.6
 
 It's as simple as

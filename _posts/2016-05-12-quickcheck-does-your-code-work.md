@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/quickcheck-does-your-code-work"
 title: "Quick check: does your code work?"
-date: 12 May 2016 23:00:00 +0200
-path: /:year/:month/:day/quickcheck-does-your-code-work
-route: blog
+published_date: "2016-05-12 23:00:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 … because mine didn't. At least not correctly in all cases.
 I'm talking about my Rust library [lzf-rs](https://crates.io/crates/lzf),
 a port of the small compression library [LibLZF](http://software.schmorp.de/pkg/liblzf.html).

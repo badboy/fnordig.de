@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      {{ include "_layouts/_head.liquid" }}
+      {% include "_head.liquid" %}
   </head>
   <body>
-    {{ include "_layouts/_menu.liquid" }}
+    {% include "_menu.liquid" %}
 
 
     <main>
-      {{content}}
+      {{ page.content }}
     </main>
 
-    {{ include "_layouts/_footer.liquid" }}
+    {% include "_footer.liquid" %}
   </body>
 </html>

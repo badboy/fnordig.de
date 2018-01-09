@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/using-a-kindle-for-status-information"
 title: Using a Kindle for status information
-date: 14 May 2015 20:50:00 +0200
-path: /:year/:month/:day/using-a-kindle-for-status-information
-route: blog
+published_date: "2015-05-14 20:50:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Back in 2011 I got a Kindle 4 (the non-touch version) and for some time it was
 the primary device for reading, be it ebooks, technical documentation or slides
 and transcripts from university.

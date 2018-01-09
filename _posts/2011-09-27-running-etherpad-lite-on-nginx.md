@@ -1,10 +1,10 @@
-extends: post.liquid
-title: running etherpad-lite on nginx
-date: 27 Sep 2011 21:24:00 +0200
-path: /:year/:month/:day/running-etherpad-lite-on-nginx
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/running-etherpad-lite-on-nginx"
+title: "running etherpad-lite on nginx"
+published_date: "2011-09-27 21:24:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 As you should already know if you read this blog, I am using [nginx][] as my main http server as well as a reverse proxy for my apps running on node.js or simple ruby.
 
 I'm also running an [etherpad-lite][etherpad] server on [pad.fnordig.de](https://pad.fnordig.de/).

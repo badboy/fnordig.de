@@ -1,10 +1,10 @@
-extends: post.liquid
-title: OpenTechSchool - Learn new things
-date: 01 Apr 2014 23:05:00 +0200
-path: /:year/:month/:day/opentechschool-learn-new-things
-route: blog
+permalink: "/{{ year }}/{{ month }}/{{ day }}/opentechschool-learn-new-things"
+title: "OpenTechSchool - Learn new things"
+published_date: "2014-04-01 23:05:00 +0200"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 Last weekend (29./30.03.) I coached beginners some HTML & CSS. This is about my experience.
 
 A while back a [friend of mine][snnd] asked me if I wanted to help at [OpenTechSchool Dortmund][ots-do], coaching programming or to hold a talk.

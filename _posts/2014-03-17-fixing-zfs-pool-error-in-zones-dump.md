@@ -1,10 +1,10 @@
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/fixing-zfs-pool-error-in-zones-dump"
 title: Fixing zfs pool error in zones/dump
-date: 17 Mar 2014 14:08:00 +0100
-path: /:year/:month/:day/fixing-zfs-pool-error-in-zones-dump
-route: blog
+published_date: "2014-03-17 14:08:00 +0100"
+layout: post.liquid
+data:
+  route: blog
 ---
-
 At work we're using [SmartOS][], an Open Solaris clone featuring all kinds of cool stuff. One of the best things is the underlying file system: ZFS.
 
 With ZFS it is easy to create, mirror, extend storage pools, it's also very easy to snapshot pools and backup them using `zfs send` and `zfs receive`.
