@@ -5,11 +5,12 @@ OUTPUT_DIR = File.expand_path("~/projects/fnordig.de/_posts")
 EDITOR = ENV['EDITOR'] || 'vim'
 EXTENSION=".md"
 HEADER = <<EOF
-extends: post.liquid
+permalink: "/{{ year }}/{{ month }}/{{ day }}/%s"
 title: "%s"
-date: %s
-path: /:year/:month/:day/%s
-route: blog
+published_date: "%s"
+layout: post.liquid
+data:
+  route: blog
 ---
 
 EOF
@@ -30,9 +31,9 @@ slug = slugify(ARGV)
 filename = now.strftime("%Y-%m-%d-") + slug
 title = ARGV.join(' ')
 file = File.join(OUTPUT_DIR, "#{filename}#{EXTENSION}")
-date = now.strftime("%d %b %Y %H:%M:%S %z")
+date = now.strftime("%Y-%m-%d %H:%M:00 %z")
 
 puts "new post: #{title}"
 puts "file: #{filename}"
-File.open(file, "w"){|f| f.write(HEADER % [title, date, slug]) }
+File.open(file, "w"){|f| f.write(HEADER % [slug, title, date]) }
 exec EDITOR, '+', file
