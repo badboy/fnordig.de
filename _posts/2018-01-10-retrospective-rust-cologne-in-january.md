@@ -50,7 +50,8 @@ With a couple beginners and some more seasoned Rustaceans around, we discussed w
 
 
 * High-level docs on Cargo were requested: what does it do, why are dependencies not that bad, what to look out for in dependencies, drawbacks of too many dependencies
-* A book on patterns in Rust: not everything in Rust is as easy to write as in other languages, sometimes a whole other pattern is necessary. These should be collected (also a "X in C++ will become Y in Rust")
+* A book on patterns in Rust: not everything in Rust is as easy to write as in other languages, sometimes a whole other pattern is necessary. These should be collected (also a "X in C++ will become Y in Rust").  
+  **Edit**: The [Rust Design Patterns repository](https://github.com/rust-unofficial/patterns) exists.
 * Confusion about split between 1st and 2nd version of [The Rust Programming Language (the book)](https://doc.rust-lang.org/book/). Old links are obviously sometimes broken, not all content is in both books. Some links in official documentation are broken due to the split (we didn't find a example that night, but it's worth triaging this)
 * Better crate caching: A global per-system/per-user cache of compiled crates could go a long way to improve compile times (in theory). Why is it not done? Drawbacks? We should look up the current status and discussions.
 * A [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) might be a good idea, but can easily become overwhelming. In the end it needs to be easily findable through a quick Google search.
