@@ -3,9 +3,16 @@ DEST = /var/www/sites/fnordig.de/
 
 build:
 	cobalt build
+.PHONY: build
 
 serve:
 	cobalt watch
+.PHONY: serve
 
-deploy: build
-	rsync -va $(SOURCE) $(DEST)
+deploy: clean build
+	rsync -va --delete $(SOURCE) $(DEST)
+.PHONY: deploy
+
+clean:
+	cobalt clean
+.PHONY: clean
