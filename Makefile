@@ -2,7 +2,7 @@ SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
 
 build:
-	cobalt build
+	cobalt build --drafts
 .PHONY: build
 
 serve:
