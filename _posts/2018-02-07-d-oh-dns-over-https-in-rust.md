@@ -63,4 +63,6 @@ example.com has address 93.184.216.34
 [dnsoverhttps]: https://github.com/badboy/dnsoverhttps
 [docs]: https://docs.rs/dnsoverhttps/0.1.0/dnsoverhttps/
 
+---
+
 [^1]: `dnsoverhttps` currently implements Version 2, because that's what `dns.google.com` supports. Version 3 changes the query parameter from `body` to `dns`.
