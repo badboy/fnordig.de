@@ -9,8 +9,8 @@ data:
 Last weekend I met [Daniel Stenberg][bagder], author of curl, at FOSDEM and we talked a bit about curl, Firefox and also Rust.
 One recent project he was working on was *DNS over HTTPS* [support for Firefox][firefox] and [eventually for curl][curl] as well.
 
-*DNS over HTTPS*, short *DOH*, is a recent idea to do DNS queries over HTTPS for privacy, performance and security reasons. There's a [RFC draft in version 3][draft03][^1] at the IETF describing it in more detail.  
-The *tl;dr*: Send the DNS protocol in a HTTP POST request or base64-encoded in a GET request,
+*DNS over HTTPS*, short *DOH*, is a recent idea to do DNS queries over HTTPS for privacy, performance and security reasons. There's an [RFC draft in version 3][draft03][^1] at the IETF describing it in more detail.  
+The *tl;dr*: Send the DNS protocol in an HTTP POST request or base64-encoded in a GET request,
 get back the DNS protocol in the response body and parse it.
 
 Given how simple that sounds, I decided to implement a minimal DOH client in Rust.
