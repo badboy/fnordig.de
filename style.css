@@ -226,4 +226,17 @@ blockquote p {
   display: block;
 }
 
+.footnote-definition {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 1em;
+}
+.footnote-definition p:before {
+  content: ": ";
+}
+.footnote-definition p {
+  display: inline;
+  margin: 0;
+}
+
 /* close commented backslash hack */
