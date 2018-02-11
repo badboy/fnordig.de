@@ -3,16 +3,16 @@ layout: default.liquid
 data:
   route: blog
 ---
-{% assign idx = 0 %}
-{% for post in collections.posts.pages %}
-{% if idx < 5 %}
+{%- assign idx = 0 -%}
+{%- for post in collections.posts.pages -%}
+{%- if idx < 5 -%}
 <article class="blog-list">
   <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
   <time pubdate="pubdate">{{ post.published_date | date: "%b %d, %Y" }}</time><br />
   <p>{{ post.content | strip_html | truncatewords: 25, '...' }}</p>
 </article>
-{% endif %}
+{%- endif -%}
 {% assign idx = idx | plus: 1 %}
-{% endfor %}
+{%- endfor -%}
 
 Looking for more posts? Check out <a href="/posts/">all posts</a>!
