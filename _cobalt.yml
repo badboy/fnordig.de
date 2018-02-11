@@ -26,6 +26,7 @@ template_extensions:
 ignore:
   - ext/
   - README.md
+  - Makefile
 syntax_highlight:
   theme: "base16-ocean.dark"
 assets:

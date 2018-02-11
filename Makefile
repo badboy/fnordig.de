@@ -16,3 +16,7 @@ deploy: clean build
 clean:
 	cobalt clean
 .PHONY: clean
+
+rerun:
+	rerun -p "**/*.{md,liquid,css,js}" -i "_site/*" -x -- make
+.PHONY: rerun
