@@ -6,11 +6,13 @@ data:
 ---
 26 years old.  
 Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
-Working at [rrbone](https://www.rrbone.net/de/).  
+Working at [Mozilla](https://www.mozilla.org/).  
+Organizer of [RustFest](http://www.rustfest.eu/).  
 Programming a lot of [Ruby](http://www.ruby-lang.org/en/) and [Rust](http://www.rust-lang.org/).  
 Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
-Organizer of [RustFest](http://www.rustfest.eu/),
+**Alumni positions**
+
 Co-Organizer of the [Rust User Group Cologne](http://rust.cologne/),
 Co-Organizer of [otsconf Dortmund](https://otsconf.com/),
 coach at [OpenTechSchool Dortmund](http://www.opentechschool.org/dortmund/),
@@ -26,9 +28,14 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 ## Projects
 
+**Current projects**
+
 * [Hello, Rust!](http://www.hellorust.com/) - Resources, articles, links & example around Rust & WebAssembly
 * [semantic-rs](https://github.com/semantic-rs/semantic-rs) - Automatic crate publishing
 * [rdb-rs](http://rdb.fnordig.de/) - fast and efficient RDB parsing utility, including full documentation on the RDB file format
+
+**Older projects**
+
 * [hiredis](https://github.com/redis/hiredis) - the minimalistic C client for Redis, as well as wrapper libraries: [hiredis-rb](https://github.com/redis/hiredis-rb/) ([gem](https://rubygems.org/gems/hiredis)), [hiredis-node](https://github.com/redis/hiredis-node) ([npm](https://www.npmjs.com/package/hiredis)), [hiredis-py](https://github.com/redis/hiredis-py) ([pypi](https://pypi.python.org/pypi/hiredis/))
 * [try.redis.io](http://try.redis.io) - Online Redis REPL.
 * [badbill](https://github.com/badboy/badbill) - A client for the [Billomat](http://www.billomat.com/en/api/) API
