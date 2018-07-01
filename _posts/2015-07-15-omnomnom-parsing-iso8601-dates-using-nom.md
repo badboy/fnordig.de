@@ -5,6 +5,12 @@ layout: post.liquid
 data:
   route: blog
 ---
+
+**Update 2018-07-01:** This article was updated in 2018 and is [now available as documentation in the iso8601 repository](https://github.com/badboy/iso8601/blob/338b3d1a9ca220372292f631a3bc2e5176cca331/docs/parsing-iso8601-dates-using-nom.md).
+Thanks to [Chris Couzens](https://github.com/ccouzens) for the updates.
+
+---
+
 There are thousands of ways to note down a date and time.
 The international date format is standardized as [ISO8601][iso], though it still allows a widespread of different formats.
 
