@@ -5,8 +5,8 @@ build:
 	cobalt build --drafts
 .PHONY: build
 
-serve:
-	cobalt watch
+serve: build
+	cd _site && http
 .PHONY: serve
 
 deploy: clean build
@@ -18,5 +18,5 @@ clean:
 .PHONY: clean
 
 rerun:
-	rerun -p "**/*.{md,liquid,css,js}" -i "_site/*" -x -- make
+	fd | entr -s make
 .PHONY: rerun
