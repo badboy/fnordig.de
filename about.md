@@ -50,6 +50,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 * [Events I've been at](http://badboy.hasbeen.at/)
 * [Places I've been in](http://badboy.hasbeen.in/)
+* [Divelog](https://fnordig.de/divelog/)
 
 ## Writing
 
