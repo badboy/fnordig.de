@@ -10,6 +10,10 @@ I will talk Rust, WebAssembly, Open Source Development & Open Source communities
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2018
+
+* **smenatic-rs - Automatic crate publishing done right**, Rust London, 29.10.2018, Rust and Tell Berlin, 04.10.2018, ([Meetup London](https://www.meetup.com/Rust-London-User-Group/events/254824566/), [Meetup Berlin](https://www.meetup.com/Rust-Berlin/events/254194727/), [Slides](https://fnordig.de/talks/2018/rust-ldn/semantic-rs/semantic-rs/struct.Slide1.html))
+
 ## 2017
 
 * **WebAssembly for the Rust of Us**, Rust Hungary (Budapest), 23.11.2017 ([Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/244411460/), [Slides](https://fnordig.de/rust-hungary2017), [Video](https://www.youtube.com/watch?v=FJoYZUMOwM4))
