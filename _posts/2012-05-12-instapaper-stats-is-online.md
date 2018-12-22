@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/instapaper-stats-is-online"
 title: "instapaper-stats is online"
 published_date: "2012-05-12 17:13:00 +0200"

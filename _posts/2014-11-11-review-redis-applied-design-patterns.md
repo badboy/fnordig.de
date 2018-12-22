@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/review-redis-applied-design-patterns"
 title: "Review: Redis Applied Design Patterns"
 published_date: "2014-11-11 00:41:00 +0100"

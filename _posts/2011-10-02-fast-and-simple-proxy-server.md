@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/fast-and-simple-proxy-server"
 title: fast and simple proxy server
 published_date: "2011-10-02 01:27:00 +0200"

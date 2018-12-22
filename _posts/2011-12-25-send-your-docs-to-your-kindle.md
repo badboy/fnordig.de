@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/send-your-docs-to-your-kindle"
 title: send your docs to your kindle
 published_date: "2011-12-25 15:01:00 +0100"

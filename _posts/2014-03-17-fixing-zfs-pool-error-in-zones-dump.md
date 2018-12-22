@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/fixing-zfs-pool-error-in-zones-dump"
 title: Fixing zfs pool error in zones/dump
 published_date: "2014-03-17 14:08:00 +0100"

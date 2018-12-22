@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/what-rust-is-it"
 title: "What Rust is it?"
 published_date: "2018-11-28 20:09:00 +0100"

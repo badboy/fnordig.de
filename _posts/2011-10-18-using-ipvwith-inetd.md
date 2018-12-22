@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/using-ipvwith-inetd"
 title: using ipv6 with inetd
 published_date: "2011-10-18 10:58:00 +0200"

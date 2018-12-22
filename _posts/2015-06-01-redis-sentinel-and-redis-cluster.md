@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-sentinel-and-redis-cluster"
 title: "Redis Sentinel & Redis Cluster - what?"
 published_date: "2015-06-01 23:20:00 +0200"

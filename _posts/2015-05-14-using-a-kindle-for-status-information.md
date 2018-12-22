@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/using-a-kindle-for-status-information"
 title: Using a Kindle for status information
 published_date: "2015-05-14 20:50:00 +0200"

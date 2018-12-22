@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/master-thesis-network-function-offloading-in-virtualized-environments"
 title: "Master Thesis: Network Function Offloading in Virtualized Environments"
 published_date: "2017-11-08 15:05:00 +0100"

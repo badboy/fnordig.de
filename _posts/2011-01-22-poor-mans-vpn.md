@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/poor-mans-vpn"
 title: "sshuttle - poor man's vpn"
 published_date: "2011-01-22 00:00:00 +0100"

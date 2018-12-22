@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/fnord-news-show"
 title: fnord news show 2012
 published_date: "2012-12-30 14:20:00 +0100"

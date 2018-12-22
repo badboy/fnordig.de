@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/ideas-for-rust-meetups"
 title: "Ideas for Rust Meetups"
 published_date: "2018-08-08 12:45:00 +0200"

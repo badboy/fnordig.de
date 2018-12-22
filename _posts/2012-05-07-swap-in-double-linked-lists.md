@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/swap-in-double-linked-lists"
 title: "swap in double-linked lists"
 published_date: "2012-05-07 22:22:00 +0200"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/key-value-logs-with-nginx"
 title: "key=value logs with nginx"
 published_date: "2014-04-15 18:24:00 +0200"

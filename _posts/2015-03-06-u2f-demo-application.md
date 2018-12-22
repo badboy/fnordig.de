@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/u2f-demo-application"
 title: U2F demo application
 published_date: "2015-03-06 16:07:00 +0100"

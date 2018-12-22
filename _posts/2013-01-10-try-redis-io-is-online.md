@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/try-redis-io-is-online"
 title: try.redis.io is online
 published_date: "2013-01-10 21:02:00 +0100"

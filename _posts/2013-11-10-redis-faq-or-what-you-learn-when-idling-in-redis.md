@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-faq-or-what-you-learn-when-idling-in-redis"
 title: "Redis FAQ or: what you learn when idling in #redis"
 published_date: "2013-11-10 21:10:00 +0100"

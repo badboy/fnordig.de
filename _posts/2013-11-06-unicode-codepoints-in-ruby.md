@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/unicode-codepoints-in-ruby"
 title: Unicode codepoints in ruby
 published_date: "2013-11-06 12:04:00 +0100"

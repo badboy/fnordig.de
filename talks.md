@@ -1,3 +1,4 @@
+---
 permalink: /talks
 title: Talks
 layout: simple.liquid

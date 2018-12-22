@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/irregular-backups-with-rsnapshotand-rsnapshot-ii"
 title: irregular backups with rsnapshot (and rsnapshot_ii)
 published_date: "2013-01-22 19:08:00 +0100"

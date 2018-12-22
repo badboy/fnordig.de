@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/problems-after-disconnecting-luks-device"
 title: Problems after disconnecting LUKS device
 published_date: "2013-01-14 23:28:00 +0100"

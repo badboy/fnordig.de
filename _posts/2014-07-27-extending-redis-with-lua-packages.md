@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/extending-redis-with-lua-packages"
 title: Extending Redis with Lua packages
 published_date: "2014-07-27 13:57:00 +0200"

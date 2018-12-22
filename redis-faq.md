@@ -1,3 +1,4 @@
+---
 permalink: "/redis-faq"
 title: "Redis FAQ or: what you learn when idling in #redis"
 layout: simple.liquid

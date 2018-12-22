@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/first-experience-with-rust"
 title: first experience with Rust
 published_date: "2014-08-12 13:25:00 +0200"

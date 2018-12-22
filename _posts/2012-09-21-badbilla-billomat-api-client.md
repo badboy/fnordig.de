@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/badbilla-billomat-api-client"
 title: "BadBill - a Billomat API client"
 published_date: "2012-09-21 12:58:00 +0200"

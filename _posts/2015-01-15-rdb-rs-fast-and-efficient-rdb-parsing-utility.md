@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/rdb-rs-fast-and-efficient-rdb-parsing-utility"
 title: "rdb-rs - fast and efficient RDB parsing utility"
 published_date: "2015-01-15 23:50:00 +0100"

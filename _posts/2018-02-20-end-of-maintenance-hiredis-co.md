@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/end-of-maintenance-hiredis-co"
 title: "End of Maintenance: hiredis & Co."
 published_date: "2018-02-20 17:55:00 +0100"

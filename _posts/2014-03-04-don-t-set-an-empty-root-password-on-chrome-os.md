@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/don-t-set-an-empty-root-password-on-chrome-os"
 title: "Don't set an empty root password on Chrome OS"
 published_date: "2014-03-04 16:41:00 +0100"

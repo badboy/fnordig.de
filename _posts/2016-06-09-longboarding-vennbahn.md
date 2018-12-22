@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/longboarding-vennbahn"
 title: "Longboarding: Vennbahn"
 published_date: "2016-06-09 16:20:00 +0200"

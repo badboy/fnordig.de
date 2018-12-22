@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/novemb-rs-code-sprint-weekend-2016-retrospective"
 title: "novemb.rs Code Sprint Weekend 2016 - Retrospective"
 published_date: "2016-11-29 11:55:00 +0100"

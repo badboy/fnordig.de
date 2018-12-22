@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/xen-split-driver-initial-communication"
 title: "Xen - split driver, initial communication"
 published_date: "2016-12-20 16:00:00 +0100"

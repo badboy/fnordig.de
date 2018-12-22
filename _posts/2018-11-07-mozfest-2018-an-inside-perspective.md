@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/mozfest-2018-an-inside-perspective"
 title: "MozFest 2018: An inside perspective"
 published_date: "2018-11-07 14:34:00 +0100"

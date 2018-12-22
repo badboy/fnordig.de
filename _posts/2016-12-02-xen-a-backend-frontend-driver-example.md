@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/xen-a-backend-frontend-driver-example"
 title: "Xen - a backend/frontend driver example"
 published_date: "2016-12-02 10:10:00 +0100"

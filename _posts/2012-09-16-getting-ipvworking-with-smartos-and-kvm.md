@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/getting-ipvworking-with-smartos-and-kvm"
 title: Getting IPv6 working with SmartOS and KVM
 published_date: "2012-09-16 01:13:00 +0200"

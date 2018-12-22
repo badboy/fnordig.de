@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/opentechschooljavascript-for-beginners"
 title: "OpenTechSchool - Javascript for Beginners"
 published_date: "2014-05-26 15:15:00 +0200"

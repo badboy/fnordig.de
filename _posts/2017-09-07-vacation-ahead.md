@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/vacation-ahead"
 title: Vacation ahead
 published_date: "2017-09-07 18:16:25 +0200"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/iterate-the-keyspace-in-redis-scan"
 title: "Iterate the keyspace in redis: SCAN"
 published_date: "2013-11-01 18:40:00 +0100"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/create-releases-using-hubcaps-a-rust-library"
 title: Create GitHub releases with Rust using Hubcaps
 published_date: "2016-02-23 20:32:00 +0100"

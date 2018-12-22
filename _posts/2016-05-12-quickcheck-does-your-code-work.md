@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/quickcheck-does-your-code-work"
 title: "Quick check: does your code work?"
 published_date: "2016-05-12 23:00:00 +0200"

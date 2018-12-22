@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/29c3-or-my-first-congress"
 title: "2.9-C/3 - N.O-T/MY-D/E.PA/R.T-ME-N/T."
 published_date: "2013-01-04 23:09:00 +0100"

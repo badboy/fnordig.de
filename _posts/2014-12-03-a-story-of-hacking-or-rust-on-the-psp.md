@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/a-story-of-hacking-or-rust-on-the-psp"
 title: "The story of my childhood or: Rust on the PSP"
 published_date: "2014-12-03 20:03:00 +0100"

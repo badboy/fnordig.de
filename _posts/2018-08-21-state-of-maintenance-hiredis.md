@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/state-of-maintenance-hiredis"
 title: "State of Maintenance: hiredis"
 published_date: "2018-08-21 12:00:00 +0200"

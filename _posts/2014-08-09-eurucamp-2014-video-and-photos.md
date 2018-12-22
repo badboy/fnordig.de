@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/eurucamp-2014-video-and-photos"
 title: "eurucamp 2014 - Video & Photos"
 published_date: "2014-08-09 13:06:00 +0200"

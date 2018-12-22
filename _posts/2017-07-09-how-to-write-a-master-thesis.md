@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/how-to-write-a-master-thesis"
 title: How to write a Master Thesis
 published_date: "2017-07-09 16:45:00 +0200"

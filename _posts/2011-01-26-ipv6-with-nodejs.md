@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/ipv6-with-nodejs"
 title: IPv6 with NodeJS
 published_date: "2011-01-26 00:00:00 +0100"

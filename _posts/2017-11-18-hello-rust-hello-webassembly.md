@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/hello-rust-hello-webassembly"
 title: "Hello, Rust! Hello, WebAssembly!"
 published_date: "2017-11-18 16:26:57 +0100"

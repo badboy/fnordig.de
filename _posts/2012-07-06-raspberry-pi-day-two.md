@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/raspberry-pi-day-two"
 title: "Raspberry Pi - Day 2"
 published_date: "2012-07-06 13:20:00 +0200"

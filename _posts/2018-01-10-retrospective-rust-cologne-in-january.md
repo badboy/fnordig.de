@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/retrospective-rust-cologne-in-january"
 title: "Retrospective: Rust Cologne in January"
 published_date: "2018-01-10 12:25:00 +0100"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/the-difference-of-rust-s-spawn-and-scoped"
 title: "The difference of Rust's thread::spawn and thread::scoped"
 published_date: "2015-03-05 14:41:00 +0100"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/things-i-read-week-4"
 title: "Things I read, Week 4"
 published_date: "2018-01-23 11:35:00 +0100"

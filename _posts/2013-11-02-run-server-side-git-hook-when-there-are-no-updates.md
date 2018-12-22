@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/run-server-side-git-hook-when-there-are-no-updates"
 title: "Run server-side git hook when there are no updates"
 published_date: "2013-11-02 10:14:00 +0100"

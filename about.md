@@ -1,3 +1,4 @@
+---
 permalink: /about
 title: About me
 layout: simple.liquid

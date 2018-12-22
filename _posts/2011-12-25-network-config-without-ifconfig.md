@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/network-config-without-ifconfig"
 title: network config without ifconfig
 published_date: "2011-12-25 14:52:00 +0100"

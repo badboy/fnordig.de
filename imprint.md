@@ -1,3 +1,4 @@
+---
 permalink: /imprint
 title: Imprint
 layout: simple.liquid

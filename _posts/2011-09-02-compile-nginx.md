@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/compile-nginx"
 title: Compile nginx
 published_date: "2011-09-02 00:00:00 +0100"

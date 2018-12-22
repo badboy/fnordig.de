@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/opentechschool-learn-new-things"
 title: "OpenTechSchool - Learn new things"
 published_date: "2014-04-01 23:05:00 +0200"

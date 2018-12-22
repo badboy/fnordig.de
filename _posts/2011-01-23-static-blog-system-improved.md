@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/static-blog-system-improved"
 title: static blog system improved
 published_date: "2011-01-23 00:00:00 +0100"

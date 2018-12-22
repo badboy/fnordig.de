@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/signify-ed25519-signatures-for-your-files"
 title: "Signify - Ed25519 signatures for your files (in Rust)"
 published_date: "2016-09-28 13:16:00 +0200"

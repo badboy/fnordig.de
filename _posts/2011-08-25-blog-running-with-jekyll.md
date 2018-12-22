@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/blog-running-with-jekyll"
 title: Blog running on jekyll again
 published_date: "2011-08-25 00:00:00 +0100"

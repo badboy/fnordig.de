@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/running-on-ssl"
 title: running on ssl
 published_date: "2011-09-08 00:31:00 +0200"

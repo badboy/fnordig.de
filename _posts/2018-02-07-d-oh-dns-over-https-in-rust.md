@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/d-oh-dns-over-https-in-rust"
 title: "D'oh! - DNS over HTTPS in Rust"
 published_date: "2018-02-07 09:05:00 +0100"

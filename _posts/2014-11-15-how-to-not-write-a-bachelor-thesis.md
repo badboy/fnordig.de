@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/how-to-not-write-a-bachelor-thesis"
 title: How to not write a Bachelor Thesis
 published_date: "2014-11-15 03:18:00 +0100"

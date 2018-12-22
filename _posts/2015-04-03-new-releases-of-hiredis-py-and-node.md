@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/new-releases-of-hiredis-py-and-node"
 title: "New releases of hiredis-py and hiredis-node"
 published_date: "2015-04-03 23:05:00 +0200"

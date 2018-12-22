@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/new-design"
 title: New Design
 published_date: "2017-07-09 15:08:00 +0100"

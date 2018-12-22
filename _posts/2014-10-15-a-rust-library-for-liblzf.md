@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/a-rust-library-for-liblzf"
 title: A Rust library for LibLZF
 published_date: "2014-10-15 11:10:00 +0200"

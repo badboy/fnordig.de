@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/changing-the-root-password-in-recent-smartos"
 title: Changing the root password in recent SmartOS
 published_date: "2014-05-12 22:02:00 +0200"

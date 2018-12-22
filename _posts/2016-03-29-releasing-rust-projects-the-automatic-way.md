@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/releasing-rust-projects-the-automatic-way"
 title: "Releasing Rust projects, the automatic way"
 published_date: "2016-03-29 20:47:00 +0200"

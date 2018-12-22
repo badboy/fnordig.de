@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/multiple-slides-on-one-side-in-one-pdf"
 title: Multiple slides on one side in one pdf
 published_date: "2014-02-19 18:33:00 +0100"

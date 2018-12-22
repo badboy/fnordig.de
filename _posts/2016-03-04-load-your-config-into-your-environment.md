@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/load-your-config-into-your-environment"
 title: Load your config into your environment
 published_date: "2016-03-04 12:30:00 +0100"

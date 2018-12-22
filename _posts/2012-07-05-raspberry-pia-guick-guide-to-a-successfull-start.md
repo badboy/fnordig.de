@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/raspberry-pia-guick-guide-to-a-successfull-start"
 title: "Raspberry Pi - A guick guide to a successful start"
 published_date: "2012-07-05 00:27:00 +0200"

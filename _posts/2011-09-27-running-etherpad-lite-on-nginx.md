@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/running-etherpad-lite-on-nginx"
 title: "running etherpad-lite on nginx"
 published_date: "2011-09-27 21:24:00 +0200"

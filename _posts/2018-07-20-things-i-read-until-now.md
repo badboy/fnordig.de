@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/things-i-read-until-now"
 title: "Things I read, until now"
 published_date: "2018-07-20 11:05:00 +0200"

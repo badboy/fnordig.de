@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/rust-from-the-back-to-the-front"
 title: Rust from the Back to the Front (Rust Sthlm)
 published_date: "2016-08-31 16:30:00 +0200"

@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/github-pages-deployment-made-easy"
 title: GitHub Pages deployment made easy
 published_date: "2017-11-17 19:47:15 +0100"

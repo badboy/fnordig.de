@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/samsung-chromebook-a-short-review"
 title: "Samsung Chromebook - a short review"
 published_date: "2014-03-03 15:18:00 +0100"

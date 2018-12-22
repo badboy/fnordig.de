@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-dev-day-london-2015"
 title: Redis Dev Day London 2015
 published_date: "2015-10-22 15:05:00 +0200"

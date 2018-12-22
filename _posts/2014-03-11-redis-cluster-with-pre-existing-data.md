@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-cluster-with-pre-existing-data"
 title: "Redis Cluster with pre-existing data"
 published_date: "2014-03-11 17:05:00 +0100"

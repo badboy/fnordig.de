@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/how-i-made-a-useless-tool-and-the-reactions-made-my-sunday-better"
 title: "How I made a useless tool and the reactions made my sunday better"
 published_date: "2018-09-30 23:00:00 +0200"

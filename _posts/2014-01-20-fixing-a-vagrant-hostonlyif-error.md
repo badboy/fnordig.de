@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/fixing-a-vagrant-hostonlyif-error"
 title: "Fixing a Vagrant \"hostonlyif\" error"
 published_date: "2014-01-20 13:24:00 +0100"

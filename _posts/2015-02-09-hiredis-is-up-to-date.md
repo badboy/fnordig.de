@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/hiredis-is-up-to-date"
 title: hiredis is up to date
 published_date: "2015-02-09 20:20:00 +0100"

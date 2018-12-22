@@ -1,3 +1,4 @@
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/my-instapaper-stats"
 title: my instapaper stats
 published_date: "2012-05-08 11:33:00 +0200"
