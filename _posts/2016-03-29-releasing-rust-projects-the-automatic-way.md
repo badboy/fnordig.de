@@ -4,6 +4,8 @@ title: "Releasing Rust projects, the automatic way"
 published_date: "2016-03-29 20:47:00 +0200"
 data:
   route: blog
+  tags:
+    - rust
 ---
 One of the strength of the Rust ecosystem is its package manager [Cargo][] and the package system [crates.io][].
 Pulling in some dependencies is as easy as adding it to your projects' `Cargo.toml` and running `cargo build`.

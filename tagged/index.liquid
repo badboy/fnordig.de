@@ -1,0 +1,18 @@
+---
+permalink: /tagged/index.html
+title: Post tags
+layout: simple.liquid
+data:
+  route: posts
+  tags:
+    - mozilla
+    - rust
+---
+
+<ul>
+  {% for tag in page.data.tags %}
+      <li>
+      <a href="/tagged/{{tag}}.html">{{tag}}</a>
+      </li>
+  {% endfor %}
+</ul>

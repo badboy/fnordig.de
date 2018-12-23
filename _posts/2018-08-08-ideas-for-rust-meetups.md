@@ -5,6 +5,8 @@ published_date: "2018-08-08 12:45:00 +0200"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 
 Not every meetup follows the same structure. Not every meetup needs to have 75+ attendees.

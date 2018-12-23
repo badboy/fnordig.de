@@ -5,6 +5,8 @@ published_date: "2016-08-31 16:30:00 +0200"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 <center>
 [![Rust on the Web](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.23.59.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_18.23.59.jpg)

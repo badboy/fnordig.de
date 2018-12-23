@@ -5,6 +5,8 @@ published_date: "2016-02-23 20:32:00 +0100"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 For one of my projects I need to access the GitHub API to create releases.
 Luckily, through reading [This Week in Rust #119][twir], I discovered [Hubcaps][], a library for interfacing with GitHub.

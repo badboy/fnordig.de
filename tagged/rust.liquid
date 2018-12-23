@@ -1,0 +1,15 @@
+---
+permalink: /tagged/rust.html
+title: Posts tagged Rust
+layout: simple.liquid
+data:
+  route: posts
+---
+
+<ul>
+  {% for post in collections.posts.pages %}
+      {%- if post.data.tags and post.data.tags contains "rust" -%}
+      <li>{{ post.published_date | date: "%d %b %Y"}}: <a href="/{{post.permalink }}">{{post.title}}</a></li>
+      {%- endif -%}
+  {% endfor %}
+</ul>

@@ -5,6 +5,8 @@ published_date: "2016-03-04 12:30:00 +0100"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 It became quite popular to store certain configuration variables in your environment, to be later loaded by your aplication.
 This way of [having all configuration][config] available is part of the [twelve-factor app definition][12factor].

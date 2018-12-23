@@ -5,6 +5,8 @@ published_date: "2018-02-07 09:05:00 +0100"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 
 Last weekend I met [Daniel Stenberg][bagder], author of curl, at FOSDEM and we talked a bit about curl, Firefox and also Rust.

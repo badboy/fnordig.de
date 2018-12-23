@@ -5,6 +5,8 @@ published_date: "2015-03-05 14:41:00 +0100"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 So yesterday I gave a Rust introduction talk at the local hackerspace, [CCCAC](http://ccc.ac).
 The slides are already [online](https://fnordig.de/talks/2015/cccac/rust-intro/).

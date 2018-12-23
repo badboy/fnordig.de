@@ -5,6 +5,8 @@ published_date: "2016-05-12 23:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - rust
 ---
 … because mine didn't. At least not correctly in all cases.
 I'm talking about my Rust library [lzf-rs](https://crates.io/crates/lzf),

@@ -5,6 +5,9 @@ published_date: "2018-09-30 23:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - mozilla
+    - rust
 ---
 
 Last night I had an idea, which made me stay up two hours longer than I wanted.

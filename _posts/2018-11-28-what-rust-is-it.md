@@ -5,6 +5,9 @@ published_date: "2018-11-28 20:09:00 +0100"
 layout: post.liquid
 data:
   route: blog
+  tags:
+    - mozilla
+    - rust
 ---
 
 A while ago (sometime in August) I built a small service called [What Rust is it?](http://www.whatrustisit.com/).
