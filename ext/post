@@ -5,6 +5,7 @@ OUTPUT_DIR = File.expand_path("~/projects/fnordig.de/_posts")
 EDITOR = ENV['EDITOR'] || 'vim'
 EXTENSION=".md"
 HEADER = <<EOF
+---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/%s"
 title: "%s"
 published_date: "%s"
