@@ -5,7 +5,7 @@ layout: simple.liquid
 data:
   route: about
 ---
-26 years old.  
+27 years old.  
 Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
 Working at [Mozilla](https://www.mozilla.org/).  
 Organizer of [RustFest](http://www.rustfest.eu/).  
