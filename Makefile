@@ -6,6 +6,7 @@ build:
 .PHONY: build
 
 serve: build
+	@echo "Served on http://localhost:8000"
 	cd _site && http
 .PHONY: serve
 
