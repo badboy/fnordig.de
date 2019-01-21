@@ -44,7 +44,7 @@ bill.get 'settings'
 # => {"settings"=>
 #   {"invoice_intro"=>"",
 #    "invoice_note"=>"",
-#    ...}}
+#    ...} }
 ~~~
 
 #### Using defined resources classes:
