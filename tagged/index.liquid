@@ -13,6 +13,7 @@ data:
   {% for tag in page.data.tags %}
       <li>
       <a href="/tagged/{{tag}}.html">{{tag}}</a>
+      (<a href="/tagged/{{tag}}.xml">Feed for {{tag}}</a>)
       </li>
   {% endfor %}
 </ul>

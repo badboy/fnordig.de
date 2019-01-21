@@ -6,6 +6,8 @@ data:
   route: posts
 ---
 
+<a href="/tagged/mozilla.xml">RSS Feed</a>
+
 <ul>
   {% for post in collections.posts.pages %}
       {%- if post.data.tags and post.data.tags contains "mozilla" -%}
