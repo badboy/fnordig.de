@@ -238,3 +238,5 @@ blockquote p {
 }
 
 /* close commented backslash hack */
+
+table, tr, td { border: none; }

@@ -9,16 +9,22 @@ data:
 <a href="/tagged/">Post by tag</a>
 
 {% assign years = "2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011" | split: ", " %}
-{% for year in years %}
+<table>
+{% for year in years -%}
+<tr>
+  <td>&nbsp;</td>
+  <td><h3>{{year}}</h3></td>
+</tr>
 
-<h3>{{year}}</h3>
+  {%- for post in collections.posts.pages %}
+    {%- assign postyear = post.published_date | date: "%Y" %}
+    {%- if postyear == year %}
+      <tr>
+        <td>{{ post.published_date | date: "%d. %b"}}</td>
+        <td><a href="/{{post.permalink }}">{{post.title}}</a></td>
+      </tr>
+    {%- endif %}
+  {%- endfor %}
 
-<ul>
-  {% for post in collections.posts.pages %}
-    {% assign postyear = post.published_date | date: "%Y" %}
-    {% if postyear == year %}
-      <li>{{ post.published_date | date: "%d %b"}}: <a href="/{{post.permalink }}">{{post.title}}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-{%endfor%}
+{%- endfor %}
+</table>
