@@ -8,10 +8,14 @@ data:
 
 <a href="/tagged/rust.xml">RSS Feed</a>
 
-<ul>
-  {% for post in collections.posts.pages %}
-      {%- if post.data.tags and post.data.tags contains "rust" -%}
-      <li>{{ post.published_date | date: "%d %b %Y"}}: <a href="/{{post.permalink }}">{{post.title}}</a></li>
-      {%- endif -%}
-  {% endfor %}
-</ul>
+<table>
+  {%- for post in collections.posts.pages %}
+    {%- assign postyear = post.published_date | date: "%Y" %}
+    {%- if post.data.tags and post.data.tags contains "rust" -%}
+      <tr>
+        <td>{{ post.published_date | date: "%d. %b %Y"}}</td>
+        <td><a href="/{{post.permalink }}">{{post.title}}</a></td>
+      </tr>
+    {%- endif %}
+  {%- endfor %}
+</table>
