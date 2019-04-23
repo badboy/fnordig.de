@@ -6,7 +6,6 @@
   <body>
     {% include "_menu.liquid" %}
 
-
     <main>
     <article>
       <h1>{{ page.title }}</h1>
@@ -22,7 +21,13 @@
         {% assign phrase = " minutes." | prepend: reading_time %}
       {% endcase %}
 
-      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} - Reading time: {{ phrase }}</time><br />
+      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} - Reading time: {{ phrase }}</time>
+
+      {% if page.data and page.data.tags -%}
+      {%- assign tags = page.data.tags | join: ", " -%}
+      Tags: {{tags}}
+      {%- endif -%}
+      <br />
 
       {{ page.content }}
     </article>
