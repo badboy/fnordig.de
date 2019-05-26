@@ -13,7 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2019
 
-* **A shell that shouts at you**, EnthusiastiCon (Berlin), 25.05.2019 ([Conference](https://www.enthusiasticon.de/talks/#a-shell-that-shouts-at-you))
+* **A shell that shouts at you**, EnthusiastiCon (Berlin), 25.05.2019 ([Conference](https://www.enthusiasticon.de/talks/#a-shell-that-shouts-at-you), [Slides](https://badboy.github.io/stdshout/))
 
 ## 2018
 
