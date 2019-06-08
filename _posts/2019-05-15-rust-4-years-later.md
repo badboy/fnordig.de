@@ -34,7 +34,7 @@ Today [we're celebrating](https://berline.rs/2019/05/15/rust-hack-and-learn.html
 A month after I joined Mozilla, the first ever [Rust All-Hands](https://internals.rust-lang.org/t/rust-2018-all-hands/7141) happened in the Berlin office and,
 as so much about my involvement with Rust,
 I stumbled into being the responsible on-site person during that week. It [went pretty well](https://blog.rust-lang.org/2018/04/06/all-hands.html).
-We repeated the [Rust All-Hands this year](https://blog.mozilla.org/berlin/rust-all-hands-2019/) (German article), now with me being _offically_ the on-site organizer, but also attendee.
+We repeated the [Rust All-Hands this year](https://blog.mozilla.org/berlin/rust-all-hands-2019/) (German article), now with me being _officially_ the on-site organizer, but also attendee.
 
 In 2017 I shipped my first piece of Rust code used in production (an actual [opera production](https://www.theaterdo.de/detail/event/einstein-on-the-beach/)): [midioscar](https://github.com/rrbone/midioscar).
 A couple of weeks ago I started my first Mozilla project using Rust (more about that in a future blog post).
