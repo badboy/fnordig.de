@@ -89,7 +89,7 @@ article.blog-list a {
   text-decoration: none;
 }
 
-article.blog-list a:hover {
+article a:hover {
   text-decoration: underline;
 }
 
