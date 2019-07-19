@@ -1,7 +1,7 @@
 ---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/redis-the-biggest-release-yet"
 title: "redis-rs 0.11.0 - the biggest release yet"
-published_date: "2019-07-01 20:55:00 +0200"
+published_date: "2019-07-19 12:05:00 +0200"
 layout: post.liquid
 data:
   route: blog
@@ -19,7 +19,7 @@ It's now time for a stable release:
 </center>
 
 [**Documentation**](https://docs.rs/redis/*/redis/).  
-[**Repository**](https://github.com/mitsuhiko).
+[**Repository**](https://github.com/mitsuhiko/redis-rs).
 
 ## What is redis-rs?
 
@@ -66,7 +66,7 @@ It also gets rid of some cargo features, that are now either unnecessary or can 
 
 The [changelog] includes detail documentation about every breaking change as well as how to rewrite existing code to work with the new version.
 
-[changelog]: https://github.com/mitsuhiko/redis-rs/blob/abe57741b69863b9843bc63ec5782bafcd727610/CHANGELOG.md
+[changelog]: https://github.com/mitsuhiko/redis-rs/blob/0.11.0/CHANGELOG.md
 
 ---
 
