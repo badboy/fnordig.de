@@ -28,7 +28,7 @@ This kicked of a rewrite of Glean using Rust to become a cross-platform telemetr
 
 1382 commits later[^1] I tagged [v19.0.0](https://github.com/mozilla/glean/commit/1ac00bf63daea97f6e2d6fa36980279eecf5a800)[^2].
 
-Obviously that doesn't make people use it right away, but given all all consumers of Glean right now are Mozilla products, it's up on us to get them to use it.
+Obviously that doesn't make people use it right away, but given all consumers of Glean right now are Mozilla products, it's up on us to get them to use it.
 So [Alessio did just that](https://github.com/mozilla-mobile/android-components/pull/4620) by upgrading Android Components, a collection of Android libraries to build browsers or browser-like applications, to this new version.
 
 This will soon roll out to nightly releases of Firefox Preview and, given we don't hit any larger bugs, hit the release channel in about 2 weeks.
