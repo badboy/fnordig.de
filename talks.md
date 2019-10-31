@@ -13,7 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2019
 
-* **Something about Rust**, Bitshift Meetup Bergen (Norway), 30.10.2019 ([Meetup](https://www.meetup.com/BitShift/events/265561649))
+* **Something about Rust**, Bitshift Meetup Bergen (Norway), 30.10.2019 ([Slides](https://fnordig.de/talks/2019/something-about-rust/), [Meetup](https://www.meetup.com/BitShift/events/265561649))
 * **A shell that shouts at you**, EnthusiastiCon (Berlin), 25.05.2019 ([Conference](https://www.enthusiasticon.de/talks/#a-shell-that-shouts-at-you), [Slides](https://badboy.github.io/stdshout/))
 
 ## 2018
