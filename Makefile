@@ -1,5 +1,10 @@
+MAKEFLAGS += --jobs=2
+
 SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
+
+default: serve rerun
+.PHONY: default
 
 build:
 	cobalt build --drafts
