@@ -28,6 +28,11 @@ The biggest difference?
 
 It's called `deletion_request` ping instead.
 
+On ingestion data from a ping is decoded from its JSON form and put into tables on BigQuery
+(in our documentation you can find [an overview of the data pipeline](https://docs.telemetry.mozilla.org/concepts/pipeline/gcp_data_pipeline.html#an-overview-of-mozillas-data-pipeline) if you are interested).
+BigQuery table names can only contain alphanumeric characters and underscores (see ["Table naming"](https://cloud.google.com/bigquery/docs/tables#table_naming) in the BigQuery documentation).
+We avoid any translation in the pipeline by just enforcing this directly on ping names.
+
 Glean also enforces the payload schema of pings.
 Glean itself controls portion of the data, including a sequence number, date field
 and a bit of metadata about the application its running in (see [the ping sections](https://mozilla.github.io/glean/book/user/pings/index.html#ping-sections)).
