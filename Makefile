@@ -24,5 +24,5 @@ clean:
 .PHONY: clean
 
 rerun:
-	fd | entr -s make
+	fd | entr -s 'make build'
 .PHONY: rerun
