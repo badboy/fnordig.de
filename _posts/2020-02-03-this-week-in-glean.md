@@ -37,27 +37,27 @@ clang-9: error: linker command failed with exit code 1 (use -v to see invocation
 
 I set out to investigate this error.
 While I had not seen that particular error before, I knew about the [`backtrace`][backtrace] crate. It caused me some trouble before (it depends on a C library, and won't work on all targets easily).
-I knew that Glean doesn't really depend on its functionality[^2] and thus removing it from our dependency graph would probably solve the issue.
+I knew that the Glean SDK doesn't really depend on its functionality[^2] and thus removing it from our dependency graph would probably solve the issue.
 But first I had to find out why we depend on it somewhere and why it is causing these linker errors to begin with.
 
 The first thing I noticed is that we didn't include anything new in the patch set that was now rejected.
 Through some experimentation and use [`cargo-tree`][] I could tell that `backtrace` was included in the build before our Glean patch[^3], as a transitive dependency of another crate: [`failure`][].
 
 So why didn't it fail the build before?
-As per the errors above the build failed only during linking, not compilation, which makes me believe those functions where never linked in previously, because no one passed around any errors that would cause these functions to be used.
+As per the errors above, the build failed only during linking, not compilation, which makes me believe those functions were never linked in previously, because no one passed around any errors that would cause these functions to be used.
 
-As said before Glean doesn't really need failure's backtrace feature, so I tried disabling its default features.
-Due to how cargo currently works this needs to be done across all transitive dependencies (the final feature set a crate is compiled with it the union across it all).
+As said before, the Glean SDK doesn't really need failure's backtrace feature, so I tried disabling its default features.
+Due to how cargo currently works, this needs to be done across all transitive dependencies (the final feature set a crate is compiled with is the union across everything).
 
 * [Disabling it in ffi-support in application-services](https://github.com/mozilla/application-services/pull/2448)
 * [Disabling it in Glean (and depending on that changed ffi-support](https://github.com/mozilla/glean/commit/eed8f16f6afdbf8599301bf1a95d745c1eeab4b9)
 
-I then changed mozilla-central to use the crates from git directly for testing..
+I then changed mozilla-central to use the crates from git directly for testing.
 
 Turns out that still fails with the same issue on the Windows target.
 Something was re-enabling the "std" feature of `failure` in tree.
 
-[`cargo-feature-set`][] was able to show me all enabeld features for all dependencies I tracked it down further[^4].
+[`cargo-feature-set`][] was able to show me all enabled features for all dependencies I tracked it down further[^4].
 
 Turns out the `quantum_render` feature enables the [webrender_bindings](https://searchfox.org/mozilla-central/source/gfx/webrender_bindings/) crate,
 which then somehow pulls in `failure` through transitive dependencies again.
@@ -76,7 +76,7 @@ That's a long standing issue:
 So now we identified who's pulling in the backtrace crate and maybe even identified why it was not a problem before.
 How do we fix this?
 
-As shown before just disabling the backtrace feature in crates we use directly doesn't solve it, so one quick workaround was to force `failure` itself to not have that feature ever.
+As shown before, just disabling the backtrace feature in crates we use directly doesn't solve it, so one quick workaround was to force `failure` itself to not have that feature ever.
 Easily done:
 
 ```patch
