@@ -11,6 +11,10 @@ I will talk Rust, WebAssembly, Open Source Development & Open Source communities
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2020
+
+* **A murmuring of mesmerizing starlings** (workshop with Daan van Berkel), BoosterConf Bergen (Norway), 18.-20.03.2020 ([Conference](https://2020.boosterconf.no/talks/1479))
+
 ## 2019
 
 * **Something about Rust**, Bitshift Meetup Bergen (Norway), 30.10.2019 ([Slides](https://fnordig.de/talks/2019/something-about-rust/), [Meetup](https://www.meetup.com/BitShift/events/265561649))
