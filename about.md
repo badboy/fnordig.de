@@ -33,10 +33,10 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 **Current projects**
 
 * [What Rust is it?](http://www.whatrustisit.com/) - Show the current Rust versions and next (planned) release date.
-* [semantic-rs](https://github.com/semantic-rs/semantic-rs) - Automatic crate publishing
 
 **Older projects**
 
+* [semantic-rs](https://github.com/semantic-rs/semantic-rs) - Automatic crate publishing
 * [Hello, Rust!](http://www.hellorust.com/) - Resources, articles, links & example around Rust & WebAssembly
 * [rdb-rs](http://rdb.fnordig.de/) - fast and efficient RDB parsing utility, including full documentation on the RDB file format
 * [hiredis](https://github.com/redis/hiredis) - the minimalistic C client for Redis, as well as wrapper libraries: [hiredis-rb](https://github.com/redis/hiredis-rb/) ([gem](https://rubygems.org/gems/hiredis)), [hiredis-node](https://github.com/redis/hiredis-node) ([npm](https://www.npmjs.com/package/hiredis)), [hiredis-py](https://github.com/redis/hiredis-py) ([pypi](https://pypi.python.org/pypi/hiredis/))
