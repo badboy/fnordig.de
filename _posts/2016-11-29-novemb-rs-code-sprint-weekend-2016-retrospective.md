@@ -54,7 +54,9 @@ And another big thanks to Mozilla for sponsoring the pizza and the C4 for offeri
 * Online Communication between locations wasn't used that much. The whole idea was to have a distributed code sprint, so working together on projects across locations would have been nice. Maybe we should offer to have ad-hoc video calls as well?
 
 <center>
+
 [![Rust @ Whiteboard](//tmp.fnordig.de/novemb.rs/th-2016-11-20_14.36.28.jpg)](//tmp.fnordig.de/novemb.rs/2016-11-20_14.36.28.jpg)
+
 <p>Coding on the whiteboard (only half of the attendees in the picture)</p>
 </center>
 
@@ -70,6 +72,8 @@ If you are not from the Rhein area, take a look if there's a [Rust User Group](h
 
 
 <center>
+
 [![Rust](//tmp.fnordig.de/novemb.rs/th-2016-11-20_12.11.20.jpg)](//tmp.fnordig.de/novemb.rs/2016-11-20_12.11.20.jpg)
+
 <p>Signs showed the way</p>
 </center>
