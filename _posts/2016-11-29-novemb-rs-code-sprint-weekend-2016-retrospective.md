@@ -15,7 +15,9 @@ In 10 locations in Europe and the US as well as online, people gathered to hack 
 Bringing people together is one goal of the Rust community and coding, learning and having fun together is a lot of fun as well.
 
 <center>
+
 ![novemb.rs @ C4](//tmp.fnordig.de/novemb.rs/th-novembrs-sign.jpg)
+
 <p>We opened doors at Chaos Computer Club Cologne</p>
 </center>
 
