@@ -6,8 +6,8 @@ data:
   route: about
 ---
 Jan-Erik Rediger<br>
-Schäferstraße 27<br>
-D-59714 Kamen<br>
+Corinthstraße 40<br>
+D-10245 Berlin<br>
 imprint {ät} fnordig {dot} de
 
 ## Zusatzbestimmungen / Extra
