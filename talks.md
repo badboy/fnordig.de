@@ -13,12 +13,12 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2020
 
-* **A murmuring of mesmerizing starlings** (workshop with Daan van Berkel), BoosterConf Bergen (Norway), 18.-20.03.2020 ([Conference](https://2020.boosterconf.no/talks/1479))
+* (cancelled) <del> **A murmuring of mesmerizing starlings** (workshop with Daan van Berkel), BoosterConf Bergen (Norway), 18.-20.03.2020 ([Conference](https://2020.boosterconf.no/talks/1479)) </del>
 
 ## 2019
 
 * **Something about Rust**, Bitshift Meetup Bergen (Norway), 30.10.2019 ([Slides](https://fnordig.de/talks/2019/something-about-rust/), [Meetup](https://www.meetup.com/BitShift/events/265561649))
-* **A shell that shouts at you**, EnthusiastiCon (Berlin), 25.05.2019 ([Conference](https://www.enthusiasticon.de/talks/#a-shell-that-shouts-at-you), [Slides](https://badboy.github.io/stdshout/))
+* **A shell that shouts at you**, EnthusiastiCon (Berlin), 25.05.2019 ([Video](https://www.youtube.com/watch?v=YF6-g4YkyNY), [Conference](https://www.enthusiasticon.de/talks/#a-shell-that-shouts-at-you), [Slides](https://badboy.github.io/stdshout/))
 
 ## 2018
 
