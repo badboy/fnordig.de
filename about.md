@@ -9,7 +9,7 @@ data:
 Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
 Working at [Mozilla](https://www.mozilla.org/).  
 Organizer of [RustFest](http://www.rustfest.eu/).  
-Programming a lot of C++, JavaScript and [Rust](http://www.rust-lang.org/).  
+Programming a lot of [Rust](http://www.rust-lang.org/), C++ and JavaScript.  
 Previously a lot of [Ruby](http://www.ruby-lang.org/en/).  
 Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
@@ -58,4 +58,3 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 ## Writing
 
 * [Network Function Offloading in Virtualized Environments](https://tmp.fnordig.de/uni/master-thesis/nf-offloading-in-virtualized-environments_jan-erik_rediger.pdf) (Master Thesis)
-

@@ -6,7 +6,7 @@ data:
   route: talks
 ---
 I gave some talks & workshops in the past and I'd love to give some more in the future.
-I will talk Rust, WebAssembly, Open Source Development & Open Source communities, and about any of the project I'm involved in.
+I will talk about Rust, Open Source Development & Open Source communities, and about any of the project I'm involved in.
 
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
