@@ -16,6 +16,7 @@ Last week's blog post: [This Week in Glean: Glean for Python on Windows](https:/
 by Mike Droettboom.
 All "This Week in Glean" blog posts are listed in the [TWiG index](https://mozilla.github.io/glean/book/appendix/twig.html)
 (and on the [Mozilla Data blog](https://blog.mozilla.org/data/category/glean/)).
+This article is [cross-posted on the Mozilla Data blog](https://blog.mozilla.org/data/2020/05/04/this-week-in-glean-bytes-in-memory-on-android/).
 
 ---
 
