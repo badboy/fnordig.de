@@ -5,11 +5,17 @@ body {
   padding: 0;
 }
 
-body {}
-
 pre {
   padding: 1ch;
   border: none;
+
+  /* cobalt's highlighting sets inline values, so we need to overwrite them */
+  background-color: #f7f7f7 !important;
+}
+
+pre > span {
+  /* cobalt's highlighting sets inline values, so we need to overwrite them */
+  background-color: #f7f7f7 !important;
 }
 
 time {

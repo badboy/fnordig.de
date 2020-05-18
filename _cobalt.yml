@@ -28,7 +28,7 @@ ignore:
   - README.md
   - Makefile
 syntax_highlight:
-  theme: "base16-ocean.dark"
+  theme: "InspiredGitHub"
 assets:
   sass:
     style: Nested
