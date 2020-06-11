@@ -107,16 +107,18 @@ As soon as I was back home, I grabbed my PSP, booted up a new virtual machine an
 First step: Re-compile and run p-twit. Yip, it works (ok, it starts. Of course the Twitter API is so closed these days, it wouldn't be able to do anything).
 
 <center>
+
 [![p-twit runs again](//tmp.fnordig.de/rust-on-psp/th-2014-11-24_11.54.27.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-24_11.54.27.jpg)
+
 </center>
 
 Second step: Follow the instructions from the [Gist][helloworld-instructions].
 
-~~~
+```
 jer@psp-dev:~/rust-for-psp$ rustc hello.rs --target psp -lpspdebug -lpspdisplay -lpspge -lm -lc -lpspuser -lgcc
 jer@psp-dev:~/rust-for-psp$ psp-fixup-imports hello
 Error, no sceModuleInfo section found
-~~~
+```
 
 D'oh! That didn't work.
 I played around, tried all kinds of things, then gave up a little frustrated.
@@ -132,24 +134,28 @@ He simply used the pre-compiled [minpspw][] package
 Once I grabbed that, the "Hello World" application compiled and ran! Success!
 
 <center>
+
 [![From Rust with love](//tmp.fnordig.de/rust-on-psp/th-2014-11-27_01.13.59.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-27_01.13.59.jpg)
+
 </center>
 
 The journey doesn't end here.
 Only partly satisfied with what I had, I took some free time on a train ride to write a wrapper for the input handling.
 
 <center>
+
 [![Press X, press O](//tmp.fnordig.de/rust-on-psp/th-2014-11-28_12.25.50.jpg)](//tmp.fnordig.de/rust-on-psp/2014-11-28_12.25.50.jpg)
+
 </center>
 
 Now it's possible to react to user input with this simple piece of code:
 
-~~~rust
+```rust
 let mut pad_data = ctrl::Input::new();
 
 if pad_data.read_changed() {
   match pad_data.pressed_key() {
-    Button::Cross => utils::debug_print("X pressed\n"),
+      Button::Cross => utils::debug_print("X pressed\n"),
       Button::Circle => utils::debug_print("O pressed\n"),
       Button::Triangle => utils::debug_print("TRIANGLE pressed\n"),
       Button::Square => utils::debug_print("SQUARE pressed\n"),
@@ -157,7 +163,7 @@ if pad_data.read_changed() {
       _ => utils::debug_print("unhandled keypress\n"),
   }
 }
-~~~
+```
 
 The full implementation is up in [my fork of rust-psp-hello][helloworld-fork].
 
