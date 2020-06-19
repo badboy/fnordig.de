@@ -13,6 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2020
 
+* **Leveraging Rust to build cross-platform mobile libraries**, Rusty Days (online), 27.07.2020 - 02.08.2020 ([Conference](https://rusty-days.org/))
 * (cancelled) <del> **A murmuring of mesmerizing starlings** (workshop with Daan van Berkel), BoosterConf Bergen (Norway), 18.-20.03.2020 ([Conference](https://2020.boosterconf.no/talks/1479)) </del>
 
 ## 2019
