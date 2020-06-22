@@ -8,6 +8,11 @@ data:
 
 <em>Unedited notes & snippets</em>
 
+## 2020-06-22
+
+A thing I noticed today during an online workshop I attended: Slowing down and writing out the most trivial examples helps me better remember the content.
+This is not something entirely new or enlightening, but it’s to a large extent not how I approached learning tech topics in the past.
+
 ## 2020-06-21
 
 If you're against deplatforming racists and fascists then go fuck right off.
