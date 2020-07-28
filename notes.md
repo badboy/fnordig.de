@@ -8,6 +8,14 @@ data:
 
 <em>Unedited notes & snippets</em>
 
+## 2020-07-28
+
+"I think the best online events don’t try to recreate the past, but start with a different experience" -- [Linda Liukas](https://medium.com/@lindaliukas/experiments-with-online-events-13b422c9d5fa).
+This, so much this.
+Online events need to be different.
+The one thing I feel is missing from that article though is how to enable this way of producing content for online events when one does not have the high-end equipment,
+a fast internet connection or experience with video editing.
+
 ## 2020-06-22
 
 A thing I noticed today during an online workshop I attended: Slowing down and writing out the most trivial examples helps me better remember the content.
