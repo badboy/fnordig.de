@@ -53,7 +53,7 @@ It's responsible for controlling the database, storing data and handling additio
 As it is pure Rust we can rely on all Rust tooling for its development.
 We can write tests that `cargo test` picks up. We can generate the full API documentation thanks to `rustdoc`
 and we rely on `clippy` to tell us when our code is suboptimal.
-Working on `glean-core` should be possible by everyone that knows some Rust.
+Working on `glean-core` should be possible for everyone that knows some Rust.
 
 On top of that sits `glean-ffi`.
 This is the FFI layer connecting `glean-core` with everything else.
@@ -64,7 +64,7 @@ It's a translation between the proper Rust API of glean-core and C-compatible fu
 In it we rely on the excellent [`ffi-support` crate](https://docs.rs/ffi-support/).
 ffi-support knows how to translate between Rust and C types, offers a nice (and safer) abstraction for C strings.
 glean-ffi holds *some* state: the instantiated global Glean object and metric objects.
-We don't need to pass pointers back and force. Instead we use opaque handles that index into a map held inside the FFI crate.
+We don't need to pass pointers back and forth. Instead we use opaque handles that index into a map held inside the FFI crate.
 
 The top layer of the Glean SDK are the different [language implementations](https://mozilla.github.io/glean/book/dev/core/internal/implementations.html).
 Language implementations expose a nice ergonomic API to initialize Glean and record metrics in the respective language.
