@@ -14,7 +14,7 @@ data:
 
 All "This Week in Glean" blog posts are listed in the [TWiG index](https://mozilla.github.io/glean/book/appendix/twig.html)
 (and on the [Mozilla Data blog](https://blog.mozilla.org/data/category/glean/)).
-This article is [cross-posted on the Mozilla Data blog](https://blog.mozilla.org/data/2020/08/24/this-week-in-glean-leveragin-rust/).
+This article is [cross-posted on the Mozilla Data blog](https://blog.mozilla.org/data/?p=232&preview=true).
 
 ---
 
