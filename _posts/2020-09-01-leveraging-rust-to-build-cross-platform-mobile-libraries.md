@@ -73,7 +73,7 @@ The nice API calls into the Glean SDK using the exposed FFI functions of `glean-
 Unfortunately at the moment different language implementations carry different amounts of actual logic in them.
 Sometimes metric implementations require this (e.g. we rely on the clock source of Kotlin for timing metrics),
 in other parts we just didn't move the logic out of the implementations yet.
-We're actively working on moving logic into the Rust part where we can and might eventually use some code generation to unify the other parts.
+We're actively working on [moving logic into the Rust part where we can](https://bugzilla.mozilla.org/show_bug.cgi?id=1651382) and might eventually use some code generation to unify the other parts.
 [uniffi] is a current experiment for a multi-language bindings generator for Rust we might end up using.
 
 [uniffi]: https://github.com/mozilla/uniffi-rs
