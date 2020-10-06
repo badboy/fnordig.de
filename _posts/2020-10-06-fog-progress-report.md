@@ -37,9 +37,7 @@ mozilla::glean::test_only::count_something.Add(42);
 JavaScript developers will use it like this:
 
 ```javascript
-Glean.test_only.can_we_time_it.start();
-// do some work
-Glean.test_only.can_we_time_it.stop();
+Glean.test_only.count_something.add(32);
 ```
 
 My work is done in [bug 1646165][mla].
