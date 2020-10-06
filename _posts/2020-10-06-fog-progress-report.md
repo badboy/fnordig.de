@@ -26,7 +26,7 @@ Now, 12 months later, after four completed milestones, a dozen or so proposal an
 the Project Firefox on Glean (FOG) is finally getting into a stage where we can actually use and test it.
 It's not ready for prime time yet, but FOG is enabled in Firefox Nightly already.
 
-Over the past 4 weeks I'v been on and off working on building out our support for a C++ and a JavaScript API.
+Over the past 4 weeks I've been on and off working on building out our support for a C++ and a JavaScript API.
 Soon Firefox engineers will be able to instrument their code using Glean.
 In C++ this will look like:
 
