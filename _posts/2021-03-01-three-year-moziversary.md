@@ -43,7 +43,7 @@ And thanks to all the other people at Mozilla I work with.
 [Mike]: http://droettboom.com/
 [Chris]: https://chuttenblog.wordpress.com/
 [Travis]: https://blogoftravis.wordpress.com/
-[Alessio]: https://www.a2p.it/wordpress/t
+[Alessio]: https://www.a2p.it/wordpress/
 [Bea]: https://brizental.github.io/
 [Daniel]: http://www.relud.com/
 [Anthony]: https://acmiyaguchi.me/
