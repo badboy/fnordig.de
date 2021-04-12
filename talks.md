@@ -11,6 +11,10 @@ I will talk about Rust, Open Source Development & Open Source communities, and a
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2021
+
+* **Leveraging Rust to build cross-platform mobile libraries**, Rust Linz (online), 22.04.2021 ([Meetup](https://www.meetup.com/Rust-Linz/events/276521001/))
+
 ## 2020
 
 * **Leveraging Rust to build cross-platform mobile libraries**, Rusty Days (online), 27.07.2020 - 02.08.2020 ([Conference](https://rusty-days.org/), [Slides](https://fnordig.de/talks/2020/rustydays/slides.pdf), [Video](https://www.youtube.com/watch?v=j5rczOF7pzg))
