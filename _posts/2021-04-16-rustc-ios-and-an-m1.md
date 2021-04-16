@@ -21,9 +21,8 @@ Back in February I got an M1 MacBook.
 That's Apple's new ARM-based hardware.
 
 I got it with the explicit task to ensure that we are able to develop and build [Glean] on it.
-We maintain a Swift language binding, targeting iOS, and that one is used in [Firefox iOS]
-and also continue supporting development of the [Swift language bindings][swift lb], targeting iOS.
-Eventually our iOS developers will also have M1-based machines and want to test their code, thus Glean needs to work.
+We maintain a [Swift language binding][swift lb], targeting iOS, and that one is used in [Firefox iOS].
+Eventually these iOS developers will also have M1-based machines and want to test their code, thus Glean needs to work.
 
 Here's what we need to get to work:
 
