@@ -107,7 +107,7 @@ Carthage just didn't used to support that.
 The [0.37.0 release][carthage release] fixed that.
 
 That still leaves Rust behind, as it doesn't know the new `-simulator` target.
-But as always the Rust community is ahead of the game and [deg4uss3r] started adding a new target in in [Rust PR #81966][rust sim target].
+But as always the Rust community is ahead of the game and [deg4uss3r] started adding a new target in [Rust PR #81966][rust sim target].
 He got half way there when I jumped in to push it over the finish line.
 How these targets work and how LLVM picks the right things to put into the compiled artifacts is severly underdocumented,
 so I had to go the trial-and-error route in combination with looking at LLVM source code to find the missing pieces.
