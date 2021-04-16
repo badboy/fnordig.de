@@ -13,7 +13,7 @@ data:
 (“This Week in Glean” is a series of blog posts that the Glean Team at Mozilla is using to try to communicate better about our work. They could be release notes, documentation, hopes, dreams, or whatever: so long as it is inspired by Glean.)
 All "This Week in Glean" blog posts are listed in the [TWiG index](https://mozilla.github.io/glean/book/appendix/twig.html)
 (and on the [Mozilla Data blog](https://blog.mozilla.org/data/category/glean/)).
-This article is [cross-posted on the Mozilla Data blog]().
+This article is [cross-posted on the Mozilla Data blog](https://blog.mozilla.org/data/2021/04/16/this-week-in-glean-rustc-ios-and-an-m1/).
 
 ---
 
