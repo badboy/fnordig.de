@@ -57,8 +57,8 @@ So it's both possible to develop & test Glean Python, as well as use it as a dep
 Glean Android is not that straight forward.
 Some of our transitive dependencies are based on years-old pre-built binaries of SQLite
 and of course there's not much support behind updating those Java libraries.
-It's possible, a friend managed to compile and run that library on an M1.
-But for Glean development we simply recommend relying on Rosetta 2, the x86_64 compatibility layer for now.
+It's possible. A friend managed to compile and run that library on an M1.
+But for Glean development we simply recommend relying on Rosetta 2 (the x86_64 compatibility layer) for now.
 It's as easy as:
 
 ```
@@ -101,7 +101,7 @@ You still can't put code compiled for `arm64-apple-ios` and `arm64-apple-ios14.0
 because you can have each architecture only once (the `arm64` part in there).
 That's what Carthage and others stumbled over.
 
-Again Apple prepared for that and for a long time they want you to use [XCFramework bundles][XCFramework bundles][^6].
+Again Apple prepared for that and for a long time they have wanted you to use [XCFramework bundles][XCFramework bundles][^6].
 Carthage just didn't used to support that.
 The [0.37.0 release][carthage release] fixed that.
 
@@ -151,7 +151,7 @@ _Footnotes:_
 [^2]: The other name for that target.  
 [^3]: "Apple Silicon" is yet another name for what is essentially the same as "M1" or "macOS aarch64"  
 [^4]: Or `arm64` for that matter. Yes, yet another name for the same thing.  
-[^5]: ["Universal Binaries"][apple universal binary] exist for a long time now and allow for one binary to include the compiled artifacts for multiple targets. It's how there's only one Firefox for Mac download which runs natively on either Mac platform.  
+[^5]: ["Universal Binaries"][apple universal binary] have existed for a long time now and allow for one binary to include the compiled artifacts for multiple targets. It's how there's only one Firefox for Mac download which runs natively on either Mac platform.  
 [^6]: Yup, the main documentation they link to is a [WWDC 2019 talk recording video][binary framework video].
 
 
