@@ -119,7 +119,7 @@ and thus no prebuilt support is available.
 I am now in discussions to [promote it to Tier 2][rust tier2 promotion],
 but it's currently blocked by the [RFC: Target Tier Policy].
 
-It works on nightly however and in combination with another cargo capability I'm able to build libraries for the M1 iOS simulator:
+It works on nightly however and in combination with another [cargo capability][build-std] I'm able to build libraries for the M1 iOS simulator:
 
 ```
 cargo +nightly build -Z build-std --target aarch64-apple-ios-sim
@@ -175,3 +175,4 @@ _Footnotes:_
 [rust tier2 promotion]: https://github.com/rust-lang/rust/issues/82412
 [RFC: Target Tier Policy]: https://github.com/rust-lang/rfcs/pull/2803
 [glean arm64]: https://github.com/mozilla/glean/pull/1498
+[build-std]: https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#build-std
