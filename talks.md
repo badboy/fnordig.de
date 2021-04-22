@@ -13,7 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2021
 
-* **Leveraging Rust to build cross-platform mobile libraries**, Rust Linz (online), 22.04.2021 ([Meetup](https://www.meetup.com/Rust-Linz/events/276521001/))
+* **Leveraging Rust to build cross-platform mobile libraries**, Rust Linz (online), 22.04.2021 ([Meetup](https://www.meetup.com/Rust-Linz/events/276521001/), [Slides](https://fnordig.de/talks/2021/rustlinz/slides.pdf))
 
 ## 2020
 
