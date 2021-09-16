@@ -30,5 +30,5 @@ rerun:
 .PHONY: rerun
 
 latest-html: ## Get latests post renderewd into HTML
-	find _posts -type f | sort | tail -1 | xargs -I% pandoc -f markdown -t html %
+	@find _posts -type f | sort | tail -1 | xargs -I% pandoc -f markdown -t html %
 .PHONY: latest-html
