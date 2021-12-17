@@ -32,3 +32,7 @@ rerun:
 latest-html: ## Get latests post renderewd into HTML
 	@find _posts -type f | sort | tail -1 | xargs -I% pandoc -f markdown -t html %
 .PHONY: latest-html
+
+spellcheck: ## Spellcheck the latest post
+	aspell --lang en_US --mode=markdown check $(shell find _posts -type f | sort | tail -1)
+.PHONY: spellcheck
