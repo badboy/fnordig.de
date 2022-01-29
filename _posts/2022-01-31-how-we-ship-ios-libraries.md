@@ -8,6 +8,11 @@ data:
   tags:
     - mozilla
     - rust
+excerpt: |
+  We ship the Glean SDK for multiple platforms, one of them being iOS applications.
+  Previously I talked about how we got it to build on the Apple ARM machines.
+  Today we will take a closer look at how we bundle a Rust static library
+  into an iOS application.
 ---
 
 (“This Week in Glean” is a series of blog posts that the Glean Team at Mozilla is using to try to communicate better about our work. They could be release notes, documentation, hopes, dreams, or whatever: so long as it is inspired by Glean.)
@@ -21,7 +26,7 @@ This article is [cross-posted on the Mozilla Data blog][datablog].
 
 We ship the Glean SDK for multiple platforms, one of them being iOS applications.
 Previously I talked about [how we got it to build on the Apple ARM machines](/2021/04/16/rustc-ios-and-an-m1/).
-Today we will take a closer look at how we bundle it all together and ship things as a Swift Package for easy consumption in other projects.
+Today we will take a closer look at how we bundle a Rust static library into an iOS application.
 
 The Glean SDK project was set up in 2019 and we have evolved its project configuration over time.
 A lot has changed in Xcode since then, so for this article we're starting with a fresh Xcode project, a fresh Rust library and put it all together step by step.  
