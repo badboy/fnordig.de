@@ -8,12 +8,39 @@ data:
 {%- for post in collections.posts.pages -%}
 {%- if idx < 5 -%}
 <article class="blog-list">
-  <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
-  <time pubdate="pubdate">{{ post.published_date | date: "%b %d, %Y" }}</time><br />
-  <p>{{ post.content | strip_html | truncatewords: 25, '...' }}</p>
+  <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+  <div class="metadata">
+  {% assign reading_wpm = 200 %}
+  {% assign word_count = post.content | split: " " | size %}
+  {% assign reading_time = word_count | divided_by: 200 %}
+  {% case reading_time %}
+  {% when 0 %}
+    {% assign phrase = "less than a minute." %}
+  {% when 1 %}
+    {% assign phrase = "about a minute." %}
+  {% else %}
+    {% assign phrase = " minute read" | prepend: reading_time %}
+  {% endcase %}
+  <time pubdate="pubdate">{{ post.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>
+
+  {% if post.data and post.data.tags -%}
+  {%- for tag in post.data.tags %}
+  · <a href="/tagged/{{ tag }}.html">{{ tag }}</a>
+  {%- endfor %}
+  {%- endif -%}
+  </div>
+  {%- if post.data and post.data.synopsis %}
+  <p>{{ post.data.synopsis | strip}}…</p>
+  {%- else %}
+  <p>{{ post.content | strip_html | truncatewords: 50, '…' }}</p>
+  {%- endif -%}
 </article>
+
+<hr>
 {%- endif -%}
 {% assign idx = idx | plus: 1 %}
 {%- endfor -%}
 
+<p>
 Looking for more posts? Check out <a href="/posts/">all posts</a>!
+</p>
