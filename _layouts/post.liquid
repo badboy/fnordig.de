@@ -12,14 +12,10 @@
       {% assign reading_wpm = 200 %}
       {% assign word_count = page.content | split: " " | size %}
       {% assign reading_time = word_count | divided_by: 200 %}
-      {% case reading_time %}
-      {% when 0 %}
-        {% assign phrase = "less than a minute." %}
-      {% when 1 %}
-        {% assign phrase = "about a minute." %}
-      {% else %}
-        {% assign phrase = " minute read" | prepend: reading_time %}
-      {% endcase %}
+      {% if reading_time < 1%}
+        {% assign reading_time = 1 %}
+      {% endif %}
+      {% assign phrase = " minute read" | prepend: reading_time %}
 
       <div class="metadata">
       <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>

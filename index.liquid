@@ -13,14 +13,10 @@ data:
   {% assign reading_wpm = 200 %}
   {% assign word_count = post.content | split: " " | size %}
   {% assign reading_time = word_count | divided_by: 200 %}
-  {% case reading_time %}
-  {% when 0 %}
-    {% assign phrase = "less than a minute." %}
-  {% when 1 %}
-    {% assign phrase = "about a minute." %}
-  {% else %}
-    {% assign phrase = " minute read" | prepend: reading_time %}
-  {% endcase %}
+  {% if reading_time < 1%}
+    {% assign reading_time = 1 %}
+  {% endif %}
+  {% assign phrase = " minute read" | prepend: reading_time %}
   <time pubdate="pubdate">{{ post.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>
 
   {% if post.data and post.data.tags -%}
