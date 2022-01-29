@@ -32,7 +32,6 @@ html{
 
 html,
 body {
-  font-size: 17px;
   margin: 0;
   padding: 0;
 }
@@ -72,7 +71,6 @@ nav .menu-item {
   text-decoration: none;
   font-size: 20px;
   font-weight: 100;
-  transition: border-left 0.1s;
 }
 
 nav .menu-item.icon {
@@ -92,8 +90,7 @@ nav a.menu-item {
 main {
   margin: 0 auto;
   width: 100%;
-  max-width: 900px;
-  padding: 50px 40px;
+  max-width: 800px;
   box-sizing: border-box;
   min-height: 600px;
 }
@@ -115,16 +112,23 @@ body[data-route=about] p {
   margin-right: 20px;
 }
 
+article h1 {
+  font-size: 2em;
+  line-height: 2.5rem;
+}
+
 article.blog-list {
   text-align: left;
-  margin: 20px;
-  padding: 25px;
 }
 
 article.blog-list a {
-  font-weight: 100;
   color: black;
   text-decoration: none;
+}
+
+article .metadata a {
+  text-decoration: underline;
+  color: black;
 }
 
 article a:hover {
@@ -172,6 +176,7 @@ footer a, footer a:visited {
 
 hr {
   padding: 0;
+  margin: 10px;
   max-width: 900px;
   height: 1px;
   border: 0;
@@ -187,14 +192,14 @@ blockquote p {
 
 @media all and (max-width:1024px) {
   main {
-    padding: 25px 40px;
+    padding: 0px 40px;
   }
   nav {
     position: static;
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
   }
   nav .menu-item {
     display: inline-block;
@@ -212,32 +217,12 @@ blockquote p {
   }
 }
 
-@media all and (max-width:768px) {
-  h1 {
-    font-size: 40px;
-  }
-  main {
-    padding: 20px 40px;
-  }
+h2 {
+  font: 600 30px "Crimson", Georgia, serif;
 }
 
-@media all and (max-width:390px) {
-  header {
-    margin-top: 10px;
-    height: 50px;
-  }
-  #stage {
-    display: none;
-  }
-  main {
-    padding: 15px 20px;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 20px;
-  }
+h3 {
+  font: 600 20px "Crimson", Georgia, serif;
 }
 
 .clearfix:after {
@@ -252,9 +237,6 @@ blockquote p {
 .clearfix {
   display: inline-block;
 }
-
-
-/* start commented backslash hack \*/
 
 * html .clearfix {
   height: 1%;
@@ -275,6 +257,5 @@ blockquote p {
   margin: 0;
 }
 
-/* close commented backslash hack */
-
+table { margin: 0; }
 table, tr, td { border: none; }

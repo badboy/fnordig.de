@@ -12,7 +12,7 @@ Programming a lot of [Rust](http://www.rust-lang.org/), C++ and JavaScript.
 Previously a lot of [Ruby](http://www.ruby-lang.org/en/).  
 Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
-**Alumni positions**
+### Alumni positions
 
 Co-Organizer of the [Rust User Group Cologne](http://rust.cologne/),
 Co-Organizer of [otsconf Dortmund](https://otsconf.com/),
@@ -29,11 +29,11 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 ## Projects
 
-**Current projects**
+### Current projects
 
 * [What Rust is it?](http://www.whatrustisit.com/) - Show the current Rust versions and next (planned) release date.
 
-**Older projects**
+### Older projects
 
 * [semantic-rs](https://github.com/semantic-rs/semantic-rs) - Automatic crate publishing
 * [Hello, Rust!](http://www.hellorust.com/) - Resources, articles, links & example around Rust & WebAssembly
