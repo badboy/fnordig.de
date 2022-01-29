@@ -8,6 +8,11 @@ data:
   tags:
     - mozilla
     - rust
+  synopsis: |
+    Shortly after we shipped Glean through GeckoView in a Fenix Nightly release
+    we received a crash report pointing to code that we haven't touched in a long time.
+    And yet the change of switching from a standalone Glean library
+    to shipping Glean in GeckoView uncovered a crashing bug, that quickly rose to be the top crasher for Fenix for more than a week
 ---
 
 (“This Week in Glean” is a series of blog posts that the Glean Team at Mozilla is using to try to communicate better about our work. They could be release notes, documentation, hopes, dreams, or whatever: so long as it is inspired by Glean.)
