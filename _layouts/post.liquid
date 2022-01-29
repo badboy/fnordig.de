@@ -18,16 +18,18 @@
       {% when 1 %}
         {% assign phrase = "about a minute." %}
       {% else %}
-        {% assign phrase = " minutes." | prepend: reading_time %}
+        {% assign phrase = " minute read" | prepend: reading_time %}
       {% endcase %}
 
-      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} - Reading time: {{ phrase }}</time>
+      <div class="metadata">
+      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>
 
       {% if page.data and page.data.tags -%}
-      {%- assign tags = page.data.tags | join: ", " -%}
-      Tags: {{tags}}
+      {%- for tag in page.data.tags %}
+      · <a href="/tagged/{{ tag }}.html">{{ tag }}</a>
+      {%- endfor %}
       {%- endif -%}
-      <br />
+      </div>
 
       {{ page.content }}
     </article>
