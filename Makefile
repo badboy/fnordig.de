@@ -2,6 +2,7 @@ SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
 
 default:
+	rm -rf _site
 	$(MAKE) MAKEFLAGS=--jobs=2 dev
 .PHONY: default
 
