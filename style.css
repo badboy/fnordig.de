@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Crimson';
+  src: url("font/crimson-roman.woff") format("woff");
+}
+@font-face {
+  font-family: 'Crimson';
+  src: url("font/crimson-italic.woff") format("woff");
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Crimson';
+  src: url("font/crimson-semibold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Crimson';
+  src: url("font/crimson-bold.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Crimson';
+  src: url("font/crimson-bolditalic.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+
+html{
+  font-family:Crimson,Palatino,Georgia,Lucida Bright,Book Antiqua,serif;
+  font-size:16px;
+  line-height:1.5rem
+}
+
 html,
 body {
   font-size: 17px;
