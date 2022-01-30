@@ -5,10 +5,10 @@ layout: simple.liquid
 data:
   route: about
 ---
-Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
-Working at [Mozilla](https://www.mozilla.org/).  
 Organizer of [RustFest](http://www.rustfest.eu/).  
-Programming a lot of [Rust](http://www.rust-lang.org/), C++ and JavaScript.  
+Working at [Mozilla](https://www.mozilla.org/).  
+Studied Computer Science at [RWTH Aachen](http://www.rwth-aachen.de/) and [UiS](http://www.uis.no/) in Stavanger, Norway.  
+Programming a lot of [Rust](http://www.rust-lang.org/), C++, Swift, Kotlin, Python and JavaScript.  
 Previously a lot of [Ruby](http://www.ruby-lang.org/en/).  
 Speaking about projects and topics I am interested in. See [my previous talks](/talks).
 
