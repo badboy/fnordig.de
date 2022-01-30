@@ -8,6 +8,10 @@ data:
   tags:
     - mozilla
     - rust
+  synopsis: |
+    It took us several more weeks to put everything into place,
+    but we're finally shipping the Rust parts of the Glean Android SDK with GeckoView
+    and consume that in Android Components
 ---
 
 (“This Week in Glean” is a series of blog posts that the Glean Team at Mozilla is using to try to communicate better about our work. They could be release notes, documentation, hopes, dreams, or whatever: so long as it is inspired by Glean.)
