@@ -26,6 +26,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 * Twitter: [@badboy\_](https://twitter.com/badboy_)
 * GitHub: [@badboy](https://github.com/badboy)
 * Pinboard: [badboy](http://pinboard.in/u:badboy)
+* [Divelog](https://fnordig.de/divelog/)
 
 ## Projects
 
@@ -47,10 +48,6 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 * [etherpad](https://pad.fnordig.de/) - real-time collaborative document editing
 * [rezepte](http://rezepte.fnordig.de/) - a small database of recipes (german)
-
-## Other
-
-* [Divelog](https://fnordig.de/divelog/)
 
 ## Writing
 
