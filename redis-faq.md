@@ -5,6 +5,8 @@ layout: simple.liquid
 data:
   route: about
 ---
+_Last update: 2015-06-16_
+
 First: this here is the unofficial FAQ, only containing things that come up by users in the IRC channel `#redis` on Freenode. There's also a more [official FAQ](http://redis.io/topics/faq). This document is also available in a [gist](https://gist.github.com/badboy/5958039).
 
 ## X is weird in my instance. Can you help?
