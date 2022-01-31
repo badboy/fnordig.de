@@ -76,14 +76,14 @@ First we set up the Rust library.
 In a terminal navigate to your `ShippingRust` project directory.
 In there create a new Rust crate:
 
-```
+```sh
 cargo new --lib shipping-rust-ffi
 ```
 
 We will need a static library, so we change the crate type in the generated `shipping-rust-ffi/Cargo.toml`.
 Add the following below the package configuration:
 
-```
+```toml
 [lib]
 crate-type = ["staticlib"]
 ```
@@ -91,7 +91,7 @@ crate-type = ["staticlib"]
 Let's also turn the project into a Cargo workspace.
 Create a new top-level `Cargo.toml` with the content:
 
-```
+```toml
 [workspace]
 members = [
   "shipping-rust-ffi"
@@ -100,8 +100,8 @@ members = [
 
 `cargo build` in the project directory should work now and create a new static library.
 
-```
-; ls -l target/debug/libshipping_rust_ffi.a
+```sh
+$ ls -l target/debug/libshipping_rust_ffi.a
 -rw-r--r-- 2 jer staff 16061952 Jan 28 13:09 target/debug/libshipping_rust_ffi.a
 ```
 
@@ -175,7 +175,7 @@ There add a new "Run Script" phase, give it the name "Build Rust library"
 (double-click the "Run Script" section header),
 and set the command to:
 
-```
+```sh
 bash ${PROJECT_DIR}/bin/compile-library.sh shipping-rust-ffi $buildvariant
 ```
 
@@ -302,7 +302,7 @@ If it now all compiles we're finally ready to use our Rust library.
 
 Open up `ContentView.swift` and change the code to call your Rust library:
 
-```
+```swift
 struct ContentView: View {
     var body: some View {
         Text("Hello, world! \(shipping_rust_addition(30, 1))")
