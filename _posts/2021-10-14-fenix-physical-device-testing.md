@@ -7,6 +7,11 @@ data:
   route: blog
   tags:
     - mozilla
+excerpt: |
+  The Firefox for Android (Fenix) project runs extensive tests on every pull request
+  and when merging code back into the `main` branch.
+  While many tests run within an isolated Java environment, Fenix also contains a multitude of UI tests.
+  This post is about how to run these UI tests on actual physical devices in an automated way.
 ---
 
 The [Firefox for Android (Fenix)](https://github.com/mozilla-mobile/fenix) project runs extensive tests on every pull request and when merging code back into the `main` branch.
