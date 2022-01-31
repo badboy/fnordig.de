@@ -1,9 +1,6 @@
 source: "./"
 destination: _site
 include_drafts: false
-default:
-  excerpt_separator: "<!-- more -->"
-  is_draft: false
 pages:
   default: {}
 posts:
