@@ -38,7 +38,9 @@ body {
 
 pre {
   padding: 1ch;
-  border: none;
+  border: rgba(0,0,0,.1) solid;
+  border-width: 1px;
+  border-radius: 2px;
 
   /* cobalt's highlighting sets inline values, so we need to overwrite them */
   background-color: #f7f7f7 !important;
