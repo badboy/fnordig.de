@@ -21,7 +21,7 @@ All "This Week in Glean" blog posts are listed in the [TWiG index](https://mozil
 (and on the [Mozilla Data blog](https://blog.mozilla.org/data/category/glean/)).
 This article is [cross-posted on the Mozilla Data blog][datablog].
 
-[datablog]: https://blog.mozilla.org/data/TODO
+[datablog]: https://blog.mozilla.org/data/2022/01/31/this-week-in-glean-building-and-deploying-a-rust-library-on-ios/
 
 ---
 
