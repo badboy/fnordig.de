@@ -11,6 +11,10 @@ I will talk about Rust, Open Source Development & Open Source communities, and a
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2022
+
+* **Rust in a UniFFIed world**, Rust Nigeria AMA (online), 05.02.2022 ([Meetup](https://skillsmatter.com/meetups/13752-rust-nigeria-ama), [Slides](https://fnordig.de/talks/2022/rustnigeria/slides.pdf))
+
 ## 2021
 
 * **Leveraging Rust to build cross-platform mobile libraries**, Rust Linz (online), 22.04.2021 ([Meetup](https://www.meetup.com/Rust-Linz/events/276521001/), [Slides](https://fnordig.de/talks/2021/rustlinz/slides.pdf), [Video](https://www.youtube.com/watch?v=peu-rtN4358))
