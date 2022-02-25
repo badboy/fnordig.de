@@ -24,7 +24,7 @@ This article is [cross-posted on the Mozilla Data blog][datablog].
 ---
 
 On February 11th, 2022 we hosted a Data Club Lightning Talk session.
-There I presented my small side project of setting up a minimal data pipeline & data storage parts for Glean.
+There I presented my small side project of setting up a minimal data pipeline & data storage for Glean.
 
 The premise:
 
