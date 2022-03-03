@@ -27,7 +27,7 @@ clean:
 .PHONY: clean
 
 rerun:
-	fd | entr -s 'make build'
+	fd | entr -r -s 'make build'
 .PHONY: rerun
 
 latest-html: ## Get latests post renderewd into HTML
