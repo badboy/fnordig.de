@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      {% include "_head.liquid" %}
+      <link rel="stylesheet" href="/lite-yt-embed.css" type="text/css" media="all">
+      <script defer src="/lite-yt-embed.js"></script>
+  </head>
+  <body>
+    {% include "_menu.liquid" %}
+
+    <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      {% assign reading_wpm = 200 %}
+      {% assign word_count = page.content | split: " " | size %}
+      {% assign reading_time = word_count | divided_by: 200 %}
+      {% if reading_time < 1%}
+        {% assign reading_time = 1 %}
+      {% endif %}
+      {% assign phrase = " minute read" | prepend: reading_time %}
+
+      <div class="metadata">
+      <time pubdate="pubdate">{{ page.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>
+
+      {% if page.data and page.data.tags -%}
+      {%- for tag in page.data.tags %}
+      · <a href="/tagged/{{ tag }}.html">{{ tag }}</a>
+      {%- endfor %}
+      {%- endif -%}
+      </div>
+
+      {{ page.content }}
+    </article>
+    </main>
+
+    {% include "_footer.liquid" %}
+  </body>
+</html>
