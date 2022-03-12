@@ -2,7 +2,7 @@
 permalink: "/{{ year }}/{{ month }}/{{ day }}/your-personal-glean-data-pipeline"
 title: "This Week in Glean: Your personal Glean data pipeline"
 published_date: "2022-02-25 15:00:00 +0100"
-layout: post.liquid
+layout: post-yt.liquid
 data:
   route: blog
   tags:
@@ -39,8 +39,11 @@ You can watch the lightning talk here:
 
 <br>
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/V5FgVbxm-cc" title="YouTube video player" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
-
+<lite-youtube videoid="V5FgVbxm-cc" playlabel="Play: Your personal Glean data pipeline">
+ <a href="https://youtube.com/watch?v=V5FgVbxm-cc" class="lty-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Play Video: Your personal Glean data pipeline</span>
+  </a>
+</lite-youtube>
 
 Instead of creating some slides for the talk I created an interactive report.
 The full report [can be read online][report].
