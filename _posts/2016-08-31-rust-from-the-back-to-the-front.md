@@ -8,15 +8,20 @@ data:
   tags:
     - rust
 ---
+
 <center>
+
 [![Rust on the Web](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.23.59.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_18.23.59.jpg)
+
 </center>
 
 Last monday I attended the [Rust Sthlm][meetup] Meetup and gave a talk about using Rust for web development.
 About 60 people attended, had pizza and listened to the two talks of the evening.
 
 <center>
+
 [![Meetup](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.59.00.jpg)](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_18.59.00.jpg)
+
 </center>
 
 I started off with my talk *Rust from the Back to the Front*, giving an overview of the ecosystem around all things related to web programming in Rust.
@@ -29,7 +34,9 @@ This has to wait a bit though, as I will first dive deeper into Emscripten (and 
 My slides are [online][slides] and I will try to collect more [resources in a Gist][resources].
 
 <center>
+
 [![Rust and openSUSE](//tmp.fnordig.de/rust-sthlm/th-2016-08-29_20.03.47.jpg)](//tmp.fnordig.de/rust-sthlm/2016-08-29_20.03.47.jpg)
+
 </center>
 
 The second talk that evening was by [Kristoffer Grönlund][krig], giving us a quick introduction to some of Rust's features,
