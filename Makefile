@@ -1,5 +1,6 @@
 SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
+DATABASE_PATH = blog.db
 
 default:
 	rm -rf _site
@@ -18,9 +19,13 @@ serve: build
 	cd _site && http
 .PHONY: serve
 
-deploy: clean build
+deploy: clean build index
 	rsync -va --delete $(SOURCE) $(DEST)
 .PHONY: deploy
+
+index:
+	DATABASE_PATH="$(DATABASE_PATH)" ./index.sh
+.PHONY: index
 
 clean:
 	cobalt clean

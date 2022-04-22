@@ -24,6 +24,8 @@ ignore:
   - ext/
   - README.md
   - Makefile
+  - index.sh
+  - blog.db
 syntax_highlight:
   theme: "InspiredGitHub"
 assets:
