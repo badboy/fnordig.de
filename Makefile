@@ -1,6 +1,6 @@
 SOURCE = /home/jer/git/fnordig.de/_site/
 DEST = /var/www/sites/fnordig.de/
-DATABASE_PATH = blog.db
+DATABASE_PATH = /home/jer/git/blogsearch/blog.db
 
 default:
 	rm -rf _site
