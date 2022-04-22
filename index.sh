@@ -26,10 +26,9 @@ sqlite-utils convert "$DATABASE_PATH" posts text '
 from markdown import Markdown
 import io
 
-__md = None
+def convert(text):
+    global Markdown
 
-def define():
-    global __md
     def unmark_element(element, stream=None):
         global io
         if stream is None:
@@ -43,13 +42,9 @@ def define():
         return stream.getvalue()
 
     Markdown.output_formats["plain"] = unmark_element
+
     __md = Markdown(output_format="plain")
     __md.stripTopLevelTags = False
-
-define()
-
-def convert(text):
-    global __md
     return __md.convert(text)
 '
 
