@@ -63,6 +63,9 @@ function datefmt(ts) {
     return `${year}-${month}-${day}`;
 }
 
+// Prevent form submission
+document.querySelector("form").onsubmit = (e) => e.preventDefault();
+
 // Grab a reference to the <input type="search">
 const searchbox = document.getElementById("searchbox");
 
@@ -71,6 +74,8 @@ let requestInFlight = null;
 
 searchbox.onkeyup = debounce(() => {
   const q = searchbox.value;
+  if (!q) { return; }
+
   // Construct the API URL, using encodeURIComponent() for the parameters
   const url = `https://fnordig.de/_search?search=${encodeURIComponent(q)}`;
   // Unique object used just for race-condition comparison
