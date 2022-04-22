@@ -63,29 +63,16 @@ function datefmt(ts) {
     return `${year}-${month}-${day}`;
 }
 
-// Embed the SQL query in a multi-line backtick string:
-const sql = `select
-  snippet(posts_fts, -1, 'b4de2a49c8', '8c94a2ed4b', '...', 100) as snippet,
-  posts_fts.rank, posts.title, posts.permalink, posts.published_date
-from posts
-  join posts_fts on posts.rowid = posts_fts.rowid
-where posts_fts match :search || "*"
-  order by rank limit 10`;
-
 // Grab a reference to the <input type="search">
 const searchbox = document.getElementById("searchbox");
 
-// Used to avoid race-conditions:
+// Used to avoid race-conditions
 let requestInFlight = null;
 
 searchbox.onkeyup = debounce(() => {
   const q = searchbox.value;
   // Construct the API URL, using encodeURIComponent() for the parameters
-  const url = (
-    "http://127.0.0.1:8001/blog.json?sql=" +
-    encodeURIComponent(sql) +
-    `&search=${encodeURIComponent(q)}&_shape=array`
-  );
+  const url = `https://fnordig.de/_search?search=${encodeURIComponent(q)}`;
   // Unique object used just for race-condition comparison
   let currentRequest = {};
   requestInFlight = currentRequest;
