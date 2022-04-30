@@ -7,11 +7,11 @@ data:
   route: blog
 ---
 
-Yesterday the [HYTRADBOI][hytradboi] conference happend.
+Yesterday the [HYTRADBOI][hytradboi] conference happened.
 
 > Have you tried rubbing a database on it?
 
-First of: a big thanks to the organizer [Jamie Brandon][jamie] and a huge shoutout to all speakers for putting in the time and effort to fill this conference with amazing content.
+First of: a big thanks to the organizer [Jamie Brandon][jamie] and a huge shout-out to all speakers for putting in the time and effort to fill this conference with amazing content.
 
 [jamie]: https://www.scattered-thoughts.net/
 [hytradboi]: https://www.hytradboi.com/
@@ -48,7 +48,7 @@ by Predrag Gruevski.
 
 Easily the talk I recommend the most.
 I ended up in the talk's room afterwards, discussing with the speaker and others about it more.
-Predrag the [trustfall] query engine, which can be connected to basically any datasource, be that an existing database, an API, a filesystem or anything else you can think of, with a bit of more code.
+Predrag the [trustfall] query engine, which can be connected to basically any data source, be that an existing database, an API, a file system or anything else you can think of, with a bit of more code.
 Queries are written in GraphQL.
 
 And yes, it's written in Rust, which of course is another advantage. I plan to take a closer look at this.
@@ -121,9 +121,9 @@ That's where individual rooms per talk could come in handy again.
 As my evening progressed I did choose my own order and speed to watch the talks.
 Given it was my Friday evening after work, this "choose your own track" way of watching the talks played in my favor.
 
-I think some middleground of this format is worthwhile:
+I think some middle ground of this format is worthwhile:
 The ability to watch in sync with others to steer the discussion,
-but also the possibility to rewatch talks at a time convenient for me.
+but also the possibility to re-watch talks at a time convenient for me.
 Of course this requires a bit more setup and infrastructure.
 
 Before I left the conference (and well before it officially ended) I did ask whether the Matrix server would stay on for a bit longer.
@@ -136,7 +136,7 @@ Sure, most active conversations probably drop off 24 hours after the conference,
 All in all I think this was a pretty good online conference.
 The few talks I saw were all worth watching and I have some more on my list to watch now.
 I had good conversations with some people and new projects to look into now.
-None of the issues mentioned were a real dealbreaker for me and can be easily addressed next time.
+None of the issues mentioned were a real deal breaker for me and can be easily addressed next time.
 
 I hope for another edition next year!
 
