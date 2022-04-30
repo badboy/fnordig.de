@@ -5,6 +5,9 @@ published_date: "2022-04-30 15:26:00 +0200"
 layout: post.liquid
 data:
   route: blog
+excerpt: |
+  Yesterday the HYTRADBOI conference happened.
+  These are my talk talk recommendations and thoughts on the conference format.
 ---
 
 Yesterday the [HYTRADBOI][hytradboi] conference happened.
