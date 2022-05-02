@@ -51,7 +51,7 @@ by Predrag Gruevski.
 
 Easily the talk I recommend the most.
 I ended up in the talk's room afterwards, discussing with the speaker and others about it more.
-Predrag the [trustfall] query engine, which can be connected to basically any data source, be that an existing database, an API, a file system or anything else you can think of, with a bit of more code.
+Predrag showed the [trustfall] query engine, which can be connected to basically any data source, be that an existing database, an API, a file system or anything else you can think of, with a bit of more code.
 Queries are written in GraphQL.
 
 And yes, it's written in Rust, which of course is another advantage. I plan to take a closer look at this.
