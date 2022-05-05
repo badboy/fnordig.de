@@ -39,7 +39,7 @@ fn main() {
 ~~~
 
 I'm happy to get some feedback. It's my first serious Rust code, so prone to bugs and maybe not to Rusty afterall.
-Ping me on [Twitter][], drop me an [email](mailto:badboy@archlinux.us) or [open an issue](https://github.com/badboy/lzf-rs/issues).
+Ping me on [Twitter][], drop me an [email](mailto:janerik@fnordig.de) or [open an issue](https://github.com/badboy/lzf-rs/issues).
 
 [lzf-rs]: https://github.com/badboy/lzf-rs
 [liblzf]: http://software.schmorp.de/pkg/liblzf.html
