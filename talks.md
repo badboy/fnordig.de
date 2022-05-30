@@ -13,6 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2022
 
+* **Cross-platform Rust: Libraries für alle Plattformen**, Rust Meetup Rostock (online), 14.06.2022 ([Meetup](https://www.meetup.com/altow-academy/events/286138086/))
 * **Your personal Glean data pipeline**, Mozilla Data Club Lightning Talk, 11.02.2022 ([Video](https://www.youtube.com/watch?v=V5FgVbxm-cc))
 * **Rust in a UniFFIed world**, Rust Nigeria AMA (online), 05.02.2022 ([Video](https://youtu.be/doa9HQIsJ-I?t=1593), [Meetup](https://skillsmatter.com/meetups/13752-rust-nigeria-ama), [Slides](https://fnordig.de/talks/2022/rustnigeria/slides.pdf))
 
