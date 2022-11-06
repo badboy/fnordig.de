@@ -1,7 +1,7 @@
 ---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/things-i-read-week-2"
 title: "Things I read, Week 2"
-published_date: "2018-01-8 10:54:22 +0100"
+published_date: "2018-01-08 10:54:22 +0100"
 layout: post.liquid
 data:
   route: blog
