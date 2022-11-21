@@ -41,6 +41,7 @@ pre {
   border: rgba(0,0,0,.1) solid;
   border-width: 1px;
   border-radius: 2px;
+  line-height: 1.2rem;
 
   /* cobalt's highlighting sets inline values, so we need to overwrite them */
   background-color: #f7f7f7 !important;
