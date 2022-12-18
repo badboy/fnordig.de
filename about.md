@@ -23,6 +23,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 ## Links
 
+* Fediverse: [@jer@hachyderm.io](https://hachyderm.io/@jer)
 * Twitter: [@badboy\_](https://twitter.com/badboy_)
 * GitHub: [@badboy](https://github.com/badboy)
 * Pinboard: [badboy](http://pinboard.in/u:badboy)
