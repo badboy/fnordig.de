@@ -4,6 +4,7 @@ DATABASE_PATH = /home/jer/git/blogsearch/blog.db
 
 default:
 	rm -rf _site
+	$(MAKE) build
 	$(MAKE) MAKEFLAGS=--jobs=2 dev
 .PHONY: default
 
@@ -14,7 +15,7 @@ build:
 	cobalt build --drafts
 .PHONY: build
 
-serve: build
+serve:
 	@echo "Served on http://localhost:8000"
 	cd _site && http
 .PHONY: serve
