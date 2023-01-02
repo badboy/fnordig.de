@@ -5,6 +5,10 @@ published_date: "2023-01-02 14:30:00 +0100"
 layout: post.liquid
 data:
   route: blog
+excerpt: |
+  As I'm starting to use Mastodon more and more,
+  I'm also learning more about how the underlying ActivityPub protocol works.
+  Using the WebFinger protocol my domain now acts as an alias for my actual Mastodon account.
 ---
 
 As I'm starting to use Mastodon more and more,
