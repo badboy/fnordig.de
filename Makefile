@@ -41,5 +41,5 @@ latest-html: ## Get latests post renderewd into HTML
 .PHONY: latest-html
 
 spellcheck: ## Spellcheck the latest post
-	aspell --lang en_US --mode=markdown check $(shell find _posts -type f | sort | tail -1)
+	aspell --lang en_US --mode=markdown --dont-backup check $(shell find _posts -type f -name '*.md' | sort | tail -1)
 .PHONY: spellcheck
