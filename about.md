@@ -25,7 +25,6 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 
 * Mastodon: [@jer@hachyderm.io](https://hachyderm.io/@jer)
 * GitHub: [@badboy](https://github.com/badboy)
-* Pinboard: [badboy](http://pinboard.in/u:badboy)
 * [Divelog](https://fnordig.de/divelog/)
 
 ## Projects
@@ -33,6 +32,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 ### Current projects
 
 * [What Rust is it?](http://www.whatrustisit.com/) - Show the current Rust versions and next (planned) release date.
+  * [@whatrustisit@botsin.space](https://botsin.space/@whatrustisit) - accompanying Mastodon bot.
 
 ### Older projects
 
