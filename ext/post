@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-OUTPUT_DIR = File.expand_path("~/projects/fnordig.de/_posts")
+OUTPUT_DIR = File.expand_path(File.join(File.dirname(__FILE__), "..", "_posts"))
 EDITOR = ENV['EDITOR'] || 'vim'
 EXTENSION=".md"
 HEADER = <<EOF

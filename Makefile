@@ -17,7 +17,7 @@ build:
 
 serve:
 	@echo "Served on http://localhost:8000"
-	cd _site && http
+	cd _site && httplz
 .PHONY: serve
 
 deploy: clean build index
