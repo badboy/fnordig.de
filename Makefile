@@ -12,7 +12,7 @@ dev: serve rerun
 .PHONY: dev
 
 build:
-	cobalt build --drafts
+	cobalt build
 .PHONY: build
 
 serve:
