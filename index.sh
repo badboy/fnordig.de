@@ -2,6 +2,13 @@
 
 set -e
 
+if [[ ! -d .venv ]]; then
+  python3 -m venv .venv
+  pip install sqlite-utils markdown-to-sqlite markdown
+fi
+
+. .venv/bin/activate
+
 DATABASE_PATH="${DATABASE_PATH:-blog.db}"
 sqlite3 -batch -bail "$DATABASE_PATH" "
 CREATE TABLE IF NOT EXISTS [posts] (
