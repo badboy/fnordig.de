@@ -4,7 +4,7 @@ set -e
 
 if [[ ! -d .venv ]]; then
   python3 -m venv .venv
-  pip install sqlite-utils markdown-to-sqlite markdown
+  .venv/bin/python3 -m pip install sqlite-utils markdown-to-sqlite markdown
 fi
 
 . .venv/bin/activate
