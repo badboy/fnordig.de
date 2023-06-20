@@ -312,6 +312,9 @@ Turns out I ran into that problem 2 years ago in another project (and got it fix
 This MacBook is cursed.
 At least now there will be search results for `fdlim_get: bad value` on the internet.
 
+_Update_: I'm not sure what the best way is for OpenSSH to fix this, but I've [filed the issue](https://bugzilla.mindrot.org/show_bug.cgi?id=3581)
+so the team can make the right choice for them.
+
 ---
 
 _Footnotes:_
