@@ -313,7 +313,8 @@ This MacBook is cursed.
 At least now there will be search results for `fdlim_get: bad value` on the internet.
 
 _Update_: I'm not sure what the best way is for OpenSSH to fix this, but I've [filed the issue](https://bugzilla.mindrot.org/show_bug.cgi?id=3581)
-so the team can make the right choice for them.
+so the team can make the right choice for them.  
+_Update 2023-06-22_: Damien Miller has acknowledged the issue and already committed two patches capturing any limit above `INT_MAX` and thus fixing the bug.
 
 ---
 
