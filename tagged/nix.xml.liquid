@@ -1,0 +1,22 @@
+---
+permalink: /tagged/nix.xml
+---
+
+<rss version="2.0">
+  <channel>
+    <title>fnordig - posts tagged with 'nix'</title>
+    <link>https://fnordig.de</link>
+    <description>fnordig - post tagged with 'nix'</description>
+    {% for post in collections.posts.pages %}
+    {%- if post.data.tags and post.data.tags contains "nix" -%}
+    <item>
+      <title>{{ post.title | escape }}</title>
+      <link>https://fnordig.de/{{ post.permalink }}</link>
+      <description>{{ post.content | escape }}</description>
+      <guid>https://fnordig.de/{{ post.permalink }}</guid>
+      <pubDate>{{ post.published_date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    </item>
+    {% endif -%}
+    {% endfor %}
+  </channel>
+</rss>

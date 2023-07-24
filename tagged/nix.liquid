@@ -1,0 +1,21 @@
+---
+permalink: /tagged/nix.html
+title: Posts tagged nix
+layout: simple.liquid
+data:
+  route: posts
+---
+
+<a href="/tagged/nix.xml">RSS Feed</a>
+
+<table>
+  {%- for post in collections.posts.pages %}
+    {%- assign postyear = post.published_date | date: "%Y" %}
+    {%- if post.data.tags and post.data.tags contains "nix" -%}
+      <tr>
+        <td>{{ post.published_date | date: "%d. %b %Y"}}</td>
+        <td><a href="/{{post.permalink }}">{{post.title}}</a></td>
+      </tr>
+    {%- endif %}
+  {%- endfor %}
+</table>
