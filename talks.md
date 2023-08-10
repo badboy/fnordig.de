@@ -13,7 +13,7 @@ Contact me [via mail](mailto:janerik@fnordig.de).
 
 ## 2023
 
-* **Rust across all platforms with UniFFI**, Rust & Tell Berlin, 10.08.2023 ([Meetup](https://berline.rs/2023/08/10/rust-and-tell-august-edition.html))
+* **Rust across all platforms with UniFFI**, Rust & Tell Berlin, 10.08.2023 ([Slides](https://fnordig.de/talks/2023/berliners/slides.pdf), [Meetup](https://berline.rs/2023/08/10/rust-and-tell-august-edition.html))
 
 ## 2022
 
