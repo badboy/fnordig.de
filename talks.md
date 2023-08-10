@@ -11,6 +11,10 @@ I will talk about Rust, Open Source Development & Open Source communities, and a
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2023
+
+* **Rust across all platforms with UniFFI**, Rust & Tell Berlin, 10.08.2023 ([Meetup](https://berline.rs/2023/08/10/rust-and-tell-august-edition.html))
+
 ## 2022
 
 * **The Glean UniFFI migration and how no one noticed**, Mozilla Data Club Talk, 12.08.2022 ([Slides](https://fnordig.de/talks/2022/dataclub/glean-uniffi-migration.pdf), [Video](https://www.youtube.com/watch?v=Y3IOY-kmk70))
