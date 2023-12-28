@@ -134,7 +134,7 @@ article .metadata a {
   color: black;
 }
 
-article a:hover {
+article a {
   text-decoration: underline;
 }
 
