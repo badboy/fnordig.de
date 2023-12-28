@@ -27,7 +27,7 @@ Now all it takes is this little bit of Rust code:
 #!/usr/bin/env -S cargo +nightly -q -Zscript
 ```cargo
 [dependencies]
-cgi = { git = "https://github.com/badboy/rust-cgi" }
+cgi2 = "0.7"
 ```
 
 #[cgi::main]
