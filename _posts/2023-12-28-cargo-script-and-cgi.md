@@ -1,7 +1,7 @@
 ---
 permalink: "/{{ year }}/{{ month }}/{{ day }}/cargo-script-and-cgi"
 title: "cargo script and cgi"
-published_date: "2023-12-28 18:30:00 +0200"
+published_date: "2023-12-28 18:30:00 +0100"
 layout: post.liquid
 data:
   route: blog
