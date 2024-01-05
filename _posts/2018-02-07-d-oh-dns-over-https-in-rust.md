@@ -25,7 +25,7 @@ I present to you:
 
 It exports one function to resolve a hostname to its IPv6 and IPv4 addresses:
 
-```
+```rust
 extern crate dnsoverhttps;
 
 fn main() {
