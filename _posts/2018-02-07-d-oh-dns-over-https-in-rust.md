@@ -20,7 +20,7 @@ Given how simple that sounds, I decided to implement a minimal DOH client in Rus
 I present to you:
 
 <center>
-### [dnsoverhttps][]
+<h3><a href="https://github.com/badboy/dnsoverhttps">dnsoverhttps</a></h3>
 </center>
 
 It exports one function to resolve a hostname to its IPv6 and IPv4 addresses:
