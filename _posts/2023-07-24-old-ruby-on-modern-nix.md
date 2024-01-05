@@ -81,7 +81,7 @@ I trimmed that down just slightly and swapped in Ruby 2.7 (here's the [list of a
 
 The important line is this:
 
-```
+```nix
 ruby = pkgs."ruby-2.7.8";
 ```
 
@@ -89,7 +89,7 @@ ruby = pkgs."ruby-2.7.8";
 
 Now on to installing it into a shell:
 
-```
+```bash
 nix develop
 ```
 

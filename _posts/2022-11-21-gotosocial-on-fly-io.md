@@ -27,7 +27,7 @@ Let's deploy it on [fly.io].
 We start by creating a new Fly app.
 We stick to a generated name and put it into Frankfurt.
 
-```bash
+```shell
 $ mkdir -p Documents/gotosocial-fly
 $ cd Documents/gotosocial-fly
 $ fly launch
