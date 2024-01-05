@@ -5,8 +5,8 @@ published_date: "2020-06-19 13:46:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 
 What if you could build a Rust project without Cargo?

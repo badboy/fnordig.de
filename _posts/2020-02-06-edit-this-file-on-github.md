@@ -5,9 +5,9 @@ published_date: "2020-02-06 16:38:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
-    - rust
+tags:
+  - mozilla
+  - rust
 ---
 
 At work I help with maintaining two large documentation books:

@@ -5,9 +5,9 @@ published_date: "2021-11-01 15:00:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
-    - rust
+tags:
+  - mozilla
+  - rust
 excerpt: |
   Shortly after we shipped Glean through GeckoView in a Fenix Nightly release
   we received a crash report pointing to code that we haven't touched in a long time.

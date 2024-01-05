@@ -5,8 +5,8 @@ published_date: "2019-05-15 14:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 
 Exactly 4 years ago, on May 15th 2015, the Rust Core Team [announced the first stable version, Version 1.0](https://blog.rust-lang.org/2015/05/15/Rust-1.0.html), of the Rust Programming language.

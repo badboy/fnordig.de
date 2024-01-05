@@ -5,8 +5,8 @@ published_date: "2023-03-01 08:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 excerpt: |
   Celebrating five years in my job as a Telemetry Engineer at Mozilla.
 ---

@@ -5,8 +5,8 @@ published_date: "2020-03-02 15:00:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 Woops, looks like I missed my Two Year Moziversary!

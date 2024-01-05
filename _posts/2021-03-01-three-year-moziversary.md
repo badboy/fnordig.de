@@ -5,8 +5,8 @@ published_date: "2021-03-01 11:00:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 Has it really been 3 years?

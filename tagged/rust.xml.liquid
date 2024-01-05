@@ -8,7 +8,7 @@ permalink: /tagged/rust.xml
     <link>https://fnordig.de</link>
     <description>fnordig - post tagged with 'rust'</description>
     {% for post in collections.posts.pages %}
-    {%- if post.data.tags and post.data.tags contains "rust" -%}
+    {%- if post.tags and post.tags contains "rust" -%}
     <item>
       <title>{{ post.title | escape }}</title>
       <link>https://fnordig.de/{{ post.permalink }}</link>

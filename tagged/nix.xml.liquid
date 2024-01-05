@@ -8,7 +8,7 @@ permalink: /tagged/nix.xml
     <link>https://fnordig.de</link>
     <description>fnordig - post tagged with 'nix'</description>
     {% for post in collections.posts.pages %}
-    {%- if post.data.tags and post.data.tags contains "nix" -%}
+    {%- if post.tags and post.tags contains "nix" -%}
     <item>
       <title>{{ post.title | escape }}</title>
       <link>https://fnordig.de/{{ post.permalink }}</link>

@@ -8,7 +8,7 @@ permalink: /tagged/mozilla.xml
     <link>https://fnordig.de</link>
     <description>fnordig - posts tagged with 'mozilla'</description>
     {% for post in collections.posts.pages %}
-    {%- if post.data.tags and post.data.tags contains "mozilla" -%}
+    {%- if post.tags and post.tags contains "mozilla" -%}
     <item>
       <title>{{ post.title | escape }}</title>
       <link>https://fnordig.de/{{ post.permalink }}</link>

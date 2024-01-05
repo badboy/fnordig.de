@@ -5,8 +5,8 @@ published_date: "2018-01-10 12:25:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 
 Last monday, 8th of January, we had the first [Rust Cologne](http://rust.cologne) meetup this year.

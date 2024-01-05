@@ -5,9 +5,9 @@ published_date: "2022-01-31 12:40:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
-    - rust
+tags:
+  - mozilla
+  - rust
 excerpt: |
   We ship the Glean SDK for multiple platforms, one of them being iOS applications.
   Previously I talked about how we got it to build on the Apple ARM machines.

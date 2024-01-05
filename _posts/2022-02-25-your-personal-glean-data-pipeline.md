@@ -5,8 +5,8 @@ published_date: "2022-02-25 15:00:00 +0100"
 layout: post-yt.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 excerpt: |
   On February 11th, 2022 I gave a lightning talk titled
   "Your personal Glean data pipeline", presenting a little side project for

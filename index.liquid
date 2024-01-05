@@ -19,8 +19,8 @@ data:
   {% assign phrase = " minute read" | prepend: reading_time %}
   <time pubdate="pubdate">{{ post.published_date | date: "%b %d, %Y" }} · {{ phrase }}</time>
 
-  {% if post.data and post.data.tags -%}
-  {%- for tag in post.data.tags %}
+  {% if post.data and post.tags -%}
+  {%- for tag in post.tags %}
   · <a href="/tagged/{{ tag }}.html">{{ tag }}</a>
   {%- endfor %}
   {%- endif -%}

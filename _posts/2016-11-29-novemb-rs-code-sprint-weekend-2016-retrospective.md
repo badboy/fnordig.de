@@ -5,8 +5,8 @@ published_date: "2016-11-29 11:55:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 *This post is a tiny bit late, but better late than never.*
 

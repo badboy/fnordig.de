@@ -5,8 +5,8 @@ published_date: "2020-05-02 14:43:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 
 So I [tweeted](https://twitter.com/badboy_/status/1255802731241050112):

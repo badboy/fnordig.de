@@ -5,8 +5,8 @@ published_date: "2021-10-14 17:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 excerpt: |
   The Firefox for Android (Fenix) project runs extensive tests on every pull request
   and when merging code back into the `main` branch.

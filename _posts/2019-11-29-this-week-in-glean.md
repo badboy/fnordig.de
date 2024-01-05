@@ -5,8 +5,8 @@ published_date: "2019-11-29 11:37:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 (“This Week in Glean” is a series of blog posts that the Glean Team at Mozilla is using to try to communicate better about our work. They could be release notes, documentation, hopes, dreams, or whatever: so long as it is inspired by Glean. You can find an [index of all TWiG posts online](https://mozilla.github.io/glean/book/appendix/twig.html).)

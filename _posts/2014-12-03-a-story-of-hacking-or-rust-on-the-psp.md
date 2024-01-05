@@ -5,8 +5,8 @@ published_date: "2014-12-03 20:03:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 ------
 

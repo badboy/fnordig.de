@@ -5,8 +5,8 @@ published_date: "2016-09-28 13:16:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 From time to time I try to write a piece of code or port some existing library or application just for fun.
 So a while back in June I had some free time again and I came across [signify][].

@@ -5,8 +5,8 @@ published_date: "2019-03-01 12:00:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 At this day last year I walked into the [Mozilla Berlin](https://blog.mozilla.org/berlin/) office to start my first day of work.

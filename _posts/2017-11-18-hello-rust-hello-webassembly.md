@@ -5,8 +5,8 @@ published_date: "2017-11-18 16:26:57 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 [hellorust.com](https://www.hellorust.com/) is live!
 

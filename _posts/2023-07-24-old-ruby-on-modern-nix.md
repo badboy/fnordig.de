@@ -5,8 +5,8 @@ published_date: "2023-07-24 14:40:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - nix
+tags:
+  - nix
 ---
 
 The other day I had to deploy an old Ruby 2.7 application.

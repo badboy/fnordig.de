@@ -5,8 +5,8 @@ published_date: "2019-01-22 10:00:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 Last year I implemented a new feature for Firefox Telemetry that changes how we can collect and analyze data with different requirements in regard to user privacy & frequency.

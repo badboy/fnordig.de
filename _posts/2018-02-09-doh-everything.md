@@ -5,8 +5,8 @@ published_date: "2018-02-09 14:52:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 
 Two days ago [I wrote about a new small utility crate](/2018/02/07/d-oh-dns-over-https-in-rust/) for doing DNS over HTTPS.

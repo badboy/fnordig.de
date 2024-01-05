@@ -5,9 +5,9 @@ published_date: "2021-09-17 13:00:00 +0200"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
-    - rust
+tags:
+  - mozilla
+  - rust
 excerpt: |
   It took us several more weeks to put everything into place,
   but we're finally shipping the Rust parts of the Glean Android SDK with GeckoView

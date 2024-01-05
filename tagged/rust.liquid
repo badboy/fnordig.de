@@ -11,7 +11,7 @@ data:
 <table>
   {%- for post in collections.posts.pages %}
     {%- assign postyear = post.published_date | date: "%Y" %}
-    {%- if post.data.tags and post.data.tags contains "rust" -%}
+    {%- if post.tags and post.tags contains "rust" -%}
       <tr>
         <td>{{ post.published_date | date: "%d. %b %Y"}}</td>
         <td><a href="/{{post.permalink }}">{{post.title}}</a></td>

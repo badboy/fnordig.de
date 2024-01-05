@@ -5,8 +5,8 @@ published_date: "2018-11-07 14:34:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - mozilla
+tags:
+  - mozilla
 ---
 
 It was the first time for me to attend MozFest, after I heard only good things about it from last year.

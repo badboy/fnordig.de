@@ -5,8 +5,8 @@ published_date: "2015-01-15 23:50:00 +0100"
 layout: post.liquid
 data:
   route: blog
-  tags:
-    - rust
+tags:
+  - rust
 ---
 Ever since I started looking into [Rust][] I knew I needed a bigger project for which I could use it.
 I released a [few][lzf] [small][crc] [libraries][redlock], all based on Redis code/tools, so I figured:
