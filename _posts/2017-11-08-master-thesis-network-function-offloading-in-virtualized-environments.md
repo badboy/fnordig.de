@@ -12,8 +12,6 @@ A couple of weeks ago I received my final grade and thus reached the academic de
 
 This also means I can now make the thesis public:
 
-<center>
 [Network Function Offloading in Virtualized Environments](https://tmp.fnordig.de/uni/master-thesis/nf-offloading-in-virtualized-environments_jan-erik_rediger.pdf) (PDF)
-</center>
 
-If you have questions regarding anything in that thesis, contact me [on Twitter](https://twitter.com/badboy_) or [via email](mailto:janerik\ at\ fnordig\ dot\ de).
+If you have questions regarding anything in that thesis, contact me [on Twitter](https://twitter.com/badboy_) or [via email](mailto:janerik@fnordig.de).

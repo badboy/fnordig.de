@@ -21,10 +21,7 @@ Except I would just repeat what I have said back then for my Bachelor Thesis.
 
 So instead let me collect some statistics.
 
-<center>
 ![Contributions to master](https://tmp.fnordig.de/ma/commits.png)
-Contributions to master
-</center>
 
 I created the repository for all thesis work just 2 days after my birthday in 2016.
 Back then it should have been a completely different thesis topic, but due to some unexpected difficulties I had to drop the first topic before even beginning and went on to search for another.
@@ -34,10 +31,7 @@ None of that code ended up in the final application of course.
 My commit frequency was quite different from back in my Bachelor thesis days.
 A lot less night shifts, but still nothing early in the morning.
 
-<center>
 ![Frequency of commits by time of day](https://tmp.fnordig.de/ma/punchcard.png)
-Frequency of commits by time of day
-</center>
 
 My application ended with about 4000 lines of C code, plus another 2000 lines of code in examples, tests and experiments.
 I also wrote some small helper tools in Rust, e.g. [ebpf-disasm](https://github.com/badboy/ebpf-disasm/) and a library and another tool, which I will make public in the next days.
