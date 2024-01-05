@@ -35,7 +35,7 @@ This makes for a very pleasant development experience.
 
 Add the dependency to your `Cargo.toml`:
 
-```ini
+```toml
 [dependencies]
 redis = "0.11.0"
 ```
