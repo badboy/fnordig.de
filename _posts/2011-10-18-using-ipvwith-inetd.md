@@ -16,8 +16,9 @@ Complete taking down the machine and reinstalling everything was not an option, 
 
 By default the jabber server listens on all IPv6 addresses of the host machine, so all I needed to do here was enabling ssl-serving over IPv6 for it:
 
-    <tls port="5223">2001:0db8:85a3:08d3:1319:8a2e:0370:7344</tls>
-{:lang="text"}
+```
+<tls port="5223">2001:0db8:85a3:08d3:1319:8a2e:0370:7344</tls>
+```
 (this is a completeley random ipv6 addresses ;)
 
 Now to the "hard" part: the bitlbee thing.
@@ -28,24 +29,28 @@ But, as I told before, the server is a rather old installation and uses `netkit-
 
 So I had to replace this one:
 
-    apt-get install netbsd-inetd
-{:lang="text"}
+```
+apt-get install netbsd-inetd
+```
 
 One line in `/etc/inetd.conf` reads as the following:
 
-    9999 stream tcp nowait bitlbee /usr/bin/stunnel stunnel -v 0 -l /usr/sbin/bitlbee
-{:lang="text"}
+```
+9999 stream tcp nowait bitlbee /usr/bin/stunnel stunnel -v 0 -l /usr/sbin/bitlbee
+```
 
 This needs to be duplicated and changed to listen on v6, too.
 
-    9999 stream tcp6 nowait bitlbee /usr/bin/stunnel stunnel -v 0 -l /usr/sbin/bitlbee
-{:lang="text"}
+```
+9999 stream tcp6 nowait bitlbee /usr/bin/stunnel stunnel -v 0 -l /usr/sbin/bitlbee
+```
 
 And that's it.
 
+```
     /etc/init.d/netbsd-inetd start
     /etc/init.d/jabberd14 restart
-{:lang="text"}
+```
 
 and you should be ready to go.
 

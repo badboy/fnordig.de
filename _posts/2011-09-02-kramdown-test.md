@@ -34,7 +34,6 @@ Adding syntax-highlighted code in your post now works like this:
         even multi-line
         and define language after code block
     {:lang="ruby"}
-{:lang="text"}
 
 And now some real highlighting to show it in action:
 

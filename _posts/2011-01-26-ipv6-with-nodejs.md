@@ -19,21 +19,23 @@ As I really like [node.js](http://nodejs.org/) I wanted to know how it handles v
 
 It's as easy as this:
 
-    var http = require('http');
-    var server = http.createServer(function (request, response) {
-       response.writeHead(200, {"Content-Type":"text/plain"});
-       response.end ("Hello World!\n");
-       console.log("Got a connection");
-    });
-    server.listen(80, "2a01:xxxx:xxxx:xxxx::2");
-    console.log("Server running on localhost at port 80");
-{:lang="javascript"}
+```javascript
+var http = require('http');
+var server = http.createServer(function (request, response) {
+   response.writeHead(200, {"Content-Type":"text/plain"});
+   response.end ("Hello World!\n");
+   console.log("Got a connection");
+});
+server.listen(80, "2a01:xxxx:xxxx:xxxx::2");
+console.log("Server running on localhost at port 80");
+```
 
 Just pass the IPv6 address as the host parameter to `server.listen`.
 This listens on just one IP; it's possible to listen on all, similar to the `0.0.0.0` for IPv4:
 
-    server.listen(80, "::0");
-{:lang="javascript"}
+```javascript
+server.listen(80, "::0");
+```
 
 Other things worth to mention:
 

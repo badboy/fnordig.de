@@ -33,34 +33,36 @@ etherpad runs as an own user named `etherpad` and is monitored by monit.
 
 The monitoring is as simple as that, `/etc/monit/apps/etherpad.monit`:
 
-    check process etherpad
-      with pidfile /var/run/etherpad-lite.pid
-      start program = "/home/etherpad/etherpad-lite/daemon.sh start"
-      stop program = "/home/etherpad/etherpad-lite/daemon.sh stop"
-      if totalmem is greater than 300 MB for 10 cycles then restart  # eating up memory?
-{:lang="text"}
+```
+check process etherpad
+  with pidfile /var/run/etherpad-lite.pid
+  start program = "/home/etherpad/etherpad-lite/daemon.sh start"
+  stop program = "/home/etherpad/etherpad-lite/daemon.sh stop"
+  if totalmem is greater than 300 MB for 10 cycles then restart  # eating up memory?
+```
 
 And the nginx is nothing fancy at all, `/usr/local/nginx/conf/vhosts/pad.fnordig.de.conf`:
 
-    server {
-        listen  80;
-        listen  [::]:80;
-        listen  443 ssl;
-        ssl_certificate      /var/certs/star_fnordig_signed.pem;
-        ssl_certificate_key  /var/certs/star_fnordig_signed.pem;
+```
+server {
+    listen  80;
+    listen  [::]:80;
+    listen  443 ssl;
+    ssl_certificate      /var/certs/star_fnordig_signed.pem;
+    ssl_certificate_key  /var/certs/star_fnordig_signed.pem;
 
-        server_name  pad.fnordig.de;
+    server_name  pad.fnordig.de;
 
-        access_log  /home/etherpad/etherpad-lite-log/eplite.access.log;
-        error_log   /home/etherpad/etherpad-lite-log/eplite.error.log;
+    access_log  /home/etherpad/etherpad-lite-log/eplite.access.log;
+    error_log   /home/etherpad/etherpad-lite-log/eplite.error.log;
 
-        location / {
-            proxy_pass             http://localhost:9001/;
-            proxy_set_header       Host $host;
-            proxy_buffering off;
-        }
+    location / {
+        proxy_pass             http://localhost:9001/;
+        proxy_set_header       Host $host;
+        proxy_buffering off;
     }
-{:lang="text"}
+}
+```
 
 My etherpad is currently running for about 22 days without any problems. I don't really use it myself and have no current statistics on outside usage of [pad.fnordig.de](https://pad.fnordig.de/).
 
