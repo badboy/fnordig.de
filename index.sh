@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS [posts] (
    [title] TEXT,
    [published_date] TEXT,
    [layout] TEXT,
+   [tags] TEXT,
    [data] TEXT,
    [excerpt] TEXT
 );
