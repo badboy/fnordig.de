@@ -2,6 +2,7 @@
 permalink: "/{{ year }}/{{ month }}/{{ day }}/blog-static"
 title: "blog? static!"
 published_date: "2011-01-15 15:54:00 +0100"
+layout: post.liquid
 data:
   route: blog
 ---
