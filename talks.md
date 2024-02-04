@@ -11,6 +11,10 @@ I will talk about Rust, Open Source Development & Open Source communities, and a
 Want me to speak or coach a workshop at your event or company?
 Contact me [via mail](mailto:janerik@fnordig.de).
 
+## 2024
+
+* **Little Bobby Tables**, Mozilla Data Club, 02.02.2024 ([Video](https://youtu.be/nZupfJy6I0A))
+
 ## 2023
 
 * **Rust across all platforms with UniFFI**, Rust & Tell Berlin, 10.08.2023 ([Slides](https://fnordig.de/talks/2023/berliners/slides.pdf), [Meetup](https://berline.rs/2023/08/10/rust-and-tell-august-edition.html))
