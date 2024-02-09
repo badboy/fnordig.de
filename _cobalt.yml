@@ -14,7 +14,7 @@ posts:
   default: {}
 site:
   title: fnordig
-  description: fnordig
+  description: "A blog about Rust, data and my life."
   base_url: "https://fnordig.de"
   data: ~
 template_extensions:
