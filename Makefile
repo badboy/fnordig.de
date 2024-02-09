@@ -13,6 +13,7 @@ dev: serve rerun
 
 build:
 	cobalt build
+	./ext/add-feed-stylesheet.sh _site/feed.xml
 .PHONY: build
 
 serve:
