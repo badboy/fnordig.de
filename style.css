@@ -30,10 +30,48 @@ html{
   line-height:1.5rem
 }
 
+:root,
+html[data-theme='light'] {
+  --main-bg-color: white;
+  --text-color: #111;
+  --alt-text-color: black;
+  --code-bg: rgba(0,0,0,.05);;
+  --border-color: rgba(0,0,0,.05);
+  --link-color: #00e;
+  --link-color-visited: #60b;
+  --inline-code: #111;
+}
+
+html[data-theme='dark'] {
+  --main-bg-color: #111;
+  --text-color: #b3b3b3;
+  --alt-text-color: #999999;
+  --code-bg: #ccc;
+  --border-color: #414141;
+  --link-color: #478be6;
+  --link-color-visited: #c988ff;
+  --inline-code: #323232;
+}
+
+.d-none {
+  display: none;
+}
+[data-theme='light'] .block-light,
+[data-theme='dark'] .block-dark {
+    display: block !important;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+}
+
+code {
+  color: var(--inline-code);
+  background-color: var(--code-bg);
 }
 
 pre {
@@ -44,16 +82,16 @@ pre {
   line-height: 1.2rem;
 
   /* cobalt's highlighting sets inline values, so we need to overwrite them */
-  background-color: #f7f7f7 !important;
+  background-color: var(--code-bg) !important;
 }
 
 pre > span {
   /* cobalt's highlighting sets inline values, so we need to overwrite them */
-  background-color: #f7f7f7 !important;
+  background-color: var(--code-bg) !important;
 }
 
 time {
-  color: #1a1a1a;
+  color: var(--alt-text-color);
 }
 
 nav {
@@ -82,12 +120,27 @@ nav .menu-item.icon {
 }
 
 nav a.menu-item {
-  color: #000;
+  color: var(--alt-text-color);
+}
+
+aside {
+  font-family: sans-serif;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 10px 10px;
+}
+
+#theme-toggle {
+  cursor: pointer;
+  border-color: transparent;
+  background-color: transparent;
+  color: var(--text-color);
 }
 
 .menu-item.current,
 .menu-item:hover {
-  border-left: 3px solid #000;
+  border-left: 3px solid var(--alt-text-color);
 }
 
 main {
@@ -125,17 +178,24 @@ article.blog-list {
 }
 
 article.blog-list a {
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
+}
+article.blog-list a:visited {
+  color: var(--text-color);
 }
 
 article .metadata a {
   text-decoration: underline;
-  color: black;
+  color: var(--alt-text-color);
 }
 
 article a {
   text-decoration: underline;
+  color: var(--link-color);
+}
+article a:visited {
+  color: var(--link-color-visited);
 }
 
 /* begin article banner */
@@ -189,6 +249,10 @@ hr {
   background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0));
 }
 
+blockquote {
+  border-color: var(--border-color);
+
+}
 blockquote p {
     word-wrap: break-word;
 }
