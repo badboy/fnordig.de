@@ -6,7 +6,10 @@ layout: post.liquid
 data:
   route: blog
 excerpt: |
-  blub
+  Last night I was still up and awake at 2 am.
+  I opened this website and ... BOOM ... bright light in my eyes.
+  So I did what anyone who can't sleep at that hour does:
+  I implemented a dark mode theme for my website.
 ---
 
 They say projects are not finished until you write about them.
