@@ -32,7 +32,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 ### Current projects
 
 * [What Rust is it?](http://www.whatrustisit.com/) - Show the current Rust versions and next (planned) release date.
-  * [@whatrustisit@botsin.space](https://botsin.space/@whatrustisit) - accompanying Mastodon bot.
+  * [@whatrustisit@social.berline.rs](https://social.berline.rs/@whatrustisit) - accompanying Mastodon bot.
 * [#SoundOfTheDay](https://fnordig.de/soundoftheday/) - Always showing the last sound of the day I posted on Mastodon.
 
 ### Older projects
