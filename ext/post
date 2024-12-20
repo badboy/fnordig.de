@@ -12,6 +12,8 @@ published_date: "%s"
 layout: post.liquid
 data:
   route: blog
+excerpt: |
+  TODO
 ---
 
 EOF
