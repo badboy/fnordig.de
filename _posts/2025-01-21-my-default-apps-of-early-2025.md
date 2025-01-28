@@ -21,7 +21,7 @@ I have not finished my `/uses` page, but following [Sascha's post](https://sasch
 * **Cloud File Storage**: [Syncthing](https://syncthing.net/) on my own server
 * **RSS**: self-hosted [Stringer](https://github.com/stringer-rss/stringer)
 * **Contacts**: Contacts.app synced with Google and my own CardDav
-* **Browser**: [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/), [Firefox iOs](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/)
+* **Browser**: [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/), [Firefox iOS](https://www.mozilla.org/en-US/firefox/browsers/mobile/ios/)
 * **Chat**: the whole lineup
 * **Bookmarks**: self-hosted [linkding](https://github.com/sissbruecker/linkding)
 * **Read It Later**: [Instapaper](https://www.instapaper.com/)
