@@ -364,3 +364,26 @@ table, tr, td { border: none; }
   pointer-events: none;
   z-index: 1;
 }
+
+ol.archive-chart,
+ul.posts-list {
+  padding-left: 0;
+}
+.posts-list li {
+  list-style: none;
+}
+.posts-list li a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: calc(12rem / 18) 0px;
+}
+.posts-list li a:hover span:first-child {
+  text-decoration: underline;
+}
+.posts-list span:first-child {
+  font-size: 1.1rem;
+}
+.posts-list span:last-child {
+  font-size: 0.8rem;
+}

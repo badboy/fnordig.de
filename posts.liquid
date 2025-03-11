@@ -45,22 +45,23 @@ data:
   </li>
 {% endfor %}
 </ol>
-<table>
-{% for year in years -%}
-<tr>
-  <td>&nbsp;</td>
-  <td><h2 id="{{year}}">{{year}}</h2></td>
-</tr>
 
+{% for year in years -%}
+<h2 id="{{year}}">{{year}}</h2>
+
+<ul class="posts-list">
   {%- for post in collections.posts.pages %}
     {%- assign postyear = post.published_date | date: "%Y" %}
     {%- if postyear == year %}
-      <tr>
-        <td>{{ post.published_date | date: "%d. %b"}}</td>
-        <td><a href="/{{post.permalink }}">{{post.title}}</a></td>
-      </tr>
+      <li>
+      <a href="/{{post.permalink }}">
+        <span>{{post.title}}</span>
+        <span>
+          <time datetime="">{{ post.published_date | date: "%Y-%m-%d"}}</time>
+        </span>
+      </a>
+      </li>
     {%- endif %}
   {%- endfor %}
-
+</ul>
 {%- endfor %}
-</table>
