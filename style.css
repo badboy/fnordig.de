@@ -41,6 +41,7 @@ html[data-theme='light'] {
   --alt-text-color: black;
   --code-bg: rgba(0,0,0,.05);;
   --border-color: rgba(0,0,0,.05);
+  --bar-color: rgba(0,0,0,.05);
   --link-color: #00e;
   --link-color-visited: #60b;
   --inline-code: #111;
@@ -52,6 +53,7 @@ html[data-theme='dark'] {
   --alt-text-color: #999999;
   --code-bg: #ccc;
   --border-color: #414141;
+  --bar-color: #232b34;
   --link-color: #478be6;
   --link-color-visited: #c988ff;
   --inline-code: #323232;
@@ -331,6 +333,14 @@ h3 {
 table { margin: 0; }
 table, tr, td { border: none; }
 
+.archive-chart {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: calc(2rem / 18);
+}
 .archive-chart li {
   list-style: none;
 }
@@ -349,10 +359,13 @@ table, tr, td { border: none; }
   text-decoration: none;
   color: var(--link-color);
 }
+.archive-chart li a:hover span:first-child {
+  text-decoration: underline;
+}
 
 .archive-chart li a span:last-child {
-  color: var(--c-text-light);
-  font-size: .77777rem;
+  color: var(--text-color);
+  font-size: .8rem;
 }
 
 .archive-chart-bar {
@@ -360,7 +373,7 @@ table, tr, td { border: none; }
   top: 0;
   left: 0;
   height: 100%;
-  background: rgba(0,0,0,.05);
+  background-color: var(--bar-color);
   pointer-events: none;
   z-index: 1;
 }
