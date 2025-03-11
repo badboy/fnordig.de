@@ -24,8 +24,12 @@
   font-weight: bold;
 }
 
+:root {
+  --font: Crimson,Palatino,Georgia,Lucida Bright,Book Antiqua,serif;
+}
+
 html{
-  font-family:Crimson,Palatino,Georgia,Lucida Bright,Book Antiqua,serif;
+  font-family: var(--font);
   font-size:16px;
   line-height:1.5rem
 }
@@ -285,11 +289,11 @@ blockquote p {
 }
 
 h2 {
-  font: 600 30px "Crimson", Georgia, serif;
+  font: 600 30px var(--font);
 }
 
 h3 {
-  font: 600 20px "Crimson", Georgia, serif;
+  font: 600 20px var(--font);
 }
 
 .clearfix:after {
