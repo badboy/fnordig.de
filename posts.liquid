@@ -57,7 +57,7 @@ data:
       <a href="/{{post.permalink }}">
         <span>{{post.title}}</span>
         <span>
-          <time datetime="">{{ post.published_date | date: "%Y-%m-%d"}}</time>
+          <time datetime="{{ post.published_date | date: "%FT%T%z" }}">{{ post.published_date | date: "%Y-%m-%d"}}</time>
         </span>
       </a>
       </li>
