@@ -359,3 +359,10 @@ table, tr, td { border: none; }
   pointer-events: none;
   z-index: 1;
 }
+
+.top {
+  text-align: center;
+}
+.top a, .top a:visited {
+  text-decoration: none;
+}
