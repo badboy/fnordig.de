@@ -385,6 +385,9 @@ ul.posts-list {
 .posts-list li {
   list-style: none;
 }
+.posts-list li:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
 .posts-list li a {
   display: flex;
   flex-direction: column;
