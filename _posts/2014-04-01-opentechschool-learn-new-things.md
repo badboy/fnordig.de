@@ -12,7 +12,9 @@ A while back a [friend of mine][snnd] asked me if I wanted to help at [OpenTechS
 At that time I was a little busy with University stuff like writing exams, but I said I would be very happy to help.
 
 <span style="float:right;margin-left:10px;">
+
 [![Workshop schedule](//tmp.fnordig.de/ots/2014-03/th-html_css_workshop_schedule.jpg)](//tmp.fnordig.de/ots/2014-03/html_css_workshop_schedule.jpg)
+
 </span>
 
 Then about a week ago he reached out to me. One of their coaches had canceled and they needed a new one. I immediately said yes.
