@@ -326,3 +326,36 @@ h3 {
 
 table { margin: 0; }
 table, tr, td { border: none; }
+
+.archive-chart li {
+  list-style: none;
+}
+
+.archive-chart li {
+  position: relative;
+}
+
+.archive-chart li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(6rem / 18);
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.archive-chart li a span:last-child {
+  color: var(--c-text-light);
+  font-size: .77777rem;
+}
+
+.archive-chart-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0,0,0,.05);
+  pointer-events: none;
+  z-index: 1;
+}

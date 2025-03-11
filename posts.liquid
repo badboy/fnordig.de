@@ -9,6 +9,42 @@ data:
 <a href="/tagged/">Post by tag</a>
 
 {% assign years = "2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011" | split: ", " %}
+{% assign maxcount = 0 %}
+{% for year in years -%}
+  {% assign count = 0 %}
+  {%- for post in collections.posts.pages %}
+    {%- assign postyear = post.published_date | date: "%Y" %}
+    {%- if postyear == year %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if count > maxcount %}
+    {% assign maxcount = count %}
+  {% endif %}
+{% endfor %}
+
+<p>A count of all posts by year — {{ years|size }} years running!</p>
+
+<ol class="archive-chart">
+{% for year in years -%}
+  {% assign count = 0 %}
+  {%- for post in collections.posts.pages %}
+    {%- assign postyear = post.published_date | date: "%Y" %}
+    {%- if postyear == year %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <li>
+    <a href="#{{year}}">
+      <span>{{year}}</span>
+      <span>{{count}}</span>
+    </a>
+    {% assign u = count | times: 100 %}
+    {% assign w = u | divided_by: maxcount %}
+    <span class="archive-chart-bar" style="width:{{w}}%"></span>
+  </li>
+{% endfor %}
+</ol>
 <table>
 {% for year in years -%}
 <tr>
