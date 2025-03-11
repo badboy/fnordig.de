@@ -343,6 +343,7 @@ table, tr, td { border: none; }
   position: relative;
   z-index: 2;
   text-decoration: none;
+  color: var(--link-color);
 }
 
 .archive-chart li a span:last-child {
