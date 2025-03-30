@@ -8,14 +8,18 @@ data:
 
 <a href="/tagged/nix.xml">RSS Feed</a>
 
-<table>
+<ul class="posts-list">
   {%- for post in collections.posts.pages %}
     {%- assign postyear = post.published_date | date: "%Y" %}
     {%- if post.tags and post.tags contains "nix" -%}
-      <tr>
-        <td>{{ post.published_date | date: "%d. %b %Y"}}</td>
-        <td><a href="/{{post.permalink }}">{{post.title}}</a></td>
-      </tr>
+      <li>
+        <a href="/{{post.permalink }}">
+          <span>{{post.title}}</span>
+          <span>
+            <time datetime="{{ post.published_date | date: "%FT%T%z" }}">{{ post.published_date | date: "%Y-%m-%d"}}</time>
+          </span>
+        </a>
+      </li>
     {%- endif %}
   {%- endfor %}
-</table>
+</ul>
