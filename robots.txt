@@ -6,3 +6,5 @@ User-agent: claudebot
 Disallow: /
 User-agent: meta-externalagent
 Disallow: /
+User-agent: Amazonbot
+Disallow: /
