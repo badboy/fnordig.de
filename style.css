@@ -187,6 +187,7 @@ article.blog-list a {
   color: var(--text-color);
   text-decoration: none;
 }
+
 article.blog-list a:visited {
   color: var(--text-color);
 }
@@ -200,8 +201,15 @@ article a {
   text-decoration: underline;
   color: var(--link-color);
 }
+
 article a:visited {
   color: var(--link-color-visited);
+}
+
+article figure figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
 }
 
 /* begin article banner */
