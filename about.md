@@ -26,6 +26,7 @@ contributor to [Redis](http://redis.io) and maintainer of [hiredis](https://gith
 * Mastodon: [@jer@hachyderm.io](https://hachyderm.io/@jer)
 * GitHub: [@badboy](https://github.com/badboy)
 * [Divelog](https://fnordig.de/divelog/)
+* [Vinyl collection](https://fnordig.de/vinyl/)
 
 ## Projects
 
