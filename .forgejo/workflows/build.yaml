@@ -3,6 +3,27 @@ name: Build
 on: [push]
 jobs:
   build:
-    runs-on: debian-latest
+    runs-on: debian-ci
     steps:
-      - run: echo Hello World again!
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          apt-get install -y --no-install-recommends \
+           sqlite3 \
+           ed \
+           tree
+      - name: Install cobalt
+        run: |
+          .forgejo/workflows/crate-ci.sh --git cobalt-org/cobalt.rs --crate cobalt
+
+      - name: Show dependencies
+        run: |
+          uv --version
+          rustc --version
+          cobalt --version
+          sqlite3 --version
+
+      - name: Build website
+        run: |
+          make build index
+          tree _site/
