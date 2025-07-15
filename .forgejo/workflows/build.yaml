@@ -1,6 +1,10 @@
 name: Build
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: debian-ci
@@ -9,15 +13,16 @@ jobs:
       - name: Install dependencies
         run: |
           apt-get install -y --no-install-recommends \
-           sqlite3 \
            ed \
-           tree
+           rsync \
+           sqlite3
       - name: Install cobalt
         run: |
           .forgejo/workflows/crate-ci.sh --git cobalt-org/cobalt.rs --crate cobalt
 
       - name: Show dependencies
         run: |
+          set -x
           uv --version
           rustc --version
           cobalt --version
@@ -26,4 +31,11 @@ jobs:
       - name: Build website
         run: |
           make build index
-          tree _site/
+
+      - name: Deploy to host
+        run: |
+          keyfile=$(mktemp)
+          echo "${{ secrets.SSH_KEY }}" > "$keyfile"
+          export SSH_COMMAND="ssh -i $keyfile -o 'StrictHostKeyChecking no'"
+
+          rsync -avr --delete -e "$SSH_COMMAND" _site/ jer@fnordig.de:fnordig.de/

@@ -1,5 +1,3 @@
-SOURCE = /home/jer/git/fnordig.de/_site/
-DEST = /var/www/sites/fnordig.de/
 DATABASE_PATH = /home/jer/git/blogsearch/blog.db
 
 default:
@@ -20,10 +18,6 @@ serve:
 	@echo "Served on http://localhost:8000"
 	cd _site && httplz
 .PHONY: serve
-
-deploy: clean build index
-	rsync -va --delete $(SOURCE) $(DEST)
-.PHONY: deploy
 
 index:
 	./index.sh
