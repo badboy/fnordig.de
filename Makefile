@@ -26,7 +26,7 @@ deploy: clean build index
 .PHONY: deploy
 
 index:
-	DATABASE_PATH="$(DATABASE_PATH)" ./index.sh
+	./index.sh
 .PHONY: index
 
 clean:

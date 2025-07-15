@@ -2,12 +2,8 @@
 
 set -e
 
-if [[ ! -d .venv ]]; then
-  python3 -m venv .venv
-  .venv/bin/python3 -m pip install sqlite-utils markdown-to-sqlite markdown
-fi
-
-. .venv/bin/activate
+uv venv .venv
+uv pip install sqlite-utils markdown-to-sqlite markdown
 
 DATABASE_PATH="${DATABASE_PATH:-blog.db}"
 sqlite3 -batch -bail "$DATABASE_PATH" "
@@ -28,9 +24,9 @@ PRAGMA journal_mode = WAL;
 PRAGMA foreign_keys = ON;
 " >/dev/null
 
-markdown-to-sqlite "$DATABASE_PATH" posts _posts/*
+uv run markdown-to-sqlite "$DATABASE_PATH" posts _posts/*
 
-sqlite-utils convert "$DATABASE_PATH" posts text '
+uv run sqlite-utils convert "$DATABASE_PATH" posts text '
 from markdown import Markdown
 import io
 
@@ -56,5 +52,5 @@ def convert(text):
     return __md.convert(text)
 '
 
-sqlite-utils enable-fts --fts5 "$DATABASE_PATH" posts title text 2>/dev/null || true
-sqlite-utils rebuild-fts "$DATABASE_PATH" posts
+uv run sqlite-utils enable-fts --fts5 "$DATABASE_PATH" posts title text 2>/dev/null || true
+uv run sqlite-utils rebuild-fts "$DATABASE_PATH" posts
