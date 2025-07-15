@@ -1,5 +1,3 @@
-DATABASE_PATH = /home/jer/git/blogsearch/blog.db
-
 default:
 	rm -rf _site
 	$(MAKE) build

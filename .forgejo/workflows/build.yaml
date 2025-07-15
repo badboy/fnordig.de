@@ -39,3 +39,4 @@ jobs:
           export SSH_COMMAND="ssh -i $keyfile -o 'StrictHostKeyChecking no'"
 
           rsync -avr --delete -e "$SSH_COMMAND" _site/ jer@fnordig.de:fnordig.de/
+          rsync -avr --delete -e "$SSH_COMMAND" blog.db jer@fnordig.de:blogsearch/
