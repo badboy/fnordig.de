@@ -1,0 +1,8 @@
+name: Build
+
+on: [push]
+jobs:
+  build:
+    runs-on: debian-latest
+    steps:
+      - run: echo Hello World again!

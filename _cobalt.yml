@@ -26,6 +26,7 @@ ignore:
   - Makefile
   - index.sh
   - blog.db
+  - .forgejo
 syntax_highlight:
   theme: "InspiredGitHub"
 assets:
