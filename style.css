@@ -28,43 +28,33 @@
   --font: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+:root {
+  color-scheme: light dark;
+  --main-bg-color: light-dark(white, #111);
+  --text-color: light-dark(#111, #b3b3b3);
+  --alt-text-color: light-dark(black, #999999);
+  --code-bg: light-dark(rgba(0,0,0,.05), #ccc);
+  --border-color: light-dark(rgba(0,0,0,.05), #414141);
+  --bar-color: light-dark(rgba(0,0,0,.05), #232b34);
+  --link-color: light-dark(#00e, #478be6);
+  --link-color-visited: light-dark(#60b, #c988ff);
+  --inline-code: light-dark(#111, #323232);
+}
+
+:root {
+  color-scheme: light dark;
+  &:has(#theme-light:checked) {
+    color-scheme: light;
+  }
+  &:has(#theme-dark:checked) {
+    color-scheme: dark;
+  }
+}
+
 html{
   font-family: var(--font);
   font-size:16px;
   line-height:1.5rem
-}
-
-:root,
-html[data-theme='light'] {
-  --main-bg-color: white;
-  --text-color: #111;
-  --alt-text-color: black;
-  --code-bg: rgba(0,0,0,.05);;
-  --border-color: rgba(0,0,0,.05);
-  --bar-color: rgba(0,0,0,.05);
-  --link-color: #00e;
-  --link-color-visited: #60b;
-  --inline-code: #111;
-}
-
-html[data-theme='dark'] {
-  --main-bg-color: #111;
-  --text-color: #b3b3b3;
-  --alt-text-color: #999999;
-  --code-bg: #ccc;
-  --border-color: #414141;
-  --bar-color: #232b34;
-  --link-color: #478be6;
-  --link-color-visited: #c988ff;
-  --inline-code: #323232;
-}
-
-.d-none {
-  display: none;
-}
-[data-theme='light'] .block-light,
-[data-theme='dark'] .block-dark {
-    display: block !important;
 }
 
 html,
@@ -135,13 +125,6 @@ aside {
   right: 0;
   top: 0;
   padding: 10px 10px;
-}
-
-#theme-toggle {
-  cursor: pointer;
-  border-color: transparent;
-  background-color: transparent;
-  color: var(--text-color);
 }
 
 .menu-item.current,
@@ -410,4 +393,31 @@ ul.posts-list {
 }
 .posts-list span:last-child {
   font-size: 0.8rem;
+}
+
+radio-picker {
+  display: flex;
+  label {
+    &:has(input:checked) {
+      display: none;
+    }
+    &:has(input:focus-visible) {
+      outline: 2px solid #000;
+    }
+    cursor: pointer;
+    &:hover { background: #0004; }
+    &:active { background: #0006; }
+  }
+  input {
+    /* To allow screen reader to still access these. */
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+}
+
+/* when neither is checked, assume light and hide the button */
+body:has(#theme-light:not(:checked)):has(#theme-dark:not(:checked))
+  radio-picker label:has(#theme-light) {
+  display: none;
 }
