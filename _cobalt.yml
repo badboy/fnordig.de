@@ -27,6 +27,7 @@ ignore:
   - index.sh
   - blog.db
   - .forgejo
+  - pictures
 syntax_highlight:
   theme: "InspiredGitHub"
 assets:
