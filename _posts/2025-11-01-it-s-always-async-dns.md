@@ -28,7 +28,7 @@ Apple probably doesn't want you to use it.
 [bun], a JavaScript runtime, uses it.
 There's an issue filed for [libuv][libuv-issue] (2019!) as well as an [accompanying  PR][libuv-pr] (2022!).
 But that's about it what you can find on the internet.
-Except maybe it's function definitions.
+Except maybe its function definitions.
 
 I had time today, so I figured out the minimal amount of code that you need to use it from C.
 Without further ado:
