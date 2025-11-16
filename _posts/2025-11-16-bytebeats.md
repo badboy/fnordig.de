@@ -121,7 +121,7 @@ With all of that together I then used [rodio] to play some tunes by iterating an
 Immediate playback is not the only option, instead sounds can be stored directly into WAVE files, using [hound] under the hood.
 And for easier distribution re-encoding to Ogg is possible using [FFmpeg].
 
-The full code is available in [my bytebeat repository][repo].
+The full code is available in [my bytebeats repository][repo].
 It comes fully equipped with a REPL to try out many formulas as you go.
 
 You can install it using Cargo:
@@ -130,7 +130,7 @@ You can install it using Cargo:
 cargo install --git https://git.fnordig.de/jer/bytebeats
 ```
 
-[repo]: https://git.fnordig.de/jer/bytebeat
+[repo]: https://git.fnordig.de/jer/bytebeats
 [zig-bytebeat]: https://blog.karanjanthe.me/posts/zig-beat/
 [initial-blogpost]: http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
 [deep-analysis]: http://viznut.fi/texts-en/bytebeat_deep_analysis.html
