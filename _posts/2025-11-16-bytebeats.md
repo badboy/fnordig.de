@@ -20,7 +20,7 @@ That might be just:
 t
 ```
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/t.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/t.ogg"></audio>
 
 or something a bit more complex:
 
@@ -28,7 +28,7 @@ or something a bit more complex:
 t*(42&t>>10)
 ```
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/formula42.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/formula42.ogg"></audio>
 
 Apparently the blog post [Algorithmic symphonies from one line of code -- how and why?][initial-blogpost] started it all in 2011.
 The same author later did a [deeper analysis][deep-analysis] of the patterns involved.
@@ -86,11 +86,11 @@ I did not come up with any formula, but copied them from the blog posts or [the 
 
 At 8 kHz:
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/long.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/long.ogg"></audio>
 
 At 44.1 kHz:
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/long_44.1k.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/long_44.1k.ogg"></audio>
 
 
 ```
@@ -99,11 +99,11 @@ t*(0xCA98>>(t>>9&14)&15)|t>>8
 
 At 8 kHz:
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/0xca98.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/0xca98.ogg"></audio>
 
 At 44.1 kHz:
 
-<audio controls src="https://tmp.fnordig.de/bytebeat/0xca98_44.1k.ogg"></audio>
+<audio controls src="https://tmp.fnordig.de/bytebeats/0xca98_44.1k.ogg"></audio>
 
 ---
 
