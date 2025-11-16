@@ -195,6 +195,10 @@ article figure figcaption {
   text-align: center;
 }
 
+article p:has(> audio) {
+  text-align: center;
+}
+
 /* begin article banner */
 .left {
   float: left;
