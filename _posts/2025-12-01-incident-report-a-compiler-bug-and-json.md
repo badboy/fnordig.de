@@ -151,12 +151,98 @@ And it's working, no more memory confusion!
 ## A bug gone but still there
 
 The immediate incident-causing data anomaly is mitigated, the bug is not making it to the [Firefox 146 release][release146].
-Or so we hope.
 
-We still haven't identified the underlying bug. We changed the code path triggering it.
-We have to assume its a compiler bug that swaps string constants referenced in the code base.
-It seems to affect only 32-bit ARM targets.
-This could happen again and we need to further investigate to avoid that.
+My Mozilla colleagues Yannis and Serge have been doing additional work to track down further what exactly is happening in the code.
+[The bug][bug2003320] contains more information on the investigation.
+
+While I was trying to read and understand the disassembly of the broken builds
+they went ahead and wrote a tiny emulator (based on the [Unicorn engine][unicorn])
+that runs just enough of the code to find the offending code path[^5].
+
+```
+> python ./emulator.py libxul.so
+Path: libxul.so
+GNU build id: 1b9e9c8f439b649244c7b3acf649d1f33200f441
+Symbol server ID: 8F9C9E1B9B43926444C7B3ACF649D1F30
+Please wait, downloading symbols from: https://symbols.mozilla.org/try/libxul.so/8F9C9E1B9B43926444C7B3ACF649D1F30/libxul.so.sym
+Please wait, uncompressing symbols...
+Please wait, processing symbols...
+Proceeding to emulation.
+Result of emulation: bytearray(b'schema: ')
+This is a BAD build.
+```
+
+The relevant section of the code boils down to this:
+
+```asm
+ldr   r3, [pc, #0x20c]
+add   r3, pc
+strd  r3, r0, [sp, #0xd0]
+add   r1, sp, #0xd0
+bl    alloc::fmt::format_inner
+```
+
+> The first two instructions build the pointer to the slice in r3, by using a pc-relative offset found in a nearby constant.
+> Then we store that pointer at `sp+0xd0`, and we put the address `sp+0xd0` into `r1`.
+> So before we reach `alloc::fmt::format_inner`, `r1` points to a stack location that contains a pointer to the slice of interest.
+> The slice lives in `.data.rel.ro` and contains a pointer to the string, and the length of the string (8).
+> The string itself lives in `.rodata`.
+
+In good builds the `.rodata` `r3` points to looks like this:
+
+```
+0x06f0c3d4: 0x005dac18  -->  "labeled_"
+0x06f0c3d8:        0x8
+0x06f0c3dc: 0x0185d707  -->  "/builds/<snip>/rust/glean-core/src/storage/mod.rs"
+0x06f0c3e0:       0x4d
+```
+
+In bad build however it points to something that has our dreaded `schema: ` string:
+
+```
+0x06d651c8: 0x010aa2e8  -->  "schema: "
+0x06d651cc:        0x8
+0x06d651d0: 0x01a869a7  -->  "maintenance: "
+0x06d651d4:        0xd
+0x06d651d8: 0x01a869b4  -->  "storage dir: "
+0x06d651dc:        0xd
+0x06d651e0: 0x01a869c8  -->  "from variant of type "
+0x06d651e4:       0x15
+0x06d651e8: 0x017f793c  -->  ": "
+0x06d651ec:        0x2
+```
+
+This confirms the suspicion that it's a compiler/linker bug.
+Now the question was how to fix that.
+
+Firefox builds with a variety of Clang/LLVM versions.
+Mozilla uses its own build of LLVM and Clang to build the final applications,
+the exact version used is [updated as soon as possible, but never on release][clang-update-policy].
+Sometimes additional patches are applied on top of the Clang release, most often some backports fixing another bug.
+
+After identifying that this is indeed a bug in the linker and that is has been patch in later LLVM versions,
+Serge did all the work to bisect the LLVM release to find which patches to apply to Mozilla's own Clang build.
+Ultimately he tracked it down to these two patches for LLVM:
+
+* [[InstCombine] Don't handle non-canonical index type in icmp of load fold](https://github.com/llvm/llvm-project/pull/151346)
+* [[InstCombine] Make foldCmpLoadFromIndexedGlobal more resiliant to non-array geps.](https://github.com/llvm/llvm-project/pull/150639)
+
+With those patches applied the old code, before we applied the small code rearrangement, does not lead to broken builds anymore.
+
+With the Glean code patched, the ingestion errors dropping and the certainty that we have identified and patched the compiler bug, we can safely ship the next release of Firefox (for Android).
+
+## Collaboration
+
+Incidents are stressful situations, but a great place for collaboration across the whole company.
+The number of people involved in resolving this is long.
+
+Thanks to Eduardo & Ben from Data Engineering for raising the issue.  
+Thanks to Alessio (my manager) for managing the incident.  
+Thanks to chutten and Travis (from my team) for brainstorming what caused this and suggesting solutions/workarounds.  
+Thanks to Donal (Release Management) for fast-tracking the mitigation into a Beta release.  
+Thanks to Alex (Release Engineering) for some initial investigation into the linker bug.  
+Thanks to Brad (Data Science) for handling the data analysis side.  
+Thanks to Yannis and Serge (OS integration) for identifying, finding and patching the linker bug.
 
 [1999791]: https://bugzilla.mozilla.org/show_bug.cgi?id=1999791
 [data-pipeline]: https://docs.telemetry.mozilla.org/concepts/pipeline/gcp_data_pipeline
@@ -178,6 +264,9 @@ This could happen again and we need to further investigate to avoid that.
 [fix-commit]: https://github.com/mozilla/glean/commit/912fc8063575df48c5b3d838944036a1a37d6fc3
 [release-66-1-2]: https://github.com/mozilla/glean/releases/tag/v66.1.2
 [release146]: https://whattrainisitnow.com/release/?version=146
+[bug2003320]: https://bugzilla.mozilla.org/show_bug.cgi?id=2003320
+[unicorn]: https://www.unicorn-engine.org/
+[clang-update-policy]: https://firefox-source-docs.mozilla.org/build/buildsystem/toolchains-update-policy.html#clang
 
 ---
 
@@ -186,4 +275,5 @@ _Footnotes:_
 [^1]: Memory corruption is never "simple". But if it were memory corruption we would expect data to be broken worse or in other places too. Not just a string swap in a single place.  
 [^2]: That improvement is not yet available to us. The application experiencing the issue was compiled using Rust 1.86.0.  
 [^3]: Our checklist initially omitted architecture. [A mistake we since fixed][arch-commit].  
-[^4]: Apparently we do see _some_ errors, but they are so infrequent that we can ignore them for now.
+[^4]: Apparently we do see _some_ errors, but they are so infrequent that we can ignore them for now.  
+[^5]: Later Yannis wrote a script that can identify broken builds purely much quicker, just by searching for the right string patterns.
